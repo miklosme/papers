@@ -1,6 +1,7 @@
 import { Inngest } from 'inngest'
 import { serve } from 'inngest/next'
 import { Octokit } from 'octokit'
+import * as cheerio from 'cheerio'
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
 
@@ -65,53 +66,100 @@ async function createOrUpdateFile(
   }
 }
 
-export const inngest = new Inngest({ id: 'Web Scraper' })
+export const inngest = new Inngest({ id: 'arxiv-papers-web-scraper' })
 
 export const runScrape = inngest.createFunction(
-  { id: 'Run Scrape' },
+  { id: 'run-scrape' },
   { event: 'scraper/run' },
   async ({ event, step }) => {
     const { url } = event.data
 
     if (!url) {
-      throw new Error('URL is required for manual scraping')
+      throw new Error('URL is required to be scraped')
     }
 
-    const filename = `data/${encodeURIComponent(url)}.json`
+    const { hrefList } = await step.run('scrape-data', async () => {
+      const resp = await fetch(url, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+
+      const text = await resp.text()
+
+      const $ = cheerio.load(text)
+
+      const newPdfs = $('dl#articles:first-of-type a[title="Download PDF"]')
+
+      const hrefList: string[] = []
+
+      newPdfs.each((index, element) => {
+        const href = $(element).attr('href')
+        if (href) {
+          hrefList.push(href)
+        }
+      })
+
+      return {
+        hrefList,
+      }
+    })
+
+    for await (const href of hrefList) {
+      await step.sendEvent('send-pdf-to-be-processed', {
+        name: 'scraper/process-pdf',
+        data: { href },
+      })
+    }
+  },
+)
+
+export const processPdf = inngest.createFunction(
+  { id: 'process-pdf' },
+  { event: 'scraper/process-pdf' },
+  async ({ event, step }) => {
+    const { href } = event.data
+
+    const arxivId = href.match(/(\d+\.\d+)/)?.[1]
+    if (!arxivId) {
+      throw new Error(`Unable to extract arXiv ID from href: ${href}`)
+    }
+
+    const filename = `data/${arxivId}.json`
 
     const fileExistsResult = await step.run('check-file-exists', async () => {
-      const exists = await fileExists(filename)
-      return { exists, url }
+      // TODO
+      // const exists = await fileExists(filename)
+      const exists = false
+
+      return { exists, arxivId }
     })
 
     if (fileExistsResult.exists) {
-      console.log(`Already processed ${url}`)
-      return { skipped: true, url }
+      console.log(`Already processed ${arxivId}`)
+      return { skipped: true, arxivId }
     }
 
-    const scrapedData = await step.run('scrape-data', async () => {
-      // const response = await fetch(url, {})
-
-      return {
-        url,
-        timestamp: new Date().toISOString(),
-      }
-    })
+    const data = {
+      arxivId,
+      // TODO
+    }
 
     await step.run('save-data', async () => {
       await createOrUpdateFile(
         filename,
-        JSON.stringify(scrapedData, null, 2),
-        `Add scraped data for ${url}`,
+        JSON.stringify(data, null, 2),
+        `Add scraped data for ${arxivId}`,
       )
 
-      return { success: true, url }
+      return { success: true, arxivId }
     })
   },
 )
 
 export const scheduledScrape = inngest.createFunction(
-  { id: 'Scheduled Scrape' },
+  { id: 'scheduled-scrape' },
   { cron: 'TZ=Europe/Budapest 0 9 * * *' },
   async ({ event, step }) => {
     const url = 'https://arxiv.org/list/cs.MA/recent'
@@ -123,7 +171,7 @@ export const scheduledScrape = inngest.createFunction(
   },
 )
 
-export default serve({
+export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [scheduledScrape, runScrape],
+  functions: [scheduledScrape, runScrape, processPdf],
 })

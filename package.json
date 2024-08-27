@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "cheerio": "^1.0.0",
     "inngest": "^3.22.5",
     "next": "14.2.7",
     "octokit": "^4.0.2",
