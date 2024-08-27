@@ -137,9 +137,7 @@ const processPdf = inngest.createFunction(
     const filename = `data/${arxivId}.json`
 
     const fileExistsResult = await step.run('check-file-exists', async () => {
-      // TODO
-      // const exists = await fileExists(filename)
-      const exists = false
+      const exists = await fileExists(filename)
 
       return { exists, arxivId }
     })
