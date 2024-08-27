@@ -74,9 +74,9 @@ async function createOrUpdateFile(
   }
 }
 
-export const inngest = new Inngest({ id: 'arxiv-papers-web-scraper' })
+const inngest = new Inngest({ id: 'arxiv-papers-web-scraper' })
 
-export const runScrape = inngest.createFunction(
+const runScrape = inngest.createFunction(
   { id: 'run-scrape' },
   { event: 'scraper/run' },
   async ({ event, step }) => {
@@ -123,7 +123,7 @@ export const runScrape = inngest.createFunction(
   },
 )
 
-export const processPdf = inngest.createFunction(
+const processPdf = inngest.createFunction(
   { id: 'process-pdf' },
   { event: 'scraper/process-pdf' },
   async ({ event, step }) => {
@@ -226,7 +226,7 @@ export const processPdf = inngest.createFunction(
   },
 )
 
-export const scheduledScrape = inngest.createFunction(
+const scheduledScrape = inngest.createFunction(
   { id: 'scheduled-scrape' },
   { cron: 'TZ=Europe/Budapest 0 9 * * *' },
   async ({ event, step }) => {
