@@ -2,6 +2,14 @@ import { Inngest } from 'inngest'
 import { serve } from 'inngest/next'
 import { Octokit } from 'octokit'
 import * as cheerio from 'cheerio'
+import { GoogleGenerativeAI } from '@google/generative-ai'
+import {
+  FileState,
+  GoogleAICacheManager,
+  GoogleAIFileManager,
+} from '@google/generative-ai/server'
+import fs from 'fs/promises'
+import path from 'path'
 
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
 
@@ -141,8 +149,68 @@ export const processPdf = inngest.createFunction(
       return { skipped: true, arxivId }
     }
 
+    const file = await step.run('upload-to-file-manager', async () => {
+      const fileManager = new GoogleAIFileManager(
+        process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+      )
+
+      const url = `https://arxiv.org/pdf/${arxivId}`
+
+      // Download the PDF file
+      const response = await fetch(url)
+      const arrayBuffer = await response.arrayBuffer()
+      const buffer = Buffer.from(arrayBuffer)
+
+      // Save the file to /tmp directory
+      const tmpFilePath = path.join('/tmp', `${arxivId}.pdf`)
+      await fs.writeFile(tmpFilePath, buffer)
+
+      // Upload the file from the temporary location
+      const fileResult = await fileManager.uploadFile(tmpFilePath, {
+        displayName: `${arxivId}.pdf`,
+        mimeType: 'application/pdf',
+      })
+      const { name, uri } = fileResult.file
+
+      // Delete the temporary file
+      await fs.unlink(tmpFilePath)
+
+      let file = await fileManager.getFile(name)
+      while (file.state === FileState.PROCESSING) {
+        await new Promise((resolve) => setTimeout(resolve, 2_000))
+        file = await fileManager.getFile(name)
+      }
+
+      return fileResult.file
+    })
+
+    const summary = await step.run('summarize', async () => {
+      const ai = new GoogleGenerativeAI(
+        process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+      )
+
+      const model = ai.getGenerativeModel({
+        model: 'gemini-1.5-flash',
+      })
+
+      const result = await model.generateContent([
+        {
+          fileData: {
+            mimeType: 'application/pdf',
+            fileUri: file.uri,
+          },
+        },
+        {
+          text: `I'm an experienced software engineer interested in building multi-agent AI applications. I came across this research paper, that I believe somewhat related to my interest, but I don't understand it, maybe because there are too many unfamiliar terms. Please answer these three questions: (1) summarize the topic of this paper with simple words, (2) list the key points it makes, (3) tell me what can I learn from it that helps me with my software projects.`,
+        },
+      ])
+
+      return result.response.text()
+    })
+
     const data = {
       arxivId,
+      summary,
       // TODO
     }
 
