@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
 import { cn } from '@/lib/utils'
+import { ThemeProvider } from './theme-provider'
 import './globals.css'
 
 const fontSans = FontSans({
@@ -24,14 +25,19 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          'min-h-screen bg-background font-sans antialiased',
+          'flex min-h-screen bg-background font-sans antialiased',
           fontSans.variable,
         )}
       >
-        <div className="flex">
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           <aside className="w-64 h-screen">{sidemenu}</aside>
           <main className="flex-1 p-8">{children}</main>
-        </div>
+        </ThemeProvider>
       </body>
     </html>
   )

@@ -1,6 +1,9 @@
 import { Markdown } from './markdown'
 import fs from 'fs'
 import path from 'path'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
+import { ExternalLinkIcon } from 'lucide-react'
 
 export async function generateStaticParams() {
   const dataDirectory = path.join(process.cwd(), 'data')
@@ -30,7 +33,16 @@ export default async function Page({
 
   return (
     <>
-      <h1>{params.arxiv_id}</h1>
+      <Button
+        variant="link"
+        className="text-blue-500 hover:text-blue-400 pl-0"
+        asChild
+      >
+        <Link href={`https://arxiv.org/pdf/${params.arxiv_id}`} target="_blank">
+          {`https://arxiv.org/pdf/${params.arxiv_id}`}
+          <ExternalLinkIcon className="w-4 h-4 ml-2" />
+        </Link>
+      </Button>
       <div className="flex flex-col gap-4 max-w-2xl">
         <Markdown>{data.summary}</Markdown>
       </div>
