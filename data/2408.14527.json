@@ -1,0 +1,6 @@
+{
+  "arxivId": "2408.14527",
+  "title": "Multi-Agent Path Finding with Real Robot Dynamics and Interdependent Tasks for Automated Warehouses \n",
+  "summary": "(1) This paper proposes a new algorithm for planning collision-free paths for multiple robots in a warehouse, taking into account realistic robot movements and limitations. \n\n(2) - It addresses the problem of robots picking up and delivering objects efficiently while navigating a warehouse with obstacles.\n   - It introduces the \"Interleaved Prioritized Planning\" (IPP) algorithm for coordinating robot tasks.\n   - It presents the \"Via-Point Star\" (VP*) algorithm to calculate optimal paths for each robot considering its dynamics, load, and potential collisions.\n   - It demonstrates the effectiveness of the proposed approach through simulations and experiments in a real warehouse.\n\n(3) - You can learn about algorithms for coordinating multiple agents (robots in this case) and optimizing their paths.\n   - You can gain insights into handling real-world constraints like robot dynamics and potential collisions in your software projects.\n   - The paper highlights the importance of efficient path planning and resource allocation in multi-agent systems, which can be applied to other domains beyond robotics.\n",
+  "timestamp": "2024-08-28T23:53:18.266Z"
+}
