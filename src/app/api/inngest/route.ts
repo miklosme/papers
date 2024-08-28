@@ -182,7 +182,7 @@ const processPdf = inngest.createFunction(
       return fileResult.file
     })
 
-    const summary = await step.run('summarize', async () => {
+    const title = await step.run('extract-title', async () => {
       const ai = new GoogleGenerativeAI(
         process.env.GOOGLE_GENERATIVE_AI_API_KEY,
       )
@@ -199,20 +199,45 @@ const processPdf = inngest.createFunction(
           },
         },
         {
-          text: `I'm an experienced software engineer interested in building multi-agent AI applications. I came across this research paper, that I believe somewhat related to my interest, but I don't understand it, maybe because there are too many unfamiliar terms. Please answer these three questions: (1) summarize the topic of this paper with simple words, (2) list the key points it makes, (3) tell me what can I learn from it that helps me with my software projects.`,
+          text: `Extract the title of this research paper. Only return the title, no smalltalk.`,
         },
       ])
 
       return result.response.text()
     })
 
-    const data = {
-      arxivId,
-      summary,
-      // TODO
-    }
+    const summary = await step.run('summarize', async () => {
+      const ai = new GoogleGenerativeAI(
+        process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+      )
+
+      const model = ai.getGenerativeModel({
+        model: 'gemini-1.5-pro',
+      })
+
+      const result = await model.generateContent([
+        {
+          fileData: {
+            mimeType: 'application/pdf',
+            fileUri: file.uri,
+          },
+        },
+        {
+          text: `I'm an experienced software engineer interested in building multi-agent AI applications. I came across this research paper, that I believe somewhat related to my interest, but I don't understand it, maybe because there are too many unfamiliar terms. Please answer these three questions: (1) summarize the topic of this paper with simple words, (2) list the key points it makes, (3) tell me what can I learn from it that helps me with my software projects. Only return the summary, no smalltalk.`,
+        },
+      ])
+
+      return result.response.text()
+    })
 
     await step.run('save-data', async () => {
+      const data = {
+        arxivId,
+        title,
+        summary,
+        timestamp: new Date().toISOString(),
+      }
+
       await createOrUpdateFile(
         filename,
         JSON.stringify(data, null, 2),

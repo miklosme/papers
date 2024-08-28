@@ -11,12 +11,19 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  sidemenu,
 }: Readonly<{
   children: React.ReactNode
+  sidemenu: React.ReactNode
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="flex">
+          <aside className="w-64 h-screen p-4">{sidemenu}</aside>
+          <main className="flex-1 p-4">{children}</main>
+        </div>
+      </body>
     </html>
   )
 }
