@@ -32,7 +32,7 @@ export default async function Page({
   }
 
   return (
-    <>
+    <div className="max-w-2xl">
       <h2 className="text-2xl font-bold">{data.title}</h2>
       <div className="flex flex-row gap-2">
         <span className="text-sm text-muted-foreground">
@@ -49,9 +49,9 @@ export default async function Page({
           <ExternalLinkIcon className="w-4 h-4 ml-2" />
         </Link>
       </Button>
-      <div className="flex flex-col gap-4 max-w-2xl">
+      <div className="flex flex-col gap-4">
         <Markdown>{data.summary}</Markdown>
       </div>
-    </>
+    </div>
   )
 }
