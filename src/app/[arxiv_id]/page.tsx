@@ -30,6 +30,10 @@ export default async function Page({
       summary: string
       title: string
       timestamp: string
+      abstract: string
+      takeaways: string
+      pseudocode: string
+      simpleQuestion: string
     }
 
     return (
@@ -53,9 +57,33 @@ export default async function Page({
             <ExternalLinkIcon className="w-4 h-4 ml-2" />
           </Link>
         </Button>
+
+        <details>
+          <summary>Abstract</summary>
+          <div className="flex flex-col gap-4">{data.abstract}</div>
+        </details>
+
+        <hr />
+
         <div className="flex flex-col gap-4">
           <Markdown>{data.summary}</Markdown>
         </div>
+
+        <hr />
+
+        <div className="flex flex-col gap-4">
+          <Markdown>{data.takeaways}</Markdown>
+        </div>
+
+        <hr />
+
+        <div className="flex flex-col gap-4">
+          <Markdown>{data.pseudocode}</Markdown>
+        </div>
+
+        <h3>Simple Question: {data.simpleQuestion}</h3>
+
+        <hr />
 
         <span>Generated at {new Date().toISOString()}</span>
       </>

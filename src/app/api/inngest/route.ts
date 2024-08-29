@@ -307,7 +307,7 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
       })
 
       const result = await generativeModel.generateContent(
-        `Rephrase the paper's title and abstract as a single, concise question that an LLM multi-agent application developer might ask. The question should highlight the paper's core problem or insight in terms relevant to JavaScript-based web development.
+        `Rephrase the paper's title and abstract as a single, concise question that an LLM multi-agent application developer might ask. Only use a few words, maximum 10.
         
 <title>${title}</title>
 <abstract>${abstract}</abstract>`,
