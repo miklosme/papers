@@ -1,15 +1,45 @@
+import { Fragment } from 'react'
 import fs from 'fs'
 import path from 'path'
 import Link from 'next/link'
+import { format } from 'date-fns'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Button } from '@/components/ui/button'
 import { ThemeToggle } from '@/components/theme-toggle'
 
 export const dynamic = 'force-static'
 
+function formatArxivDate(arxivId: string): string {
+  const year = parseInt(`20${arxivId.slice(0, 2)}`, 10)
+  const month = parseInt(arxivId.slice(2, 4), 10) - 1 // Months are 0-indexed in JavaScript
+  const date = new Date(year, month)
+  return format(date, 'MMMM yyyy')
+}
+
+type Article = {
+  arxivId: string
+  summary: string
+  title: string
+  timestamp: string
+  simpleQuestion: string
+  pseudocode: string
+}
+
 export async function SideMenu() {
   const dataDirectory = path.join(process.cwd(), 'data')
   const filenames = await fs.promises.readdir(dataDirectory)
+
+  const articles: Article[] = []
+
+  for await (const filename of filenames) {
+    const filePath = path.join(dataDirectory, filename)
+    const content = await fs.promises.readFile(filePath, 'utf8')
+    const data = JSON.parse(content) as Article
+
+    articles.push(data)
+  }
+
+  articles.sort((a, b) => b.timestamp.localeCompare(a.timestamp))
 
   return (
     <div className="fixed flex flex-col border-r border-border h-screen w-[280px]">
@@ -22,20 +52,29 @@ export async function SideMenu() {
           </Button>
           <ThemeToggle />
         </div>
-        <ul>
-          {filenames.map((filename) => (
-            <li key={filename}>
-              <Button variant="link" className="p-0 h-auto" asChild>
-                <Link
-                  href={`/${path.basename(filename, path.extname(filename))}`}
-                >
-                  {path.basename(filename, path.extname(filename))}
+        {articles.map((article, index) => {
+          const isDifferentMonth =
+            index === 0 ||
+            formatArxivDate(article.arxivId) !==
+              formatArxivDate(articles[index - 1]!.arxivId)
+
+          return (
+            <Fragment key={article.arxivId}>
+              {isDifferentMonth ? (
+                <span className="text-sm text-muted-foreground">
+                  {formatArxivDate(article.arxivId)}
+                </span>
+              ) : null}
+
+              <Button variant="link" className="p-0 h-auto w-full" asChild>
+                <Link className="truncate" href={`/${article.arxivId}`}>
+                  {article.simpleQuestion}
                 </Link>
               </Button>
-            </li>
-          ))}
-        </ul>
-        <span>Generated at {new Date().toISOString()}</span>
+            </Fragment>
+          )
+        })}
+        {/* <span>Generated at {new Date().toISOString()}</span> */}
       </ScrollArea>
       <div className="flex flex-col items-center justify-center bg-muted w-full h-auto p-4 border-t border-border">
         <p className="mb-2 text-sm text-muted-foreground">

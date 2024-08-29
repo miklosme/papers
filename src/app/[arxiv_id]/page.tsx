@@ -1,8 +1,9 @@
-import { Markdown } from '@/components/markdown'
+import Link from 'next/link'
 import fs from 'fs'
 import path from 'path'
+import { format } from 'date-fns'
 import { Button } from '@/components/ui/button'
-import Link from 'next/link'
+import { Markdown } from '@/components/markdown'
 import { ExternalLinkIcon } from 'lucide-react'
 import { notFound } from 'next/navigation'
 
@@ -41,7 +42,7 @@ export default async function Page({
         <h2 className="text-2xl font-bold">{data.title}</h2>
         <div className="flex flex-row gap-2">
           <span className="text-sm text-muted-foreground">
-            {new Date(data.timestamp).toLocaleDateString()}
+            {format(new Date(data.timestamp), 'MMMM d, yyyy')}
           </span>
         </div>
         <Button
@@ -83,9 +84,9 @@ export default async function Page({
 
         <h3>Simple Question: {data.simpleQuestion}</h3>
 
-        <hr />
+        {/* <hr /> */}
 
-        <span>Generated at {new Date().toISOString()}</span>
+        {/* <span>Generated at {new Date().toISOString()}</span> */}
       </>
     )
   } catch (error) {
