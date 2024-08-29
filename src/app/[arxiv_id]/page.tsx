@@ -1,4 +1,4 @@
-import { Markdown } from './markdown'
+import { Markdown } from '@/components/markdown'
 import fs from 'fs'
 import path from 'path'
 import { Button } from '@/components/ui/button'

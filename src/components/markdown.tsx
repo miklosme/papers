@@ -43,6 +43,48 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
         </ul>
       )
     },
+    h1: ({ node, children, ...props }: any) => {
+      return (
+        <h1 className="text-2xl font-bold" {...props}>
+          {children}
+        </h1>
+      )
+    },
+    h2: ({ node, children, ...props }: any) => {
+      return (
+        <h1 className="text-xl font-bold" {...props}>
+          {children}
+        </h1>
+      )
+    },
+    h3: ({ node, children, ...props }: any) => {
+      return (
+        <h1 className="text-lg font-bold" {...props}>
+          {children}
+        </h1>
+      )
+    },
+    h4: ({ node, children, ...props }: any) => {
+      return (
+        <h1 className="font-bold" {...props}>
+          {children}
+        </h1>
+      )
+    },
+    h5: ({ node, children, ...props }: any) => {
+      return (
+        <h1 className="font-bold" {...props}>
+          {children}
+        </h1>
+      )
+    },
+    h6: ({ node, children, ...props }: any) => {
+      return (
+        <h1 className="font-bold" {...props}>
+          {children}
+        </h1>
+      )
+    },
   }
 
   return (

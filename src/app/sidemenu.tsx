@@ -3,7 +3,7 @@ import path from 'path'
 import Link from 'next/link'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Button } from '@/components/ui/button'
-import { ThemeToggle } from './theme-toggle'
+import { ThemeToggle } from '@/components/theme-toggle'
 
 export const dynamic = 'force-static'
 

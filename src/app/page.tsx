@@ -1,8 +1,14 @@
-export default function Page() {
+import { Markdown } from '@/components/markdown'
+import fs from 'fs'
+import path from 'path'
+
+export default async function Page() {
+  const markdownPath = path.join(process.cwd(), 'src/app/home.md')
+  const content = await fs.promises.readFile(markdownPath, 'utf8')
+
   return (
     <>
-      <h2 className="text-2xl font-bold">Welcome</h2>
-      <p>Welcome to the home page</p>
+      <Markdown>{content}</Markdown>
     </>
   )
 }
