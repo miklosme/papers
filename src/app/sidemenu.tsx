@@ -6,6 +6,7 @@ import { format } from 'date-fns'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Button } from '@/components/ui/button'
 import { ThemeToggle } from '@/components/theme-toggle'
+import { MenuIcon, XIcon as CloseIcon } from 'lucide-react'
 
 export const dynamic = 'force-static'
 
@@ -42,70 +43,97 @@ export async function SideMenu() {
   articles.sort((a, b) => b.timestamp.localeCompare(a.timestamp))
 
   return (
-    <div className="fixed flex flex-col border-r border-border h-screen w-[280px]">
-      <ScrollArea className="flex-grow bg-muted p-4">
-        <div className="flex justify-between items-center mb-8">
-          <Button variant="link" className="p-0 h-auto" asChild>
-            <Link href="/">
-              <h1 className="text-lg font-bold">Multi-agent papers</h1>
-            </Link>
-          </Button>
-          <ThemeToggle />
-        </div>
-        <div className="flex flex-col gap-2">
-          {articles.map((article, index) => {
-            const isDifferentMonth =
-              index === 0 ||
-              formatArxivDate(article.arxivId) !==
-                formatArxivDate(articles[index - 1]!.arxivId)
+    <>
+      <input type="checkbox" id="menu-toggle" className="hidden peer" />
+      <label
+        htmlFor="menu-toggle"
+        className="fixed top-4 left-4 z-50 md:hidden cursor-pointer flex peer-checked:hidden"
+      >
+        <MenuIcon className="w-6 h-6 mr-2" />
+      </label>
+      <label
+        htmlFor="menu-toggle"
+        className="fixed top-4 left-4 z-50 cursor-pointer hidden peer-checked:flex peer-checked:md:hidden md:hidden"
+      >
+        <CloseIcon className="w-6 h-6 mr-2" />
+        Close
+      </label>
+      <div
+        className={`fixed flex flex-col border-r border-border h-screen 
+          w-[280px] transition-transform duration-300 z-40
+          md:translate-x-0 -translate-x-full
+          peer-checked:translate-x-0`}
+      >
+        {/* <label
+          htmlFor="menu-toggle"
+          className="absolute top-4 right-4 md:hidden cursor-pointer"
+        >
+          Close
+        </label> */}
+        <ScrollArea className="flex-grow bg-muted p-4">
+          <div className="flex justify-between items-center mb-8 mt-10 md:mt-0">
+            <Button variant="link" className="p-0 h-auto" asChild>
+              <Link href="/">
+                <h1 className="text-lg font-bold">Multi-agent papers</h1>
+              </Link>
+            </Button>
+            <ThemeToggle />
+          </div>
+          <div className="flex flex-col gap-2">
+            {articles.map((article, index) => {
+              const isDifferentMonth =
+                index === 0 ||
+                formatArxivDate(article.arxivId) !==
+                  formatArxivDate(articles[index - 1]!.arxivId)
 
-            return (
-              <Fragment key={article.arxivId}>
-                {isDifferentMonth ? (
-                  <span className="text-sm text-muted-foreground">
-                    {formatArxivDate(article.arxivId)}
-                  </span>
-                ) : null}
+              return (
+                <Fragment key={article.arxivId}>
+                  {isDifferentMonth ? (
+                    <span className="text-sm text-muted-foreground">
+                      {formatArxivDate(article.arxivId)}
+                    </span>
+                  ) : null}
 
-                <Link
-                  className="w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
-                  href={`/${article.arxivId}`}
-                >
-                  {article.simpleQuestion}
-                </Link>
-              </Fragment>
-            )
-          })}
+                  <Link
+                    className="w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
+                    href={`/${article.arxivId}`}
+                  >
+                    {article.simpleQuestion}
+                  </Link>
+                </Fragment>
+              )
+            })}
+          </div>
+          {/* <span>Generated at {new Date().toISOString()}</span> */}
+        </ScrollArea>
+        <div className="flex flex-col items-center justify-center bg-muted w-full h-auto p-4 border-t border-border">
+          <p className="mb-2 text-sm text-muted-foreground">
+            Made by{' '}
+            <a
+              href="https://x.com/miklosme"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-primary hover:underline inline-flex items-center"
+            >
+              @miklosme
+              <XIcon className="ml-2 h-4 w-4" />
+            </a>
+          </p>
+          <p className="text-sm text-muted-foreground">
+            Open source on{' '}
+            <a
+              href="https://github.com/miklosme/papers"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-primary hover:underline inline-flex items-center"
+            >
+              GitHub
+              <GitHubIcon className="ml-2 h-4 w-4" />
+            </a>
+          </p>
         </div>
-        {/* <span>Generated at {new Date().toISOString()}</span> */}
-      </ScrollArea>
-      <div className="flex flex-col items-center justify-center bg-muted w-full h-auto p-4 border-t border-border">
-        <p className="mb-2 text-sm text-muted-foreground">
-          Made by{' '}
-          <a
-            href="https://x.com/miklosme"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-primary hover:underline inline-flex items-center"
-          >
-            @miklosme
-            <XIcon className="ml-2 h-4 w-4" />
-          </a>
-        </p>
-        <p className="text-sm text-muted-foreground">
-          Open source on{' '}
-          <a
-            href="https://github.com/miklosme/papers"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-medium text-primary hover:underline inline-flex items-center"
-          >
-            GitHub
-            <GitHubIcon className="ml-2 h-4 w-4" />
-          </a>
-        </p>
       </div>
-    </div>
+    </>
   )
 }
 

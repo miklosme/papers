@@ -39,7 +39,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <SideMenu />
-          <main className="flex-1 py-5 px-8 ml-[280px]">{children}</main>
+          <main className="flex-1 py-5 px-8 md:ml-[280px]">{children}</main>
         </ThemeProvider>
       </body>
     </html>
