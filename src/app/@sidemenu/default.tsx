@@ -5,10 +5,10 @@ import { ScrollArea } from '@/components/ui/scroll-area'
 import { Button } from '@/components/ui/button'
 import { ThemeToggle } from './theme-toggle'
 
-export async function generateStaticParams() {
-  // This function ensures the page is generated at build time
-  return [{}]
-}
+// export async function generateStaticParams() {
+//   // This function ensures the page is generated at build time
+//   return [{}]
+// }
 
 export default async function Default() {
   const dataDirectory = path.join(process.cwd(), 'data')
@@ -33,6 +33,7 @@ export default async function Default() {
           </li>
         ))}
       </ul>
+      <span>Generated at {Date.now()}</span>
     </ScrollArea>
   )
 }
