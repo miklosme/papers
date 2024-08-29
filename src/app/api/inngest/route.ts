@@ -19,6 +19,10 @@ const owner = 'miklosme'
 const repo = 'papers'
 const branch = 'master'
 
+function getFileName(arxivId: string) {
+  return `data/${arxivId}.json`
+}
+
 async function fileExists(path: string): Promise<boolean> {
   try {
     await octokit.rest.repos.getContent({
@@ -116,38 +120,42 @@ const runScrape = inngest.createFunction(
       }
     })
 
-    for await (const href of hrefList) {
+    const { unprocessedArxivIdList } = await step.run(
+      'collect-arxiv-ids',
+      async () => {
+        const unprocessedArxivIdList = []
+
+        for await (const href of hrefList) {
+          const arxivId = href.match(/(\d+\.\d+)/)?.[1]
+
+          if (!arxivId) {
+            continue
+          }
+
+          const exists = await fileExists(getFileName(arxivId))
+          if (!exists) {
+            unprocessedArxivIdList.push(arxivId)
+          }
+        }
+
+        return { unprocessedArxivIdList }
+      },
+    )
+
+    for await (const arxivId of unprocessedArxivIdList) {
       await step.sendEvent('send-pdf-to-be-processed', {
         name: 'scraper/process-pdf',
-        data: { href },
+        data: { arxivId },
       })
     }
   },
 )
 
-const processPdf = inngest.createFunction(
-  { id: 'process-pdf' },
-  { event: 'scraper/process-pdf' },
+const processArxivPdf = inngest.createFunction(
+  { id: 'process-arxiv-pdf' },
+  { event: 'scraper/process-arxiv-pdf' },
   async ({ event, step }) => {
-    const { href } = event.data
-
-    const arxivId = href.match(/(\d+\.\d+)/)?.[1]
-    if (!arxivId) {
-      throw new Error(`Unable to extract arXiv ID from href: ${href}`)
-    }
-
-    const filename = `data/${arxivId}.json`
-
-    const fileExistsResult = await step.run('check-file-exists', async () => {
-      const exists = await fileExists(filename)
-
-      return { exists, arxivId }
-    })
-
-    if (fileExistsResult.exists) {
-      console.log(`Already processed ${arxivId}`)
-      return { skipped: true, arxivId }
-    }
+    const { arxivId } = event.data
 
     const file = await step.run('upload-to-file-manager', async () => {
       const fileManager = new GoogleAIFileManager(
@@ -241,7 +249,7 @@ const processPdf = inngest.createFunction(
       }
 
       await createOrUpdateFile(
-        filename,
+        getFileName(arxivId),
         JSON.stringify(data, null, 2),
         `Add scraped data for ${arxivId}`,
       )
@@ -266,5 +274,5 @@ const scheduledScrape = inngest.createFunction(
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [scheduledScrape, runScrape, processPdf],
+  functions: [scheduledScrape, runScrape, processArxivPdf],
 })
