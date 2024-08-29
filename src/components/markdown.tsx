@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
+import { oneDark } from 'react-syntax-highlighter/dist/esm/styles/prism'
 
 export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
   const components = {
@@ -9,9 +11,11 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
       return !inline && match ? (
         <pre
           {...props}
-          className={`${className} text-sm w-[80dvw] md:max-w-[500px] overflow-x-scroll bg-zinc-100 p-2 rounded mt-2 dark:bg-zinc-800`}
+          className={`${className} text-md w-[80dvw] md:max-w-[500px] overflow-x-scroll my-4 rounded mt-2`}
         >
-          <code className={match[1]}>{children}</code>
+          <SyntaxHighlighter PreTag="div" language={match[1]} style={oneDark}>
+            {String(children).replace(/\n$/, '')}
+          </SyntaxHighlighter>
         </pre>
       ) : (
         <code
