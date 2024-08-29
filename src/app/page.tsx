@@ -1,3 +1,8 @@
-export default function Home() {
-  return <main className="p-24">Home</main>
+export default function Page() {
+  return (
+    <>
+      <h2 className="text-2xl font-bold">Welcome</h2>
+      <p>Welcome to the home page</p>
+    </>
+  )
 }

@@ -7,7 +7,7 @@ import { ThemeToggle } from './theme-toggle'
 
 export const dynamic = 'force-static'
 
-export default async function Default() {
+export async function SideMenu() {
   const dataDirectory = path.join(process.cwd(), 'data')
   const filenames = await fs.promises.readdir(dataDirectory)
 

@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
 import { cn } from '@/lib/utils'
 import { ThemeProvider } from './theme-provider'
+import { SideMenu } from './sidemenu'
 import './globals.css'
 
 const fontSans = FontSans({
@@ -16,10 +17,8 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  sidemenu,
 }: Readonly<{
   children: React.ReactNode
-  sidemenu: React.ReactNode
 }>) {
   return (
     <html lang="en">
@@ -35,8 +34,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          {sidemenu}
-          <main className="flex-1 p-8 ml-[280px]">{children}</main>
+          <SideMenu />
+          <main className="flex-1 py-5 px-8 ml-[280px]">{children}</main>
         </ThemeProvider>
       </body>
     </html>
