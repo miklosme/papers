@@ -1,13 +1,7 @@
-import { inngest } from '@/app/api/inngest/route'
 import * as cheerio from 'cheerio'
 
 const prefix = 'https://arxiv.org'
 const url = 'https://arxiv.org/list/cs.MA/recent'
-
-// await inngest.send({
-//   name: 'scraper/manual.trigger',
-//   data: { url },
-// })
 
 const resp = await fetch(url, {
   method: 'GET',
