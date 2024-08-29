@@ -39,7 +39,8 @@ export default async function Page({
 
     return (
       <>
-        <h2 className="text-2xl font-bold">{data.title}</h2>
+        <h2 className="text-2xl font-bold">{data.simpleQuestion}</h2>
+        <h3 className="text-lg text-muted-foreground">{data.title}</h3>
         <div className="flex flex-row gap-2">
           <span className="text-sm text-muted-foreground">
             {format(new Date(data.timestamp), 'MMMM d, yyyy')}
@@ -61,7 +62,9 @@ export default async function Page({
 
         <details>
           <summary>Abstract</summary>
-          <div className="flex flex-col gap-4">{data.abstract}</div>
+          <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+            {data.abstract}
+          </div>
         </details>
 
         <hr />

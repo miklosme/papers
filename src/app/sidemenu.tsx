@@ -52,28 +52,31 @@ export async function SideMenu() {
           </Button>
           <ThemeToggle />
         </div>
-        {articles.map((article, index) => {
-          const isDifferentMonth =
-            index === 0 ||
-            formatArxivDate(article.arxivId) !==
-              formatArxivDate(articles[index - 1]!.arxivId)
+        <div className="flex flex-col gap-2">
+          {articles.map((article, index) => {
+            const isDifferentMonth =
+              index === 0 ||
+              formatArxivDate(article.arxivId) !==
+                formatArxivDate(articles[index - 1]!.arxivId)
 
-          return (
-            <Fragment key={article.arxivId}>
-              {isDifferentMonth ? (
-                <span className="text-sm text-muted-foreground">
-                  {formatArxivDate(article.arxivId)}
-                </span>
-              ) : null}
+            return (
+              <Fragment key={article.arxivId}>
+                {isDifferentMonth ? (
+                  <span className="text-sm text-muted-foreground">
+                    {formatArxivDate(article.arxivId)}
+                  </span>
+                ) : null}
 
-              <Button variant="link" className="p-0 h-auto w-full" asChild>
-                <Link className="truncate" href={`/${article.arxivId}`}>
+                <Link
+                  className="w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
+                  href={`/${article.arxivId}`}
+                >
                   {article.simpleQuestion}
                 </Link>
-              </Button>
-            </Fragment>
-          )
-        })}
+              </Fragment>
+            )
+          })}
+        </div>
         {/* <span>Generated at {new Date().toISOString()}</span> */}
       </ScrollArea>
       <div className="flex flex-col items-center justify-center bg-muted w-full h-auto p-4 border-t border-border">
