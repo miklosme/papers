@@ -144,7 +144,7 @@ const runScrape = inngest.createFunction(
 
     for await (const arxivId of unprocessedArxivIdList) {
       await step.sendEvent('send-pdf-to-be-processed', {
-        name: 'scraper/process-pdf',
+        name: 'scraper/process-arxiv-pdf',
         data: { arxivId },
       })
     }
