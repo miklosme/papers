@@ -14,7 +14,11 @@ export async function SideMenu() {
   return (
     <ScrollArea className="!fixed bg-muted border-r border-border p-4 h-screen w-[280px]">
       <div className="flex justify-between items-center mb-8">
-        <h1 className="text-lg font-bold">Multi-agent papers</h1>
+        <Button variant="link" className="p-0 h-auto" asChild>
+          <Link href="/">
+            <h1 className="text-lg font-bold">Multi-agent papers</h1>
+          </Link>
+        </Button>
         <ThemeToggle />
       </div>
       <ul>

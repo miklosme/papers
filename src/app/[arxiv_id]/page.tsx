@@ -56,6 +56,8 @@ export default async function Page({
         <div className="flex flex-col gap-4">
           <Markdown>{data.summary}</Markdown>
         </div>
+
+        <span>Generated at {new Date().toISOString()}</span>
       </>
     )
   } catch (error) {
