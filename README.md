@@ -6,7 +6,8 @@ A summary service for Multi-agent AI papers on arXiv.
 
 - [?] batch processing
 - [x] render UI (sidemenu, markdown)
-- [ ] group data in subfolders
+- [x] dark mode
 - [ ] improve AI
-- [ ] dark mode
-- [ ] add contact info / github link
+- [x] add contact info / github link
+- [ ] generate daily summary
+- [ ] group data in subfolders
