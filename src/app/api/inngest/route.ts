@@ -80,6 +80,59 @@ async function createOrUpdateFile(
   }
 }
 
+const SYSTEM_INSTRUCTION = `You are an expert in computer science research, specializing in translating complex academic concepts for software engineers using JavaScript and interested in LLM-based multi-agent app development. Your role involves:
+
+1. Analyzing research papers on multi-agent AI systems, focusing on their relevance to web development.
+
+2. Distilling complex concepts into clear explanations for JavaScript developers.
+
+3. Bridging theoretical multi-agent AI research with practical web application development.
+
+4. Using JavaScript terminology, frameworks, and scenarios to illustrate multi-agent AI concepts.
+
+5. Highlighting potential impacts of multi-agent AI research on web development practices.
+
+6. Addressing common questions about implementing multi-agent systems in web applications.
+
+7. Providing concise summaries emphasizing the relevance of multi-agent AI to JavaScript development.
+
+8. Suggesting ways to experiment with multi-agent AI concepts using JavaScript and web technologies.
+
+Your explanations should be clear, engaging, and directly applicable to JavaScript developers working on LLM-based multi-agent systems. Aim to inspire curiosity and demonstrate the practical value of multi-agent AI research in advancing web technologies.`
+
+async function generateText({
+  model,
+  prompt,
+  fileUri,
+  systemInstruction = SYSTEM_INSTRUCTION,
+}: {
+  model: string
+  prompt: string
+  fileUri: string
+  systemInstruction?: string
+}) {
+  const ai = new GoogleGenerativeAI(process.env.GOOGLE_GENERATIVE_AI_API_KEY)
+
+  const generativeModel = ai.getGenerativeModel({
+    model,
+    systemInstruction,
+  })
+
+  const result = await generativeModel.generateContent([
+    {
+      fileData: {
+        mimeType: 'application/pdf',
+        fileUri,
+      },
+    },
+    {
+      text: prompt,
+    },
+  ])
+
+  return result.response.text()
+}
+
 const inngest = new Inngest({ id: 'arxiv-papers-web-scraper' })
 
 const runScrape = inngest.createFunction(
@@ -193,49 +246,72 @@ const processArxivPdf = inngest.createFunction(
     })
 
     const title = await step.run('extract-title', async () => {
-      const ai = new GoogleGenerativeAI(
-        process.env.GOOGLE_GENERATIVE_AI_API_KEY,
-      )
-
-      const model = ai.getGenerativeModel({
+      return await generateText({
         model: 'gemini-1.5-flash',
+        prompt: `Extract the title of this research paper. Only return the title, no smalltalk.`,
+        fileUri: file.uri,
       })
+    })
 
-      const result = await model.generateContent([
-        {
-          fileData: {
-            mimeType: 'application/pdf',
-            fileUri: file.uri,
-          },
-        },
-        {
-          text: `Extract the title of this research paper. Only return the title, no smalltalk.`,
-        },
-      ])
-
-      return result.response.text()
+    const abstract = await step.run('extract-abstract', async () => {
+      return await generateText({
+        model: 'gemini-1.5-flash',
+        prompt: `Extract the abstract of this research paper. Only return the abstract, no smalltalk.`,
+        fileUri: file.uri,
+      })
     })
 
     const summary = await step.run('summarize', async () => {
+      return await generateText({
+        model: 'gemini-1.5-pro',
+        prompt: `Summarize this research paper on multi-agent AI, focusing on:
+
+1. The main topic in simple terms.
+2. Key points relevant to LLM-based multi-agent systems.
+
+Please provide a concise summary without any preamble.`,
+        fileUri: file.uri,
+      })
+    })
+
+    const takeaways = await step.run('extract-takeaways', async () => {
+      return await generateText({
+        model: 'gemini-1.5-pro',
+        prompt: `Provide practical examples of how a JavaScript developer could apply this paper's insights to LLM-based multi-agent AI projects. Focus on web development scenarios and relevant JavaScript frameworks or libraries.`,
+        fileUri: file.uri,
+      })
+    })
+
+    const pseudocode = await step.run('extract-pseudocode', async () => {
+      return await generateText({
+        model: 'gemini-1.5-pro',
+        prompt: `Please examine this paper for any "pseudocode blocks" describing algorithms. If present:
+1. Convert each pseudocode block to JavaScript.
+2. Use good JavaScript practives: use descriptive variable names, use modern JavaScript syntax, etc.
+3. Provide a brief explanation of each algorithm and its purpose.
+4. If multiple pseudocode blocks exist, repeat steps 1-2 for each.
+
+If no pseudocode blocks are found, simply respond with "No pseudocode block found".`,
+        fileUri: file.uri,
+      })
+    })
+
+    const simpleQuestion = await step.run('simple-question', async () => {
       const ai = new GoogleGenerativeAI(
         process.env.GOOGLE_GENERATIVE_AI_API_KEY,
       )
 
-      const model = ai.getGenerativeModel({
-        model: 'gemini-1.5-pro',
+      const generativeModel = ai.getGenerativeModel({
+        model: 'gemini-1.5-flash',
+        systemInstruction: SYSTEM_INSTRUCTION,
       })
 
-      const result = await model.generateContent([
-        {
-          fileData: {
-            mimeType: 'application/pdf',
-            fileUri: file.uri,
-          },
-        },
-        {
-          text: `I'm an experienced software engineer interested in building multi-agent AI applications. I came across this research paper, that I believe somewhat related to my interest, but I don't understand it, maybe because there are too many unfamiliar terms. Please answer these three questions: (1) summarize the topic of this paper with simple words, (2) list the key points it makes, (3) tell me what can I learn from it that helps me with my software projects. Only return the summary, no smalltalk.`,
-        },
-      ])
+      const result = await generativeModel.generateContent(
+        `Rephrase the paper's title and abstract as a single, concise question that an LLM multi-agent application developer might ask. The question should highlight the paper's core problem or insight in terms relevant to JavaScript-based web development.
+        
+<title>${title}</title>
+<abstract>${abstract}</abstract>`,
+      )
 
       return result.response.text()
     })
@@ -244,7 +320,11 @@ const processArxivPdf = inngest.createFunction(
       const data = {
         arxivId,
         title,
+        abstract,
         summary,
+        takeaways,
+        pseudocode,
+        simpleQuestion,
         timestamp: new Date().toISOString(),
       }
 
