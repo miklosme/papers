@@ -19,6 +19,7 @@
     "inngest": "^3.22.5",
     "lucide-react": "^0.436.0",
     "next": "14.2.7",
+    "next-plausible": "^3.12.2",
     "next-themes": "^0.3.0",
     "octokit": "^4.0.2",
     "react": "^18",

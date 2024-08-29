@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter as FontSans } from 'next/font/google'
 import { cn } from '@/lib/utils'
+import PlausibleProvider from 'next-plausible'
 import { ThemeProvider } from './theme-provider'
 import { SideMenu } from './sidemenu'
 import './globals.css'
@@ -22,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <PlausibleProvider domain="papers.miklos.dev" />
+      </head>
       <body
         className={cn(
           'flex min-h-screen bg-background font-sans antialiased',
