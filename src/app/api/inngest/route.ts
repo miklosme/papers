@@ -285,11 +285,14 @@ Please provide a concise summary without any preamble.`,
     const pseudocode = await step.run('extract-pseudocode', async () => {
       return await generateText({
         model: 'gemini-1.5-pro',
-        prompt: `Please examine this paper for any "pseudocode blocks" describing algorithms. If present:
-1. Convert each pseudocode block to JavaScript.
-2. Use good JavaScript practives: use descriptive variable names, use modern JavaScript syntax, etc.
-3. Provide a brief explanation of each algorithm and its purpose.
-4. If multiple pseudocode blocks exist, repeat steps 1-2 for each.
+        //         prompt: `Please examine this paper for any "pseudocode blocks" describing algorithms. If present:
+        // 1. Convert each pseudocode block to JavaScript.
+        // 2. Use good JavaScript practives: use descriptive variable names, use modern JavaScript syntax, etc.
+        // 3. Provide a brief explanation of each algorithm and its purpose.
+        // 4. If multiple pseudocode blocks exist, repeat steps 1-2 for each.
+
+        // If no pseudocode blocks are found, simply respond with "No pseudocode block found".`,
+        prompt: `Please examine this paper for any "pseudocode blocks" describing algorithms. If present, convert each pseudocode block to JavaScript, and provide a brief explanation of each algorithm and its purpose.
 
 If no pseudocode blocks are found, simply respond with "No pseudocode block found".`,
         fileUri: file.uri,
