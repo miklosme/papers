@@ -11,6 +11,8 @@ import {
 import fs from 'fs/promises'
 import path from 'path'
 
+export const maxDuration = 60
+
 const octokit = new Octokit({ auth: process.env.GITHUB_TOKEN })
 
 const owner = 'miklosme'
