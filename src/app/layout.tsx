@@ -35,8 +35,8 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <aside className="w-64 h-screen">{sidemenu}</aside>
-          <main className="flex-1 p-8">{children}</main>
+          {sidemenu}
+          <main className="flex-1 p-8 ml-[280px]">{children}</main>
         </ThemeProvider>
       </body>
     </html>

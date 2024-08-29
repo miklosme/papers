@@ -15,7 +15,7 @@ export default async function Default() {
   const filenames = await fs.promises.readdir(dataDirectory)
 
   return (
-    <ScrollArea className="bg-muted border-r border-border p-4 h-screen">
+    <ScrollArea className="!fixed bg-muted border-r border-border p-4 h-screen w-[280px]">
       <div className="flex justify-between items-center mb-8">
         <h1 className="text-lg font-bold">Multi-agent papers</h1>
         <ThemeToggle />

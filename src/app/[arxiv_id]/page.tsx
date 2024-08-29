@@ -33,6 +33,12 @@ export default async function Page({
 
   return (
     <>
+      <h2 className="text-2xl font-bold">{data.title}</h2>
+      <div className="flex flex-row gap-2">
+        <span className="text-sm text-muted-foreground">
+          {new Date(data.timestamp).toLocaleDateString()}
+        </span>
+      </div>
       <Button
         variant="link"
         className="text-blue-500 hover:text-blue-400 pl-0"
