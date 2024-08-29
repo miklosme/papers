@@ -30,7 +30,7 @@ export default async function Default() {
           </li>
         ))}
       </ul>
-      <span>Generated at {Date.now()}</span>
+      <span>Generated at {new Date().toISOString()}</span>
     </ScrollArea>
   )
 }
