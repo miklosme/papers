@@ -2,6 +2,20 @@
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of groundbreaking research that's sure to spark your synapses. Let's dive right in!
 
+First up, we're revolutionizing healthcare with cognitive models! Researchers have discovered that [Instance-Based Learning Theory](https://papers-e77vd4494-miklos-megyes-projects.vercel.app/2408.16147) can supercharge LLM-based predictions of user engagement. By mimicking human decision-making processes, these models are outperforming traditional time-series forecasters in predicting individual behavior dynamics. This could be a game-changer for public health programs, allowing for more targeted and effective interventions.
+
+But wait, there's more! Ever wondered how to get your AI agents to play nice together? A new [Consensus Planning Protocol](https://papers-e77vd4494-miklos-megyes-projects.vercel.app/2408.16462) is here to save the day. This flexible framework allows different types of agents to collaborate seamlessly, even if they speak different "languages." It's like a universal translator for AI systems, paving the way for more complex and efficient multi-agent applications.
+
+For those of you crunching numbers behind the scenes, we've got a treat for you too. A novel [block-coordinate algorithm](https://papers-e77vd4494-miklos-megyes-projects.vercel.app/2408.16424) is making waves in the world of optimization. This decentralized approach is perfect for tackling large-scale problems with multiple agents, each controlling their own piece of the puzzle. It's robust, it's efficient, and it's got the theoretical guarantees to back it up.
+
+Last but certainly not least, we're breaking new ground in LLM alignment. Say goodbye to tedious human annotations! The [Iterative Graph Alignment](https://papers-e77vd4494-miklos-megyes-projects.vercel.app/2408.16667) method is here to whip your language models into shape. Using a clever teacher-student setup, this technique helps LLMs identify and fill their knowledge gaps, resulting in impressive improvements in rule-based alignment. It's like sending your AI to boot camp, but without the drill sergeant!
+
+That's all for now, folks. Keep those algorithms humming, and we'll catch you on the next cutting edge of AI research!
+
+# Daily Digest (August 30, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of groundbreaking research that's sure to spark your synapses. Let's dive right in!
+
 First up, we're revolutionizing healthcare with cognitive models! Researchers have discovered that [Instance-Based Learning Theory](https://papers-gjby0f8xm-miklos-megyes-projects.vercel.app/2408.16147) can supercharge LLM-based prediction of user engagement in public health programs. By mimicking human decision-making processes, these models outperform traditional time-series forecasters, offering more accurate predictions and smarter resource allocation. It's like giving your AI a dose of human intuition!
 
 But wait, there's more! We're taking collaboration to the next level with a [generic Consensus Planning Protocol](https://papers-gjby0f8xm-miklos-megyes-projects.vercel.app/2408.16462) that's breaking down barriers between AI agents. This game-changing algorithm allows LLMs and other AI systems to work together seamlessly, regardless of their individual quirks. It's the ultimate AI team-building exercise, folks!
