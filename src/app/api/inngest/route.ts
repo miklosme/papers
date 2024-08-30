@@ -200,7 +200,7 @@ async function getRecentlyAddedFiles() {
   return Array.from(newFiles)
 }
 
-async function generateDailyDigest() {
+async function makeDailyDigestPrompt() {
   const newFiles = await getRecentlyAddedFiles()
 
   const digest = []
@@ -248,11 +248,7 @@ async function generateDailyDigest() {
       )
       .join('\n')
 
-    const { text } = await generateText({
-      // model: openai('gpt-4o-mini'),
-      model: anthropic('claude-3-5-sonnet-20240620'),
-      // model: anthropic('claude-3-opus-20240229'),
-      prompt: `
+    return `
 You are an editor for a newsletter about AI.
 
 You are given a list of papers that were added to the database in the last 24 hours.
@@ -264,10 +260,7 @@ Use copywriting hooks and use the style of an energetic radio host. Don't use em
 At key terms, inject the URL of the paper. Use markdown links.
 
 ${context}
-`,
-    })
-
-    return text
+`
   } else {
     console.log('No new papers to digest today.')
   }
@@ -471,37 +464,29 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
 
       return { data }
     })
-
-    // await step.sendEvent('write-daily-digest', {
-    //   name: 'scraper/write-daily-digest',
-    //   data: saved.data,
-    // })
   },
 )
-
-// const writeDailyDigest = inngest.createFunction(
-//   {
-//     id: 'write-daily-digest',
-//     batchEvents: {
-//       maxSize: 25,
-//       timeout: '24h',
-//     },
-//   },
-//   { event: 'scraper/write-daily-digest' },
-//   async ({ events, step }) => {
-//     // ...
-//   },
-// )
 
 const writeDailyDigest = inngest.createFunction(
   { id: 'write-daily-digest' },
   { cron: 'TZ=Europe/Budapest 0 9 * * *' },
   async ({ events, step }) => {
-    const digest = await step.run('generate-digest', async () => {
-      return await generateDailyDigest()
+    const digestPrompt = await step.run('generate-digest', async () => {
+      return await makeDailyDigestPrompt()
     })
 
-    if (digest) {
+    if (digestPrompt) {
+      const digest = await step.run('generate-digest', async () => {
+        const { text } = await generateText({
+          // model: openai('gpt-4o-mini'),
+          model: anthropic('claude-3-5-sonnet-20240620'),
+          // model: anthropic('claude-3-opus-20240229'),
+          prompt: digestPrompt,
+        })
+
+        return text
+      })
+
       await step.run('save-digest', async () => {
         const formattedDigest = `# Daily Digest (${format(
           new Date(),
@@ -514,6 +499,8 @@ const writeDailyDigest = inngest.createFunction(
           `Daily digest (${new Date().toISOString().split('T')[0]})`,
         )
       })
+    } else {
+      // no new papers today
     }
   },
 )
