@@ -210,10 +210,7 @@ async function makeDailyDigestPrompt() {
 
   const digest = []
 
-  // TODO remove this
-  const x = newFiles.slice(0, 4)
-
-  for await (const file of x) {
+  for await (const file of newFiles) {
     try {
       const { data } = await octokit.rest.repos.getContent({
         owner,
