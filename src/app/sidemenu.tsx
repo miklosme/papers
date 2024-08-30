@@ -71,7 +71,7 @@ export async function SideMenu() {
           Close
         </label> */}
         <ScrollArea className="flex-grow bg-muted p-4">
-          <div className="flex justify-between items-center mb-8 mt-10 md:mt-0">
+          <div className="flex justify-between items-center mb-4 mt-10 md:mt-0">
             <Button variant="link" className="p-0 h-auto" asChild>
               <Link href="/">
                 <h1 className="text-lg font-bold">Multi-agent papers</h1>
@@ -89,7 +89,7 @@ export async function SideMenu() {
               return (
                 <Fragment key={article.arxivId}>
                   {isDifferentMonth ? (
-                    <span className="text-sm text-muted-foreground">
+                    <span className="text-sm text-muted-foreground mt-4">
                       {formatArxivDate(article.arxivId)}
                     </span>
                   ) : null}

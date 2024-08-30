@@ -61,35 +61,33 @@ export default async function Page({
         </Button>
 
         <details>
-          <summary>Abstract</summary>
-          <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
-            {data.abstract}
+          <summary>Summary</summary>
+          <div className="flex flex-col gap-4">
+            <Markdown>{data.summary}</Markdown>
           </div>
         </details>
 
-        <hr />
+        <details>
+          <summary>Title and Abstract</summary>
+          <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+            <p className="font-semibold">{data.title}</p>
+            <p>{data.abstract}</p>
+          </div>
+        </details>
 
-        <div className="flex flex-col gap-4">
-          <Markdown>{data.summary}</Markdown>
-        </div>
+        <details>
+          <summary>Takeaways</summary>
+          <div className="flex flex-col gap-4">
+            <Markdown>{data.takeaways}</Markdown>
+          </div>
+        </details>
 
-        <hr />
-
-        <div className="flex flex-col gap-4">
-          <Markdown>{data.takeaways}</Markdown>
-        </div>
-
-        <hr />
-
-        <div className="flex flex-col gap-4">
-          <Markdown>{data.pseudocode}</Markdown>
-        </div>
-
-        <h3>Simple Question: {data.simpleQuestion}</h3>
-
-        {/* <hr /> */}
-
-        {/* <span>Generated at {new Date().toISOString()}</span> */}
+        <details>
+          <summary>Pseudocode</summary>
+          <div className="flex flex-col gap-4">
+            <Markdown>{data.pseudocode}</Markdown>
+          </div>
+        </details>
       </>
     )
   } catch (error) {

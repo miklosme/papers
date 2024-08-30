@@ -11,7 +11,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
       return !inline && match ? (
         <pre
           {...props}
-          className={`${className} text-md w-[80dvw] md:max-w-[500px] overflow-x-scroll my-4 rounded mt-2`}
+          className={`${className} text-md w-full overflow-x-scroll my-4 rounded mt-2`}
         >
           <SyntaxHighlighter PreTag="div" language={match[1]} style={oneDark}>
             {String(children).replace(/\n$/, '')}
