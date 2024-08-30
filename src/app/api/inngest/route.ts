@@ -130,7 +130,7 @@ async function generateText({
     },
   ])
 
-  return result.response.text()
+  return result.response.text().trim()
 }
 
 const inngest = new Inngest({ id: 'arxiv-papers-web-scraper' })
@@ -315,7 +315,7 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
 <abstract>${abstract}</abstract>`,
       )
 
-      return result.response.text()
+      return result.response.text().trim()
     })
 
     const saved = await step.run('save-data', async () => {
