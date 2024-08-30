@@ -1,5 +1,19 @@
 # Daily Digest (August 30, 2024)
 
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of groundbreaking research that's about to supercharge your multi-agent systems. Let's dive right in!
+
+First up, we're revolutionizing healthcare with cognitive models! Researchers have discovered that [Instance-Based Learning Theory](https://papers.miklos.dev/2408.16147) can outperform traditional time-series forecasters in predicting user engagement. By incorporating these personalized IBL models into your LLM-based systems, you'll be able to capture individual behavior dynamics with unprecedented accuracy. Say goodbye to one-size-fits-all predictions and hello to tailored interventions!
+
+But wait, there's more! Are you tired of your AI agents not playing well together? Fear not! A new [Consensus Planning Protocol](https://papers.miklos.dev/2408.16462) is here to save the day. This game-changing algorithm allows different types of agents to collaborate seamlessly, even if they speak different AI languages. It's like a universal translator for your multi-agent systems, enabling smooth coordination without costly rewrites.
+
+For those of you dealing with complex optimization problems, we've got a treat for you. A novel [decentralized algorithm](https://papers.miklos.dev/2408.16424) is making waves in the world of block-coordinate methods. This bad boy can handle large-scale problems with ease, perfect for when you're juggling multiple LLM agents with limited communication bandwidth. And the best part? It comes with rock-solid convergence guarantees!
+
+Last but certainly not least, we're taking LLM alignment to the next level. Say goodbye to tedious human annotations and hello to [Iterative Graph Alignment](https://papers.miklos.dev/2408.16667)! This ingenious method uses a teacher-student model approach to identify and fill knowledge gaps, resulting in LLMs that can follow rules with astonishing accuracy. We're talking up to 86.20% improvement in rule-based alignment, folks!
+
+That's all for today's AI digest. Remember, the future of multi-agent systems is here, and it's more collaborative, efficient, and aligned than ever before. Stay curious, stay innovative, and keep pushing those boundaries!
+
+# Daily Digest (August 30, 2024)
+
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of groundbreaking research that's sure to spark your synapses. Let's dive right in!
 
 First up, we're revolutionizing healthcare with cognitive models! Researchers have discovered that [Instance-Based Learning Theory](https://papers.miklos.dev/2408.16147) can supercharge LLM-based predictions of user engagement. By mimicking human decision-making processes, these models are outperforming traditional time-series forecasters in predicting individual behavior dynamics. This could be a game-changer for public health programs, allowing for more targeted and effective interventions.
