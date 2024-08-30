@@ -506,7 +506,7 @@ const writeDailyDigest = inngest.createFunction(
         const formattedDigest = `# Daily Digest (${format(
           new Date(),
           'MMMM d, yyyy',
-        )})\n\n${digest}\n\n---\n\n`
+        )})\n\n${digest}\n\n`
 
         await appendToFile(
           'src/app/home.md',

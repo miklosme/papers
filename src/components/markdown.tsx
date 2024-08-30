@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter'
@@ -14,7 +15,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
           className={`${className} text-md w-full overflow-x-scroll my-4 rounded mt-2`}
         >
           <SyntaxHighlighter PreTag="div" language={match[1]} style={oneDark}>
-            {String(children).replace(/\n$/, '')}
+            {String(children).trim()}
           </SyntaxHighlighter>
         </pre>
       ) : (
@@ -45,6 +46,16 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
         <ul className="list-decimal ml-8" {...props}>
           {children}
         </ul>
+      )
+    },
+    a: ({ node, children, ...props }: any) => {
+      return (
+        <Link
+          href={props.href}
+          className="text-blue-500 hover:text-blue-400 underline"
+        >
+          {children}
+        </Link>
       )
     },
     h1: ({ node, children, ...props }: any) => {

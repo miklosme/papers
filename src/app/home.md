@@ -11,9 +11,3 @@ For the optimization aficionados out there, we've got a treat. [How to optimize 
 Last but certainly not least, we're tackling the age-old problem of aligning LLMs with rules, but with a twist! [How to align LLMs with rules without human annotations?](/2408.16667) introduces Iterative Graph Alignment, a self-improvement technique for LLMs that doesn't need human hand-holding. It's like sending your AI to charm school, but it teaches itself!
 
 That's all for today's AI digest, folks. Remember, in the world of artificial intelligence, yesterday's science fiction is today's research paper. Stay curious, stay innovative, and keep pushing those boundaries!
-
----
-
-# Welcome
-
-TODO: Generate daily digest.
