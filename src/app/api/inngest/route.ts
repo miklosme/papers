@@ -23,6 +23,11 @@ const owner = 'miklosme'
 const repo = 'papers'
 const branch = 'master'
 
+const BASE_URL =
+  process.env.NODE_ENV === 'production'
+    ? `https://${process.env.NEXT_PUBLIC_VERCEL_URL}`
+    : 'http://localhost:3000'
+
 function getFileName(arxivId: string) {
   return `data/${arxivId}.json`
 }
@@ -241,7 +246,7 @@ async function makeDailyDigestPrompt() {
     ${item.summary.trim()}
   </summary>
   <url>
-    /${item.arxivId.trim()}
+    ${BASE_URL}/${item.arxivId.trim()}
   </url>
 </paper>
 `,
