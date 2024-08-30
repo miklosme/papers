@@ -231,15 +231,14 @@ const processArxivPdf = inngest.createFunction(
         displayName: `${arxivId}.pdf`,
         mimeType: 'application/pdf',
       })
-      const { name, uri } = fileResult.file
 
       // Delete the temporary file
       await fs.unlink(tmpFilePath)
 
-      let file = await fileManager.getFile(name)
+      let file = await fileManager.getFile(fileResult.file.name)
       while (file.state === FileState.PROCESSING) {
         await new Promise((resolve) => setTimeout(resolve, 2_000))
-        file = await fileManager.getFile(name)
+        file = await fileManager.getFile(fileResult.file.name)
       }
 
       return fileResult.file
@@ -319,7 +318,7 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
       return result.response.text()
     })
 
-    await step.run('save-data', async () => {
+    const saved = await step.run('save-data', async () => {
       const data = {
         arxivId,
         title,
@@ -337,10 +336,29 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
         `Add scraped data for ${arxivId}`,
       )
 
-      return { success: true, arxivId }
+      return { data }
     })
+
+    // await step.sendEvent('write-daily-digest', {
+    //   name: 'scraper/write-daily-digest',
+    //   data: saved.data,
+    // })
   },
 )
+
+// const writeDailyDigest = inngest.createFunction(
+//   {
+//     id: 'write-daily-digest',
+//     batchEvents: {
+//       maxSize: 25,
+//       timeout: '24h',
+//     },
+//   },
+//   { event: 'scraper/write-daily-digest' },
+//   async ({ events, step }) => {
+//     // ...
+//   },
+// )
 
 const scheduledScrape = inngest.createFunction(
   { id: 'scheduled-scrape' },
@@ -357,5 +375,10 @@ const scheduledScrape = inngest.createFunction(
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [scheduledScrape, runScrape, processArxivPdf],
+  functions: [
+    scheduledScrape,
+    runScrape,
+    processArxivPdf,
+    //writeDailyDigest
+  ],
 })

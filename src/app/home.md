@@ -1,3 +1,3 @@
 # Welcome
 
-TODO: Add a home page.
+TODO: Generate daily digest.
