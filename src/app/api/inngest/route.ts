@@ -1,3 +1,5 @@
+import fs from 'fs/promises'
+import path from 'path'
 import { Inngest } from 'inngest'
 import { serve } from 'inngest/next'
 import { Octokit } from 'octokit'
@@ -8,8 +10,11 @@ import {
   GoogleAICacheManager,
   GoogleAIFileManager,
 } from '@google/generative-ai/server'
-import fs from 'fs/promises'
-import path from 'path'
+import { format } from 'date-fns'
+import { execSync } from 'child_process'
+import { generateText } from 'ai'
+import { openai } from '@ai-sdk/openai'
+import { anthropic } from '@ai-sdk/anthropic'
 
 export const maxDuration = 60
 
@@ -80,6 +85,35 @@ async function createOrUpdateFile(
   }
 }
 
+async function appendToFile(path: string, content: string, message: string) {
+  const existingFile = await octokit.rest.repos.getContent({
+    owner,
+    repo,
+    path,
+    ref: branch,
+  })
+
+  if ('content' in existingFile.data) {
+    const existingContent = Buffer.from(
+      existingFile.data.content,
+      'base64',
+    ).toString('utf-8')
+    const newContent = `${content}${existingContent}`
+
+    await octokit.rest.repos.createOrUpdateFileContents({
+      owner,
+      repo,
+      path,
+      message,
+      content: Buffer.from(newContent).toString('base64'),
+      sha: existingFile.data.sha,
+      branch,
+    })
+  } else {
+    throw new Error(`File ${path} not found or is not a file`)
+  }
+}
+
 const SYSTEM_INSTRUCTION = `You are an expert in computer science research, specializing in translating complex academic concepts for software engineers using JavaScript and interested in LLM-based multi-agent app development. Your role involves:
 
 1. Analyzing research papers on multi-agent AI systems, focusing on their relevance to web development.
@@ -100,7 +134,7 @@ const SYSTEM_INSTRUCTION = `You are an expert in computer science research, spec
 
 Your explanations should be clear, engaging, and directly applicable to JavaScript developers working on LLM-based multi-agent systems. Aim to inspire curiosity and demonstrate the practical value of multi-agent AI research in advancing web technologies.`
 
-async function generateText({
+async function genText({
   model,
   prompt,
   fileUri,
@@ -131,6 +165,77 @@ async function generateText({
   ])
 
   return result.response.text().trim()
+}
+
+async function generateDailyDigest() {
+  // Get the list of new JSON files in the last 24 hours
+  const command = `git log --diff-filter=A --name-only --pretty=format: --since="24 hours ago" | grep '^data/.*\\.json$' | sort -u | xargs -I {} sh -c 'if [ -f "{}" ]; then echo "{}"; fi'`
+  const newFiles = execSync(command)
+    .toString()
+    .trim()
+    .split('\n')
+    .filter(Boolean)
+
+  const digest = []
+
+  // TODO remove this
+  const x = newFiles.slice(0, 4)
+
+  for (const file of x) {
+    try {
+      const content = await fs.readFile(file, 'utf-8')
+      const data = JSON.parse(content)
+      digest.push(data)
+    } catch (error) {
+      console.error(`Error processing file ${file}:`, error)
+    }
+  }
+
+  if (digest.length > 0) {
+    const context = digest
+      .map(
+        (item) => `
+<paper>
+  <title>
+    ${item.simpleQuestion.trim()}
+  </title>
+  <abstract>
+    ${item.abstract.trim()}
+  </abstract>
+  <summary>
+    ${item.summary.trim()}
+  </summary>
+  <url>
+    /${item.arxivId.trim()}
+  </url>
+</paper>
+`,
+      )
+      .join('\n')
+
+    const { text } = await generateText({
+      // model: openai('gpt-4o-mini'),
+      model: anthropic('claude-3-5-sonnet-20240620'),
+      // model: anthropic('claude-3-opus-20240229'),
+      prompt: `
+You are an editor for a newsletter about AI.
+
+You are given a list of papers that were added to the database in the last 24 hours.
+
+Your job is to write an engaging digest of these papers in a form that a busy AI researcher might read.
+
+Use copywriting hooks and use the style of an energetic radio host. Don't use emojis. No small talk, get on the point right away.
+
+At key terms, inject the URL of the paper. Use markdown links.
+
+${context}
+`,
+    })
+
+    return text
+  } else {
+    console.log('No new papers to digest today.')
+  }
 }
 
 const inngest = new Inngest({ id: 'arxiv-papers-web-scraper' })
@@ -245,7 +350,7 @@ const processArxivPdf = inngest.createFunction(
     })
 
     const title = await step.run('extract-title', async () => {
-      return await generateText({
+      return await genText({
         model: 'gemini-1.5-flash',
         prompt: `Extract the title of this research paper. Only return the title, no smalltalk.`,
         fileUri: file.uri,
@@ -253,7 +358,7 @@ const processArxivPdf = inngest.createFunction(
     })
 
     const abstract = await step.run('extract-abstract', async () => {
-      return await generateText({
+      return await genText({
         model: 'gemini-1.5-flash',
         prompt: `Extract the abstract of this research paper. Only return the abstract, no smalltalk.`,
         fileUri: file.uri,
@@ -261,7 +366,7 @@ const processArxivPdf = inngest.createFunction(
     })
 
     const summary = await step.run('summarize', async () => {
-      return await generateText({
+      return await genText({
         model: 'gemini-1.5-pro',
         prompt: `Summarize this research paper on multi-agent AI, focusing on:
 
@@ -274,7 +379,7 @@ Please provide a concise summary without any preamble.`,
     })
 
     const takeaways = await step.run('extract-takeaways', async () => {
-      return await generateText({
+      return await genText({
         model: 'gemini-1.5-pro',
         prompt: `Provide practical examples of how a JavaScript developer could apply this paper's insights to LLM-based multi-agent AI projects. Focus on web development scenarios and relevant JavaScript frameworks or libraries.`,
         fileUri: file.uri,
@@ -282,15 +387,8 @@ Please provide a concise summary without any preamble.`,
     })
 
     const pseudocode = await step.run('extract-pseudocode', async () => {
-      return await generateText({
+      return await genText({
         model: 'gemini-1.5-pro',
-        //         prompt: `Please examine this paper for any "pseudocode blocks" describing algorithms. If present:
-        // 1. Convert each pseudocode block to JavaScript.
-        // 2. Use good JavaScript practives: use descriptive variable names, use modern JavaScript syntax, etc.
-        // 3. Provide a brief explanation of each algorithm and its purpose.
-        // 4. If multiple pseudocode blocks exist, repeat steps 1-2 for each.
-
-        // If no pseudocode blocks are found, simply respond with "No pseudocode block found".`,
         prompt: `Please examine this paper for any "pseudocode blocks" describing algorithms. If present, convert each pseudocode block to JavaScript, and provide a brief explanation of each algorithm and its purpose.
 
 If no pseudocode blocks are found, simply respond with "No pseudocode block found".`,
@@ -360,9 +458,34 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
 //   },
 // )
 
+const writeDailyDigest = inngest.createFunction(
+  { id: 'write-daily-digest' },
+  { cron: 'TZ=Europe/Budapest 0 9 * * *' },
+  async ({ events, step }) => {
+    const digest = await step.run('generate-digest', async () => {
+      return await generateDailyDigest()
+    })
+
+    if (digest) {
+      await step.run('save-digest', async () => {
+        const formattedDigest = `# Daily Digest (${format(
+          new Date(),
+          'DD MMMM YYYY',
+        )})\n\n${digest}\n\n---\n\n`
+
+        await appendToFile(
+          'src/app/home.md',
+          formattedDigest,
+          `Daily digest (${new Date().toISOString().split('T')[0]})`,
+        )
+      })
+    }
+  },
+)
+
 const scheduledScrape = inngest.createFunction(
   { id: 'scheduled-scrape' },
-  { cron: 'TZ=Europe/Budapest 0 9 * * *' },
+  { cron: 'TZ=Europe/Budapest 0 7 * * *' },
   async ({ event, step }) => {
     const url = 'https://arxiv.org/list/cs.MA/recent'
 
@@ -375,10 +498,5 @@ const scheduledScrape = inngest.createFunction(
 
 export const { GET, POST, PUT } = serve({
   client: inngest,
-  functions: [
-    scheduledScrape,
-    runScrape,
-    processArxivPdf,
-    //writeDailyDigest
-  ],
+  functions: [scheduledScrape, runScrape, processArxivPdf, writeDailyDigest],
 })
