@@ -11,7 +11,6 @@ import {
   GoogleAIFileManager,
 } from '@google/generative-ai/server'
 import { format } from 'date-fns'
-import { execSync } from 'child_process'
 import { generateText } from 'ai'
 import { openai } from '@ai-sdk/openai'
 import { anthropic } from '@ai-sdk/anthropic'
@@ -167,25 +166,61 @@ async function genText({
   return result.response.text().trim()
 }
 
+async function getRecentlyAddedFiles() {
+  const twentyFourHoursAgo = new Date(
+    Date.now() - 24 * 60 * 60 * 1000,
+  ).toISOString()
+
+  const { data: commits } = await octokit.rest.repos.listCommits({
+    owner,
+    repo,
+    since: twentyFourHoursAgo,
+    path: 'data',
+  })
+
+  const newFiles = new Set<string>()
+
+  for (const commit of commits) {
+    const { data: files } = await octokit.rest.repos.getCommit({
+      owner,
+      repo,
+      ref: commit.sha,
+    })
+
+    files.files
+      .filter(
+        (file) =>
+          file.status === 'added' &&
+          file.filename.startsWith('data/') &&
+          file.filename.endsWith('.json'),
+      )
+      .forEach((file) => newFiles.add(file.filename))
+  }
+
+  return Array.from(newFiles)
+}
+
 async function generateDailyDigest() {
-  // Get the list of new JSON files in the last 24 hours
-  const command = `git log --diff-filter=A --name-only --pretty=format: --since="24 hours ago" | grep '^data/.*\\.json$' | sort -u | xargs -I {} sh -c 'if [ -f "{}" ]; then echo "{}"; fi'`
-  const newFiles = execSync(command)
-    .toString()
-    .trim()
-    .split('\n')
-    .filter(Boolean)
+  const newFiles = await getRecentlyAddedFiles()
 
   const digest = []
 
   // TODO remove this
   const x = newFiles.slice(0, 4)
 
-  for (const file of x) {
+  for await (const file of x) {
     try {
-      const content = await fs.readFile(file, 'utf-8')
-      const data = JSON.parse(content)
-      digest.push(data)
+      const { data } = await octokit.rest.repos.getContent({
+        owner,
+        repo,
+        path: file,
+      })
+
+      if ('content' in data) {
+        const content = Buffer.from(data.content, 'base64').toString('utf-8')
+        const parsedData = JSON.parse(content)
+        digest.push(parsedData)
+      }
     } catch (error) {
       console.error(`Error processing file ${file}:`, error)
     }
