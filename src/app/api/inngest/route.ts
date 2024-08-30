@@ -255,9 +255,13 @@ You are given a list of papers that were added to the database in the last 24 ho
 
 Your job is to write an engaging digest of these papers in a form that a busy AI researcher might read.
 
+Try to group similar papers into one paragraph. It's fine to only reference one paper per paragraph, if there are not enough similarities.
+
 Use copywriting hooks and use the style of an energetic radio host. Don't use emojis. No small talk, get on the point right away.
 
-At key terms, inject the URL of the paper. Use markdown links.
+Don't inject the title as is. Try to blend it into the text.
+
+At key terms, inject the URL of the paper. Use markdown links. The link text should be only a few words.
 
 ${context}
 `
