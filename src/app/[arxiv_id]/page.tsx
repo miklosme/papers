@@ -6,6 +6,12 @@ import { Button } from '@/components/ui/button'
 import { Markdown } from '@/components/markdown'
 import { ExternalLinkIcon } from 'lucide-react'
 import { notFound } from 'next/navigation'
+import {
+  Collapsible,
+  CollapsibleContent,
+  CollapsibleTrigger,
+} from '@/components/ui/collapsible'
+import { ChevronDown } from 'lucide-react'
 
 export async function generateStaticParams() {
   const dataDirectory = path.join(process.cwd(), 'data')
@@ -60,34 +66,54 @@ export default async function Page({
           </Link>
         </Button>
 
-        <details>
-          <summary>Summary</summary>
-          <div className="flex flex-col gap-4">
-            <Markdown>{data.summary}</Markdown>
-          </div>
-        </details>
+        <Collapsible defaultOpen>
+          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
+            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+            Summary
+          </CollapsibleTrigger>
+          <CollapsibleContent>
+            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+              <Markdown>{data.summary}</Markdown>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
 
-        <details>
-          <summary>Title and Abstract</summary>
-          <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
-            <p className="font-semibold">{data.title}</p>
-            <p>{data.abstract}</p>
-          </div>
-        </details>
+        <Collapsible>
+          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
+            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+            Title and Abstract
+          </CollapsibleTrigger>
+          <CollapsibleContent>
+            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+              <p className="font-semibold">{data.title}</p>
+              <p>{data.abstract}</p>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
 
-        <details>
-          <summary>Takeaways</summary>
-          <div className="flex flex-col gap-4">
-            <Markdown>{data.takeaways}</Markdown>
-          </div>
-        </details>
+        <Collapsible>
+          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
+            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+            Takeaways
+          </CollapsibleTrigger>
+          <CollapsibleContent>
+            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+              <Markdown>{data.takeaways}</Markdown>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
 
-        <details>
-          <summary>Pseudocode</summary>
-          <div className="flex flex-col gap-4">
-            <Markdown>{data.pseudocode}</Markdown>
-          </div>
-        </details>
+        <Collapsible>
+          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
+            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+            Pseudocode
+          </CollapsibleTrigger>
+          <CollapsibleContent>
+            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+              <Markdown>{data.pseudocode}</Markdown>
+            </div>
+          </CollapsibleContent>
+        </Collapsible>
       </>
     )
   } catch (error) {
