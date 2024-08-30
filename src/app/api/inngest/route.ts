@@ -505,7 +505,7 @@ const writeDailyDigest = inngest.createFunction(
       await step.run('save-digest', async () => {
         const formattedDigest = `# Daily Digest (${format(
           new Date(),
-          'dd MMMM YYYY',
+          'MMMM d, yyyy',
         )})\n\n${digest}\n\n---\n\n`
 
         await appendToFile(
