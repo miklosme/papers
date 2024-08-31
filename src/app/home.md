@@ -1,5 +1,21 @@
 # Daily Digest (August 31, 2024)
 
+Hold onto your lab coats, AI enthusiasts! We've got a fresh batch of mind-bending research that's pushing the boundaries of artificial intelligence. Let's dive right in!
+
+First up, we're tackling the challenge of predicting user engagement in public health programs. Researchers have found that [cognitive models based on Instance-Based Learning Theory](https://papers.miklos.dev/2408.16147) can outperform traditional time-series forecasters like LSTMs. This breakthrough could revolutionize how we allocate resources in healthcare interventions. It's not just about crunching numbers anymore – it's about understanding human decision-making processes!
+
+But wait, there's more! Ever wondered how AI agents with different roles can work together efficiently? A new [Consensus Planning Protocol](https://papers.miklos.dev/2408.16462) is here to save the day. This flexible algorithm allows for seamless collaboration between various AI systems, even when they speak different "languages." It's like having a universal translator for your AI team!
+
+For the optimization nerds out there, we've got a treat. Researchers have developed a [decentralized algorithm](https://papers.miklos.dev/2408.16424) for solving complex optimization problems with multiple agents. This could be a game-changer for large-scale LLM applications where agents need to work together while maintaining their independence.
+
+Now, here's something that'll make your neurons fire: a method to align LLMs with rules without human annotations! The [Iterative Graph Alignment](https://papers.miklos.dev/2408.16667) technique uses a clever teacher-student model approach to help LLMs understand and follow complex rules. It's like sending your AI to charm school, but without the hefty tuition fees!
+
+Lastly, for those concerned about public health, we've got a fascinating study on [modeling viral spread in buildings](https://papers.miklos.dev/2408.16417) using multi-agent simulations. This research combines 3D modeling, pathfinding algorithms, and viral transmission models to create a powerful tool for policymakers and architects. It's like having a crystal ball for predicting disease outbreaks!
+
+That's all for now, folks! Keep your neural networks firing, and we'll see you next time for more cutting-edge AI research!
+
+# Daily Digest (August 31, 2024)
+
 Hold onto your lab coats, AI enthusiasts! We've got a smorgasbord of cutting-edge research that's about to supercharge your multi-agent systems. Let's dive right in!
 
 First up, we're revolutionizing healthcare with cognitive models! Researchers have found that [Instance-Based Learning Theory](http://localhost:3000/2408.16147) models can outperform traditional time-series forecasters in predicting user engagement. This breakthrough could lead to more personalized and effective interventions in public health programs. Imagine your AI agents adapting their strategies based on individual patient histories – now that's what I call smart healthcare!
