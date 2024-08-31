@@ -60,7 +60,7 @@ export async function SideMenu() {
       </label>
       <div
         className={`fixed flex flex-col border-r border-border h-screen 
-          w-[280px] transition-transform duration-300 z-40
+          w-[calc(100%-2rem)] md:w-[280px] transition-transform duration-300 z-40
           md:translate-x-0 -translate-x-full
           peer-checked:translate-x-0`}
       >
@@ -71,7 +71,7 @@ export async function SideMenu() {
           Close
         </label> */}
         <ScrollArea className="flex-grow bg-muted p-4">
-          <div className="flex justify-between items-center mb-4 mt-10 md:mt-0">
+          <div className="flex justify-between items-center mb-4 mt-10 md:mt-0 pr-[1px]">
             <Button variant="link" className="p-0 h-auto" asChild>
               <Link href="/">
                 <h1 className="text-lg font-bold">Multi-agent papers</h1>
@@ -95,7 +95,7 @@ export async function SideMenu() {
                   ) : null}
 
                   <Link
-                    className="w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
+                    className="w-[calc(100vw-68px)] md:w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
                     href={`/${article.arxivId}`}
                   >
                     {article.simpleQuestion}
