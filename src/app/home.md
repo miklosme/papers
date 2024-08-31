@@ -1,3 +1,19 @@
+# Daily Digest (August 31, 2024)
+
+Hold onto your lab coats, AI enthusiasts! We've got a smorgasbord of cutting-edge research that's about to supercharge your multi-agent systems. Let's dive right in!
+
+First up, we're revolutionizing healthcare with cognitive models! Researchers have found that [Instance-Based Learning Theory](http://localhost:3000/2408.16147) models can outperform traditional time-series forecasters in predicting user engagement. This breakthrough could lead to more personalized and effective interventions in public health programs. Imagine your AI agents adapting their strategies based on individual patient histories – now that's what I call smart healthcare!
+
+But wait, there's more! Ever wondered how to get your AI agents to play nice together? A new [Consensus Planning Protocol](http://localhost:3000/2408.16462) is here to save the day! This bad boy allows different types of agents to collaborate seamlessly, even if they speak different "languages." It's like having a universal translator for your AI team – no more communication breakdowns!
+
+For you optimization geeks out there, we've got a treat! A new [decentralized algorithm](http://localhost:3000/2408.16424) is making waves in the world of multi-agent systems. It's perfect for those tricky scenarios where agents need to work together but keep their data private. Think of it as the secret sauce for building trust in your AI collaborations.
+
+Now, let's talk about keeping your LLMs in line without breaking a sweat. The [Iterative Graph Alignment](http://localhost:3000/2408.16667) method is here to whip your models into shape, no human annotations required! It's like having a strict but fair AI teacher that helps your models learn the rules of the game. The results? Impressive improvements in rule-based alignment across the board!
+
+Last but not least, we're taking on the invisible enemy – airborne viruses! A groundbreaking [multi-agent simulation](http://localhost:3000/2408.16417) is helping us understand how building design and human movement affect disease spread. This could be a game-changer for creating safer indoor spaces and informing public health policies.
+
+That's all for now, folks! Keep pushing those boundaries and remember – in the world of AI, today's science fiction is tomorrow's reality!
+
 # Daily Digest (August 30, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of groundbreaking research that's about to supercharge your multi-agent systems. Let's dive right in!
