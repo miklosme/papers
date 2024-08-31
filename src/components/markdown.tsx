@@ -103,9 +103,11 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
   }
 
   return (
-    <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
-      {children}
-    </ReactMarkdown>
+    <div className="flex flex-col gap-4">
+      <ReactMarkdown remarkPlugins={[remarkGfm]} components={components}>
+        {children}
+      </ReactMarkdown>
+    </div>
   )
 }
 

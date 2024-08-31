@@ -59,7 +59,7 @@ export async function SideMenu() {
         Close
       </label>
       <div
-        className={`fixed flex flex-col border-r border-border h-screen 
+        className={`absolute md:relative flex flex-col bg-muted border-r border-border h-screen 
           w-[calc(100%-2rem)] md:w-[280px] transition-transform duration-300 z-40
           md:translate-x-0 -translate-x-full
           peer-checked:translate-x-0`}
@@ -70,40 +70,39 @@ export async function SideMenu() {
         >
           Close
         </label> */}
-        <ScrollArea className="flex-grow bg-muted p-4">
-          <div className="flex justify-between items-center mb-4 mt-10 md:mt-0 pr-[1px]">
-            <Button variant="link" className="p-0 h-auto" asChild>
-              <Link href="/">
-                <h1 className="text-lg font-bold">Multi-agent papers</h1>
-              </Link>
-            </Button>
-            <ThemeToggle />
-          </div>
-          <div className="flex flex-col gap-2">
-            {articles.map((article, index) => {
-              const isDifferentMonth =
-                index === 0 ||
-                formatArxivDate(article.arxivId) !==
-                  formatArxivDate(articles[index - 1]!.arxivId)
 
-              return (
-                <Fragment key={article.arxivId}>
-                  {isDifferentMonth ? (
-                    <span className="text-sm text-muted-foreground mt-4">
-                      {formatArxivDate(article.arxivId)}
-                    </span>
-                  ) : null}
+        <div className="flex justify-between items-center mt-10 md:mt-4 mx-4 mb-4">
+          <Button variant="link" className="p-0 h-auto" asChild>
+            <Link href="/">
+              <h1 className="text-lg font-bold">Multi-agent papers</h1>
+            </Link>
+          </Button>
+          <ThemeToggle />
+        </div>
+        <ScrollArea className="flex flex-col flex-grow px-4">
+          {articles.map((article, index) => {
+            const isDifferentMonth =
+              index === 0 ||
+              formatArxivDate(article.arxivId) !==
+                formatArxivDate(articles[index - 1]!.arxivId)
 
-                  <Link
-                    className="w-[calc(100vw-68px)] md:w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
-                    href={`/${article.arxivId}`}
-                  >
-                    {article.simpleQuestion}
-                  </Link>
-                </Fragment>
-              )
-            })}
-          </div>
+            return (
+              <Fragment key={article.arxivId}>
+                {isDifferentMonth ? (
+                  <span className="text-sm text-muted-foreground mt-4">
+                    {formatArxivDate(article.arxivId)}
+                  </span>
+                ) : null}
+
+                <Link
+                  className="block my-2 w-[calc(100vw-68px)] md:w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
+                  href={`/${article.arxivId}`}
+                >
+                  {article.simpleQuestion}
+                </Link>
+              </Fragment>
+            )
+          })}
           {/* <span>Generated at {new Date().toISOString()}</span> */}
         </ScrollArea>
         <div className="flex flex-col items-center justify-center bg-muted w-full h-auto p-4 border-t border-border">

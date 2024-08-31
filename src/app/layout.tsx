@@ -28,7 +28,7 @@ export default function RootLayout({
       </head>
       <body
         className={cn(
-          'flex min-h-screen bg-background font-sans antialiased',
+          'flex h-screen bg-background font-sans antialiased',
           fontSans.variable,
         )}
       >
@@ -39,8 +39,8 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <SideMenu />
-          <main className="flex-1 px-4 py-5 md:px-8 md:ml-[280px]">
-            {children}
+          <main className="flex flex-col flex-1 p-4 pt-14 md:px-8 md:py-5 overflow-y-auto">
+            <div className="max-w-2xl">{children}</div>
           </main>
         </ThemeProvider>
       </body>
