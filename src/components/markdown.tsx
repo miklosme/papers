@@ -29,7 +29,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
     },
     ol: ({ node, children, ...props }: any) => {
       return (
-        <ol className="list-decimal ml-8" {...props}>
+        <ol className="list-decimal ml-6" {...props}>
           {children}
         </ol>
       )
@@ -43,7 +43,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
     },
     ul: ({ node, children, ...props }: any) => {
       return (
-        <ul className="list-decimal ml-8" {...props}>
+        <ul className="list-decimal ml-6" {...props}>
           {children}
         </ul>
       )

@@ -72,7 +72,7 @@ export default async function Page({
             Summary
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+            <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
               <Markdown>{data.summary}</Markdown>
             </div>
           </CollapsibleContent>
@@ -84,7 +84,7 @@ export default async function Page({
             Title and Abstract
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+            <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
               <p className="font-semibold">{data.title}</p>
               <p>{data.abstract}</p>
             </div>
@@ -97,23 +97,25 @@ export default async function Page({
             Takeaways
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
+            <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
               <Markdown>{data.takeaways}</Markdown>
             </div>
           </CollapsibleContent>
         </Collapsible>
 
-        <Collapsible>
-          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
-            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
-            Pseudocode
-          </CollapsibleTrigger>
-          <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted rounded-md p-4 my-2">
-              <Markdown>{data.pseudocode}</Markdown>
-            </div>
-          </CollapsibleContent>
-        </Collapsible>
+        {data.pseudocode.includes('No pseudocode block found') ? null : (
+          <Collapsible>
+            <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
+              <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+              Pseudocode
+            </CollapsibleTrigger>
+            <CollapsibleContent>
+              <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
+                <Markdown>{data.pseudocode}</Markdown>
+              </div>
+            </CollapsibleContent>
+          </Collapsible>
+        )}
       </>
     )
   } catch (error) {
