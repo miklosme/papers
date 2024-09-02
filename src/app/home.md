@@ -1,3 +1,11 @@
+# Daily Digest (September 2, 2024)
+
+Hold onto your headphones, AI enthusiasts! We've got a double dose of cutting-edge research that's about to shake up the world of multi-agent systems and localization technology.
+
+First up, get ready to level up your game design skills! A groundbreaking study is [revolutionizing how we analyze team composition balance](https://papers.miklos.dev/2408.17180) in PvP games. Gone are the days of relying solely on win rates. These researchers have cooked up two advanced measures that dive deep into the intricate dance of hero combinations and deck strategies. Using some fancy footwork with the Bradley-Terry model and vector quantization, they've managed to crack the code on predicting win probabilities and identifying those pesky dominant compositions. But here's the kicker – this isn't just for game designers. LLM developers, take note! This framework could be your secret weapon for creating more engaging agent-based games, training robust multi-agent systems, and even evaluating LLM performance in competitive scenarios.
+
+But wait, there's more! For all you localization lovers out there, we've got a [mind-blowing new method for pinpointing multiple sound sources in 3D space](https://papers.miklos.dev/2408.17096) using time-difference-of-arrival measurements. Picture this: a Bayesian estimation algorithm that can handle an unknown number of static sources, overcome non-linear measurement models, and tackle data association uncertainty. It's like giving your sensors superpowers! The researchers are pitting different particle flow strategies against each other in a high-stakes showdown. While this might not directly involve LLMs, the implications for multi-agent systems are huge. We're talking decentralized data fusion, next-level uncertainty handling, and scalability that'll make your head spin. So whether you're into robotics, surveillance, or just love a good localization challenge, this paper is a must-read!
+
 # Daily Digest (August 31, 2024)
 
 Hold onto your lab coats, AI enthusiasts! We've got a fresh batch of mind-bending research that's pushing the boundaries of artificial intelligence. Let's dive right in!
