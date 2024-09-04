@@ -302,7 +302,7 @@ const runScrape = inngest.createFunction(
 
       newPdfs.each((index, element) => {
         const href = $(element).attr('href')
-        if (href) {
+        if (href && !hrefList.includes(href)) {
           hrefList.push(href)
         }
       })
@@ -441,7 +441,7 @@ If no pseudocode blocks are found, simply respond with "No pseudocode block foun
       })
 
       const result = await generativeModel.generateContent(
-        `Rephrase the paper's title and abstract as a single, concise question that an LLM multi-agent application developer might ask. Only use a few words, maximum 10.
+        `Rephrase the paper's title and abstract as a single, concise question that an LLM multi-agent application developer might ask. Only use a few words, maximum 10. Only return the question, no labels, etc.
         
 <title>${title}</title>
 <abstract>${abstract}</abstract>`,
