@@ -12,7 +12,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
       return !inline && match ? (
         <pre
           {...props}
-          className={`${className} text-md w-full overflow-x-scroll my-4 rounded mt-2`}
+          className={`${className} text-md my-4 mt-2 w-full overflow-x-scroll rounded`}
         >
           <SyntaxHighlighter PreTag="div" language={match[1]} style={oneDark}>
             {String(children).trim()}
@@ -20,7 +20,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
         </pre>
       ) : (
         <code
-          className={`${className} text-sm bg-zinc-100 dark:bg-zinc-800 py-0.5 px-1 rounded`}
+          className={`${className} rounded bg-zinc-100 px-1 py-0.5 text-sm dark:bg-zinc-800`}
           {...props}
         >
           {children}
@@ -29,7 +29,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
     },
     ol: ({ node, children, ...props }: any) => {
       return (
-        <ol className="list-decimal ml-6" {...props}>
+        <ol className="ml-6 list-decimal" {...props}>
           {children}
         </ol>
       )
@@ -43,7 +43,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
     },
     ul: ({ node, children, ...props }: any) => {
       return (
-        <ul className="list-decimal ml-6" {...props}>
+        <ul className="ml-6 list-decimal" {...props}>
           {children}
         </ul>
       )
@@ -52,7 +52,7 @@ export const NonMemoizedMarkdown = ({ children }: { children: string }) => {
       return (
         <Link
           href={props.href}
-          className="text-blue-500 hover:text-blue-400 underline"
+          className="text-blue-500 underline hover:text-blue-400"
         >
           {children}
         </Link>

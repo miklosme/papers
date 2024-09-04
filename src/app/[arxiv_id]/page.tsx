@@ -54,7 +54,7 @@ export default async function Page({
         </div>
         <Button
           variant="link"
-          className="text-blue-500 hover:text-blue-400 pl-0"
+          className="pl-0 text-blue-500 hover:text-blue-400"
           asChild
         >
           <Link
@@ -62,29 +62,29 @@ export default async function Page({
             target="_blank"
           >
             {`https://arxiv.org/pdf/${params.arxiv_id}`}
-            <ExternalLinkIcon className="w-4 h-4 ml-2" />
+            <ExternalLinkIcon className="ml-2 h-4 w-4" />
           </Link>
         </Button>
 
         <Collapsible defaultOpen>
-          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
-            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+          <CollapsibleTrigger className="group flex items-center text-lg font-semibold">
+            <ChevronDown className="mr-2 h-4 w-4 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
             Summary
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
+            <div className="-mx-4 my-2 flex flex-col gap-4 bg-muted p-4 md:mx-0 md:rounded-md">
               <Markdown>{data.summary}</Markdown>
             </div>
           </CollapsibleContent>
         </Collapsible>
 
         <Collapsible>
-          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
-            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+          <CollapsibleTrigger className="group flex items-center text-lg font-semibold">
+            <ChevronDown className="mr-2 h-4 w-4 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
             Title and Abstract
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
+            <div className="-mx-4 my-2 flex flex-col gap-4 bg-muted p-4 md:mx-0 md:rounded-md">
               <p className="font-semibold">{data.title}</p>
               <p>{data.abstract}</p>
             </div>
@@ -92,12 +92,12 @@ export default async function Page({
         </Collapsible>
 
         <Collapsible>
-          <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
-            <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+          <CollapsibleTrigger className="group flex items-center text-lg font-semibold">
+            <ChevronDown className="mr-2 h-4 w-4 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
             Takeaways
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
+            <div className="-mx-4 my-2 flex flex-col gap-4 bg-muted p-4 md:mx-0 md:rounded-md">
               <Markdown>{data.takeaways}</Markdown>
             </div>
           </CollapsibleContent>
@@ -105,12 +105,12 @@ export default async function Page({
 
         {data.pseudocode.includes('No pseudocode block found') ? null : (
           <Collapsible>
-            <CollapsibleTrigger className="flex items-center group text-lg font-semibold">
-              <ChevronDown className="h-4 w-4 mr-2 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
+            <CollapsibleTrigger className="group flex items-center text-lg font-semibold">
+              <ChevronDown className="mr-2 h-4 w-4 transition-transform duration-300 ease-in-out group-data-[state=open]:rotate-180" />
               Pseudocode
             </CollapsibleTrigger>
             <CollapsibleContent>
-              <div className="flex flex-col gap-4 bg-muted -mx-4 md:rounded-md md:mx-0 p-4 my-2">
+              <div className="-mx-4 my-2 flex flex-col gap-4 bg-muted p-4 md:mx-0 md:rounded-md">
                 <Markdown>{data.pseudocode}</Markdown>
               </div>
             </CollapsibleContent>

@@ -9,11 +9,11 @@ export default function NotFound() {
       <p>Could not find this paper</p>
       <Button
         variant="link"
-        className="mt-12 p-0 text-blue-500 hover:text-blue-400 h-auto"
+        className="mt-12 h-auto p-0 text-blue-500 hover:text-blue-400"
         asChild
       >
         <Link href="/">
-          <ArrowLeftIcon className="w-4 h-4 mr-2" />
+          <ArrowLeftIcon className="mr-2 h-4 w-4" />
           Return home
         </Link>
       </Button>

@@ -44,25 +44,22 @@ export async function SideMenu() {
 
   return (
     <>
-      <input type="checkbox" id="menu-toggle" className="hidden peer" />
+      <input type="checkbox" id="menu-toggle" className="peer hidden" />
       <label
         htmlFor="menu-toggle"
-        className="fixed top-4 left-4 z-50 md:hidden cursor-pointer flex peer-checked:hidden"
+        className="fixed left-4 top-4 z-50 flex cursor-pointer peer-checked:hidden md:hidden"
       >
-        <MenuIcon className="w-6 h-6 mr-2" />
+        <MenuIcon className="mr-2 h-6 w-6" />
       </label>
       <label
         htmlFor="menu-toggle"
-        className="fixed top-4 left-4 z-50 cursor-pointer hidden peer-checked:flex peer-checked:md:hidden md:hidden"
+        className="fixed left-4 top-4 z-50 hidden cursor-pointer peer-checked:flex md:hidden peer-checked:md:hidden"
       >
-        <CloseIcon className="w-6 h-6 mr-2" />
+        <CloseIcon className="mr-2 h-6 w-6" />
         Close
       </label>
       <div
-        className={`absolute md:relative flex flex-col bg-muted border-r border-border h-screen 
-          w-[calc(100%-2rem)] md:w-[280px] transition-transform duration-300 z-40
-          md:translate-x-0 -translate-x-full
-          peer-checked:translate-x-0`}
+        className={`absolute z-40 flex h-screen w-[calc(100%-2rem)] -translate-x-full flex-col border-r border-border bg-muted transition-transform duration-300 peer-checked:translate-x-0 md:relative md:w-[280px] md:translate-x-0`}
       >
         {/* <label
           htmlFor="menu-toggle"
@@ -71,15 +68,15 @@ export async function SideMenu() {
           Close
         </label> */}
 
-        <div className="flex justify-between items-center mt-10 md:mt-4 mx-4 mb-4">
-          <Button variant="link" className="p-0 h-auto" asChild>
+        <div className="mx-4 mb-4 mt-10 flex items-center justify-between md:mt-4">
+          <Button variant="link" className="h-auto p-0" asChild>
             <Link href="/">
               <h1 className="text-lg font-bold">Multi-agent papers</h1>
             </Link>
           </Button>
           <ThemeToggle />
         </div>
-        <ScrollArea className="flex flex-col flex-grow px-4">
+        <ScrollArea className="flex flex-grow flex-col px-4">
           {articles.map((article, index) => {
             const isDifferentMonth =
               index === 0 ||
@@ -89,13 +86,13 @@ export async function SideMenu() {
             return (
               <Fragment key={article.arxivId}>
                 {isDifferentMonth ? (
-                  <span className="text-sm text-muted-foreground mt-4">
+                  <span className="mt-4 text-sm text-muted-foreground">
                     {formatArxivDate(article.arxivId)}
                   </span>
                 ) : null}
 
                 <Link
-                  className="block my-2 w-[calc(100vw-68px)] md:w-[248px] text-sm text-primary underline-offset-4 hover:underline text-left truncate"
+                  className="my-2 block w-[calc(100vw-68px)] truncate text-left text-sm text-primary underline-offset-4 hover:underline md:w-[248px]"
                   href={`/${article.arxivId}`}
                 >
                   {article.simpleQuestion}
@@ -105,14 +102,14 @@ export async function SideMenu() {
           })}
           {/* <span>Generated at {new Date().toISOString()}</span> */}
         </ScrollArea>
-        <div className="flex flex-col items-center justify-center bg-muted w-full h-auto p-4 border-t border-border">
+        <div className="flex h-auto w-full flex-col items-center justify-center border-t border-border bg-muted p-4">
           <p className="mb-2 text-sm text-muted-foreground">
             Made by{' '}
             <a
               href="https://x.com/miklosme"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-primary hover:underline inline-flex items-center"
+              className="inline-flex items-center font-medium text-primary hover:underline"
             >
               @miklosme
               <XIcon className="ml-2 h-4 w-4" />
@@ -124,7 +121,7 @@ export async function SideMenu() {
               href="https://github.com/miklosme/papers"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-primary hover:underline inline-flex items-center"
+              className="inline-flex items-center font-medium text-primary hover:underline"
             >
               GitHub
               <GitHubIcon className="ml-2 h-4 w-4" />

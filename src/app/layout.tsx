@@ -39,7 +39,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <SideMenu />
-          <main className="flex flex-col flex-1 p-4 pt-14 md:px-8 md:py-5 overflow-y-auto">
+          <main className="flex flex-1 flex-col overflow-y-auto p-4 pt-14 md:px-8 md:py-5">
             <div className="max-w-2xl">{children}</div>
           </main>
         </ThemeProvider>
