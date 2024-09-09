@@ -1,3 +1,15 @@
+# Daily Digest (September 9, 2024)
+
+Hold onto your lab coats, AI enthusiasts! We've got a trio of groundbreaking papers that are pushing the boundaries of multi-agent systems and robotics. Let's dive right in!
+
+First up, we're tackling the world of [multi-agent combinatorial optimization](https://papers.miklos.dev/2409.03811) with PARCO. This new approach is like giving your AI agents a supercharged espresso shot, allowing them to make decisions simultaneously and collaborate more effectively. Imagine a swarm of delivery drones working in perfect harmony to optimize routes – that's the kind of efficiency we're talking about here, folks!
+
+But wait, there's more! We're hitting the highway with [BK-PBS](https://papers.miklos.dev/2409.03881), a revolutionary algorithm that's cracking the code on how autonomous vehicles can play nice with human drivers. It's like teaching your robot car to be a mind reader, predicting human behavior and smoothly merging into traffic. This isn't just about avoiding fender benders; it's about creating a harmonious dance between man and machine on our roads.
+
+Last but not least, we've got SPACE – the ultimate playground for [robot task allocation algorithms](https://papers.miklos.dev/2409.04230). This simulator is like SimCity for swarm robotics, allowing researchers to test and compare different strategies without the need for an army of actual robots. It's a game-changer for developing more efficient ways to coordinate large groups of robots, whether they're exploring Mars or organizing your warehouse.
+
+These papers are lighting the way forward in multi-agent systems, showing us how AI can work smarter, not harder, to solve complex real-world problems. Stay tuned, because the future of collaborative AI is looking brighter than ever!
+
 # Daily Digest (September 6, 2024)
 
 Buckle up, AI enthusiasts! We've got a trio of mind-bending papers that are pushing the boundaries of multi-agent systems. Let's dive right in!
