@@ -1,3 +1,15 @@
+# Daily Digest (September 11, 2024)
+
+Hold onto your lab coats, AI enthusiasts! We've got a trio of mind-bending papers that'll make your neural networks tingle with excitement.
+
+First up, we're diving into the blockchain revolution with a fresh perspective on [responsible development](https://papers.miklos.dev/2409.06179). Forget the crypto-hype – this paper introduces the STEADI principles, a game-changing framework that could finally unlock blockchain's true potential. It's not just about decentralization anymore; we're talking sustainability, ethics, and inclusivity. And for you multi-agent AI aficionados out there, the Actor-Network Theory approach might just spark some revolutionary ideas for your next project.
+
+But wait, there's more! Ever wondered how to find a needle in a three-dimensional haystack? Well, a team of brilliant minds has cracked the code for [3D source localization using robot swarms](https://papers.miklos.dev/2409.05995). Picture this: robots dancing on the surface of a sphere, using Voronoi formations to sniff out signals with uncanny precision. It's like a high-tech game of hot-and-cold, and the implications for multi-agent AI systems are absolutely electrifying.
+
+Last but certainly not least, we've got a toolkit that'll make your multi-agent simulations soar. Say hello to [Foragax](https://papers.miklos.dev/2409.06345), the Swiss Army knife of foraging simulations. This bad boy can handle thousands of agents simultaneously, all while keeping things differentiable and hardware-accelerated. Whether you're modeling ant colonies or testing the next generation of LLM-powered swarms, Foragax is about to become your new best friend in the lab.
+
+That's all for now, folks! Keep those algorithms humming, and we'll catch you on the next cutting edge of AI research.
+
 # Daily Digest (September 10, 2024)
 
 Buckle up, AI enthusiasts! We're diving into the latest breakthroughs in multi-agent systems that are reshaping the landscape of artificial intelligence.
