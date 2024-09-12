@@ -1,3 +1,17 @@
+# Daily Digest (September 12, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research that's pushing the boundaries of artificial intelligence. Let's dive right in!
+
+Are you ready for AI agents with social skills? Researchers have developed [ITCMA-S](https://papers.miklos.dev/2409.06750), a groundbreaking architecture that's giving LLM-based agents a crash course in social etiquette. This isn't just small talk – we're talking about agents that can form cliques, elect leaders, and even organize group activities. It's like high school, but with less drama and more algorithms!
+
+But what good are social agents without a world to explore? Fear not! A team of mad scientists has cooked up a way to [generate diverse maps](https://papers.miklos.dev/2409.06888) for multi-agent path finding. Using quality diversity algorithms and neural cellular automata, they're creating virtual playgrounds that will put your pathfinding algorithms through their paces. It's like an obstacle course for AI, and trust me, you'll want front-row seats for this showdown!
+
+Speaking of teamwork, let's talk about communication. The [DCMAC protocol](https://papers.miklos.dev/2409.07127) is revolutionizing how multi-agent systems share information. Forget about oversharing – these agents are learning to read the room, understand their teammates' needs, and tailor their messages accordingly. It's like giving your AI a crash course in emotional intelligence!
+
+Last but not least, we've got a game-changer for federated learning. The [FedIT-U2S framework](https://papers.miklos.dev/2409.07136) is turning messy, unstructured text into a goldmine for training LLMs. It's like having an army of virtual librarians organizing your data while respecting privacy. This could be the key to unlocking collaborative AI training across diverse domains without compromising sensitive information.
+
+That's all for now, folks! Keep your algorithms sharp and your neural networks firing – the future of AI is looking brighter (and more social) than ever!
+
 # Daily Digest (September 11, 2024)
 
 Hold onto your lab coats, AI enthusiasts! We've got a trio of mind-bending papers that'll make your neural networks tingle with excitement.
