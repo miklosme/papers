@@ -1,3 +1,15 @@
+# Daily Digest (September 13, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research that's sure to spark your synapses. Let's dive right in!
+
+First up, we're tackling the age-old question: does slow and steady really win the race? A groundbreaking study on [inertial coordination games](https://papers.miklos.dev/2409.08145) reveals that when it comes to multi-agent systems, learning speed is everything. Slow learners tend to play it safe, while fast learners are more likely to take risks based on their initial impressions. This could be a game-changer for designing AI systems that need to coordinate effectively!
+
+But what if your AI agents are social butterflies? New research shows that [reinforcement learning](https://papers.miklos.dev/2409.07932) can help them navigate complex social networks without needing a bird's eye view. By leveraging local information and learned strategies, these agents can find efficient paths through the digital grapevine. It's like giving your AI a social GPS!
+
+Last but not least, we're revolutionizing how machines perceive the world around them. Enter [CollaMamba](https://papers.miklos.dev/2409.07714), the superhero of multi-agent perception. This innovative system helps AI agents share what they see more efficiently, using a clever trick called "Mamba" to process spatial and temporal data. It's like giving your AI team a shared pair of super-powered binoculars!
+
+That's all for now, folks. Keep your algorithms sharp and your datasets clean – who knows what groundbreaking discoveries await us tomorrow!
+
 # Daily Digest (September 12, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research that's pushing the boundaries of artificial intelligence. Let's dive right in!
