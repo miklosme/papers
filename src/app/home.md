@@ -1,3 +1,15 @@
+# Daily Digest (September 16, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's sure to spark your synapses.
+
+First up, let's dive into the world of [human-AI teamwork](https://papers.miklos.dev/2409.08811). Ever wondered how an AI's theory of mind impacts real-time collaboration? Well, buckle up! While it might not boost performance, it certainly enhances human understanding of our silicon sidekicks. But here's the kicker - sometimes silence is golden. The best performance was achieved when both humans and AIs kept mum. It's all about that implicit communication, folks!
+
+Now, imagine a swarm of AI agents working together in perfect harmony. Sounds like science fiction? Think again! Researchers have cracked the code on [building reliable AI swarms](https://papers.miklos.dev/2409.08386) in untrusted environments. Using LLMs as response classifiers, these swarms can produce high-quality outputs faster than you can say "artificial intelligence." We're talking less than 125 ms validation latency. That's faster than a blink of an eye!
+
+Last but not least, we're venturing into the realm of [complex dynamical networks](https://papers.miklos.dev/2409.08404). Picture a group of AI agents trying to sync up while their communication network is constantly shifting. Sounds like a nightmare, right? Well, these researchers have developed a method to keep everyone on the same page, even when the playbook keeps changing. This could be a game-changer for multi-agent LLM systems, folks!
+
+That's all for today's AI digest. Remember, in the world of artificial intelligence, today's science fiction is tomorrow's reality. Stay curious, stay informed, and keep those algorithms running!
+
 # Daily Digest (September 13, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research that's sure to spark your synapses. Let's dive right in!
