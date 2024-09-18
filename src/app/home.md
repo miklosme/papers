@@ -1,3 +1,19 @@
+# Daily Digest (September 18, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer for building modular LLM agents. The [LLM-Agent-UMF framework](https://papers.miklos.dev/2409.11393) is here to revolutionize how we design and understand multi-agent systems. It introduces the concept of a "core-agent" as the central coordinator, paving the way for more efficient and flexible agent architectures. This could be the key to unlocking the next generation of AI assistants!
+
+But wait, there's more! Can AI agents actually reproduce scientific research? The [CORE-Bench](https://papers.miklos.dev/2409.11363) is putting them to the test. This benchmark is challenging AI to tackle the crucial task of computational reproducibility across multiple scientific disciplines. While the best agents are currently hitting only 21% accuracy on the toughest tasks, this opens up a world of possibilities for automating and verifying scientific work.
+
+Now, let's talk about shaping the future – literally. Researchers are exploring how [AI can guide viral evolution](https://papers.miklos.dev/2409.10588) to develop better anti-viral therapies. By simulating viral adaptation, they've created 'shaper' antibodies that outperform traditional approaches. This isn't just about fighting viruses; it's a powerful example of how AI can be used to influence complex adaptive systems.
+
+In the realm of robotics, we're seeing exciting developments in multi-robot task planning. The [DaSH framework](https://papers.miklos.dev/2409.10692) is learning to extract reusable strategies from successful plans, making multi-robot coordination more efficient than ever. This could be a game-changer for everything from warehouse logistics to search and rescue operations.
+
+But what about when humans and robots need to work together? Enter [SIFTOM](https://papers.miklos.dev/2409.10849), a system that helps robots understand spoken instructions even in noisy environments. By combining speech recognition with a theory of mind model, SIFTOM is bringing us one step closer to natural human-robot collaboration.
+
+Lastly, we've got a breakthrough in large-scale simulations. The [AgentTorch framework](https://papers.miklos.dev/2409.10568) is using LLMs to power agent-based models with millions of entities. This isn't just academic – it's being used right now for real-world policy-making and scientific discovery. The ability to simulate complex systems at this scale could revolutionize our understanding of everything from pandemics to economic systems.
+
+That's all for today, folks! Remember, the future of AI is being written right now, and you're getting the inside scoop. Stay curious, stay innovative, and we'll see you next time for more groundbreaking AI research!
+
 # Daily Digest (September 17, 2024)
 
 Attention all AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a bang!
