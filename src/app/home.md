@@ -1,3 +1,23 @@
+# Daily Digest (September 19, 2024)
+
+Buckle up, AI enthusiasts! We've got a thrilling roundup of cutting-edge research that's pushing the boundaries of multi-agent systems and robotics. Let's dive right in!
+
+First up, we're taking a wild ride through the world of [multi-vehicle motion prediction](https://papers.miklos.dev/2409.11676). Imagine a system that can predict the chaotic dance of cars on the road with uncanny accuracy. That's exactly what the RHINO framework does, using hypergraphs to model complex group interactions. It's like giving your autonomous vehicle a crystal ball!
+
+But wait, there's more! Ever wondered how to keep AI agents from going haywire when learning together? The [XP-MARL framework](https://papers.miklos.dev/2409.11852) has cracked the code. By prioritizing agents and letting the big dogs eat first, it's bringing stability to the wild west of multi-agent learning. In tests with automated vehicles, it improved safety by a whopping 84.4%!
+
+Speaking of teamwork, how about robots that can navigate crowded spaces like pros? The [Hyper-SAMARL system](https://papers.miklos.dev/2409.11561) is making it happen, using hypergraphs (they're so hot right now!) to model the complex dance between robots, humans, and points of interest. It's like giving your robot team a social sixth sense!
+
+But let's not forget the human touch! The [HARP framework](https://papers.miklos.dev/2409.11741) is bringing non-expert humans into the loop, allowing them to guide AI teams with minimal effort. It's so effective, it achieved a 100% win rate in StarCraft II. Talk about a power-up for human-AI collaboration!
+
+Now, for all you data nerds out there, we've got a wake-up call. A new study is shining a spotlight on the [critical role of data in offline multi-agent reinforcement learning](https://papers.miklos.dev/2409.12001). They're not just talking the talk – they've standardized over 80 datasets and created tools to analyze them. It's time to give your data the attention it deserves!
+
+In the world of hardware design, [AIVRIL](https://papers.miklos.dev/2409.11411) is making waves. This multi-agent LLM framework is revolutionizing RTL code generation, with a Code Agent and Review Agent working in tandem to produce high-quality, verified designs. It's like having a tireless team of expert engineers at your fingertips!
+
+Finally, we're getting down and dirty with some [robot obstacle traversal](https://papers.miklos.dev/2409.11709). Researchers have discovered that the connection length between simple robots can make or break their ability to navigate tricky terrain. It's a fascinating look at how even basic rules can lead to complex, emergent behaviors in multi-agent systems.
+
+That's all for now, folks! Keep pushing those boundaries and stay tuned for more groundbreaking AI research!
+
 # Daily Digest (September 18, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer for building modular LLM agents. The [LLM-Agent-UMF framework](https://papers.miklos.dev/2409.11393) is here to revolutionize how we design and understand multi-agent systems. It introduces the concept of a "core-agent" as the central coordinator, paving the way for more efficient and flexible agent architectures. This could be the key to unlocking the next generation of AI assistants!
