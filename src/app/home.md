@@ -1,3 +1,15 @@
+# Daily Digest (September 23, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a triple threat of cutting-edge research that's about to revolutionize how AI agents work together in complex, real-world scenarios.
+
+First up, let's talk about factory floors getting a serious upgrade. Researchers have developed a [leader-follower multi-agent reinforcement learning system](https://papers.miklos.dev/2409.13571) that's tackling the notoriously tricky problem of real-time dynamic scheduling in manufacturing. This isn't your grandpa's production line – we're talking about AI agents working in harmony to optimize schedules on the fly, adapting to demand changes faster than you can say "supply chain disruption."
+
+But wait, there's more! Ever wonder how we can make robots better at exploring unknown environments? Scientists have cracked the code with [information-driven multi-agent path finding](https://papers.miklos.dev/2409.13065). This clever system has autonomous vehicles working together to uncover hidden phenomena, all while avoiding redundant observations and navigating communication blackouts. It's like a high-tech treasure hunt, and these AI explorers are finding the good stuff up to 200% faster than their competitors!
+
+Last but not least, we're diving into the world of AI resilience. A groundbreaking study introduces the concept of [cooperative resilience](https://papers.miklos.dev/2409.13187), measuring how well AI agents can bounce back from disruptions and keep working towards their goals. Whether it's environmental curveballs or rogue agents stirring up trouble, this research is paving the way for AI systems that can take a licking and keep on ticking.
+
+That's all for now, folks! Keep your algorithms sharp and your training data clean – the future of multi-agent AI is looking brighter than ever!
+
 # Daily Digest (September 20, 2024)
 
 Hold onto your steering wheels, AI enthusiasts! We're diving into a traffic jam of cutting-edge research that's set to revolutionize how we think about artificial intelligence and its real-world applications.
