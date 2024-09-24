@@ -1,3 +1,21 @@
+# Daily Digest (September 24, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer for online planning algorithms. Researchers have cracked the code on [valuing information in delayed action planning](https://papers.miklos.dev/2409.13754), introducing entropy into the decision-making process. This could revolutionize how LLM-based agents strategically acquire information in complex environments.
+
+Speaking of revolutionary, imagine your smartphone becoming a diagnostic tool for muscle disorders! A new [gait analysis system](https://papers.miklos.dev/2409.14561) uses agent-based modeling to simulate muscle groups and neural networks to detect abnormalities. This approach could inspire similar architectures in LLM-based systems for improved reliability and interpretability.
+
+Now, let's talk fairness in resource allocation. A new algorithm called [Bounded Overspending (BOS)](https://papers.miklos.dev/2409.15005) is shaking up the world of participatory budgeting. While not directly about LLMs, this method offers valuable insights for fairly distributing resources among multiple agents with conflicting goals – a crucial challenge in multi-agent systems.
+
+Shifting gears to energy management, researchers have developed a [clever strategy for distributing power loads](https://papers.miklos.dev/2409.14293) in smart grids with mobile devices like EVs. This decentralized approach mirrors the challenges of managing resources in complex LLM-powered applications and adapting to dynamic environments.
+
+For the transportation nerds out there, we've got two exciting developments in autonomous driving. First, a [new Monte Carlo Tree Search algorithm](https://papers.miklos.dev/2409.13783) is revolutionizing multi-vehicle cooperative driving. Then, [SPformer](https://papers.miklos.dev/2409.15105), a transformer-based architecture, is taking connected automated vehicle (CAV) decision-making to the next level.
+
+In the realm of human-AI collaboration, researchers are exploring how [AI assistants can help pilots maintain balance](https://papers.miklos.dev/2409.14565) in disorienting conditions. Interestingly, they found that human-like strategies were preferred, even if suboptimal – a crucial insight for designing trustworthy LLM-based assistants.
+
+Finally, we've got some groundbreaking work on [multi-agent LLM collaboration](https://papers.miklos.dev/2409.13753). Researchers are investigating whether multiple smaller LLMs working together can outperform individual models, mimicking human teamwork. While challenges remain, this approach shows promise for solving complex problems in simulated environments.
+
+That's all for today's AI digest. Remember, the future of AI is collaborative, adaptive, and increasingly human-like. Stay curious, and keep pushing those boundaries!
+
 # Daily Digest (September 23, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a triple threat of cutting-edge research that's about to revolutionize how AI agents work together in complex, real-world scenarios.
