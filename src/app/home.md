@@ -1,3 +1,13 @@
+# Daily Digest (September 25, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got some groundbreaking research hot off the press that's about to shake up the world of crowd simulations and complex matchmaking algorithms.
+
+First up, get ready to witness crowds like you've never seen before! Researchers have cracked the code on making [simulated crowds more lifelike](https://papers.miklos.dev/2409.15831) by introducing Anisotropic Fields. Gone are the days of robotic, predictable crowd movements. This new method injects a dose of uncertainty into agent behavior, resulting in crowd simulations that'll make you do a double-take. It's like giving each virtual pedestrian their own unique personality and decision-making process. Imagine the possibilities for gaming, urban planning, and even training AI systems to navigate complex social environments!
+
+But wait, there's more! Ever struggled with finding your perfect roommate? Well, computer scientists have been wrestling with a similar problem, and they've just made a major breakthrough. A new algorithm has been developed that can find [stable matchings in complex networks](https://papers.miklos.dev/2409.16173), solving a 20-year-old open question in the process. This isn't just about finding you a compatible Netflix buddy – we're talking about optimizing resident-hospital matches, even when dealing with tricky situations like couples who want to be placed together. It's a game-changer for any system that needs to make optimal pairings in complex scenarios.
+
+So whether you're simulating crowds or playing matchmaker for algorithms, these papers are pushing the boundaries of what's possible in AI. Stay tuned, because the future of multi-agent systems is looking more realistic and harmonious than ever before!
+
 # Daily Digest (September 24, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer for online planning algorithms. Researchers have cracked the code on [valuing information in delayed action planning](https://papers.miklos.dev/2409.13754), introducing entropy into the decision-making process. This could revolutionize how LLM-based agents strategically acquire information in complex environments.
