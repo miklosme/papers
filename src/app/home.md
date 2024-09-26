@@ -1,3 +1,13 @@
+# Daily Digest (September 26, 2024)
+
+Hold onto your antennas, AI enthusiasts! We're diving into the cutting-edge world of wireless networks with a groundbreaking study that's about to shake up the way we think about radio resource management. 
+
+Ever wondered if [offline reinforcement learning](https://papers.miklos.dev/2409.16764) could outperform its online counterpart in managing radio resources? Well, buckle up, because the results are in, and they're nothing short of revolutionary! This innovative approach is not only surpassing conventional models but also leaving online RL in the dust with a jaw-dropping 16% performance gain.
+
+But wait, there's more! This isn't just about crunching numbers faster. By leveraging a static dataset and considering the wild world of uncertainties in real-world environments, this offline and distributional RL scheme is paving the way for practical applications where real-time interaction is a no-go. It's like having a crystal ball for wireless networks, predicting and optimizing without ever needing to touch the live environment!
+
+So, whether you're a wireless wizard or an AI aficionado, this research is set to redefine the boundaries of what's possible in intelligent network management. Don't blink, or you might miss the next big leap in wireless technology!
+
 # Daily Digest (September 25, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got some groundbreaking research hot off the press that's about to shake up the world of crowd simulations and complex matchmaking algorithms.
