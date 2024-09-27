@@ -1,3 +1,25 @@
+# Daily Digest (September 27, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of AI deliberation.
+
+Are you tired of your LLMs giving you a one-sided view? Well, say hello to [Plurals](https://papers.miklos.dev/2409.17213), a system that's shaking up the AI decision-making scene. This Python library creates a virtual roundtable of AI agents, each with its own persona, ready to duke it out in a battle of ideas. It's like hosting a debate club in your computer, but with less pizza and more processing power.
+
+Speaking of AI assistants, meet [AssistantX](https://papers.miklos.dev/2409.17655), the office robot that's about to make your coffee runs obsolete. This LLM-powered marvel uses a multi-agent architecture to navigate the physical world, understand your requests, and even collaborate with human coworkers. It's like having a super-smart intern who never needs sleep or a paycheck.
+
+But what happens when AI agents need to work together without being forced to play nice? Researchers are tackling this problem head-on with a [game-theoretic model](https://papers.miklos.dev/2409.17214) of teamwork. They're using multi-armed bandits (no, not the Vegas kind) to help agents learn effective strategies in complex, mixed-motive scenarios. It's like teaching robots the art of office politics, minus the water cooler gossip.
+
+Now, let's talk about trust. In high-stakes situations, we need AI that can [explain its decisions](https://papers.miklos.dev/2409.18052). Enter the world of Language-Endowed Intelligent Agents (LEIAs), a hybrid approach that combines the power of LLMs with the transparency of symbolic AI. It's like giving your AI a built-in translator for its own thoughts.
+
+But what about the physical world? Researchers are pushing the boundaries of [safe navigation for multi-robot systems](https://papers.miklos.dev/2409.17379), using fancy math (Exponential Control Barrier Functions, anyone?) to keep quadrotors from playing bumper cars in the sky. It's crucial work for keeping our future robot overlords from accidentally taking out the neighborhood.
+
+In the industrial world, LLMs are [making waves in automation control](https://papers.miklos.dev/2409.18009). Picture a factory where machines respond to natural language commands and adapt to unexpected events. It's like giving your production line a crash course in improv comedy.
+
+For those of you dreaming of robot teammates, the [HARMONIC framework](https://papers.miklos.dev/2409.18037) is music to your ears. It's bridging the gap between high-level AI reasoning and low-level robot control, creating machines that can explain their actions and work seamlessly with humans. It's one step closer to having a C-3PO of your very own.
+
+Last but not least, we're seeing breakthroughs in [AI communication for ad-hoc teams](https://papers.miklos.dev/2409.17348). Researchers are using LLMs to help AI agents develop a shared language that's actually understandable to humans. It's like creating a universal translator for the AI world, minus the Star Trek technobabble.
+
+That's all for now, folks! Keep your neural networks firing, and we'll catch you next time on the cutting edge of AI research!
+
 # Daily Digest (September 26, 2024)
 
 Hold onto your antennas, AI enthusiasts! We're diving into the cutting-edge world of wireless networks with a groundbreaking study that's about to shake up the way we think about radio resource management. 
