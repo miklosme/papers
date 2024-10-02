@@ -1,3 +1,17 @@
+# Daily Digest (October 2, 2024)
+
+Buckle up, AI enthusiasts! We've got a fresh batch of mind-bending research hot off the press, and it's time to dive in!
+
+First up, we're tackling the age-old problem of "hurry up and wait" in AI agent planning. Researchers have cooked up a spicy new method called [Interactive Speculative Planning](https://papers.miklos.dev/2410.00079) that's all about getting those LLM-based agents to think faster on their feet. By cleverly combining a quick-and-dirty "approximation agent" with a more precise "target agent," they're serving up speedier results without sacrificing accuracy. But wait, there's more! They've thrown human interaction into the mix, letting users peek under the hood and even interrupt the process. It's like giving your AI a turbo boost and a co-pilot all at once!
+
+Speaking of teamwork, let's talk about keeping secrets in a crowd. A groundbreaking algorithm for [decentralized state estimation](https://papers.miklos.dev/2410.00272) is making waves in the multi-agent AI world. This clever approach lets agents share just enough information to get the job done, without spilling all their beans. It's perfect for those dynamic, ever-changing networks where privacy is key and bandwidth is tight. The best part? It performs just as well (or even better) than methods that require a bird's-eye view of the entire system. Talk about working smarter, not harder!
+
+Now, let's switch gears to the wild world of AI safety testing. Researchers are shaking things up by introducing [biologically and economically inspired benchmarks](https://papers.miklos.dev/2410.00081) that'll make your average AI agent sweat. We're talking about balancing multiple objectives, dealing with diminishing returns, and even sharing resources in a multi-agent playground. It's like throwing your AI into a real-world economics simulator and seeing if it can keep its head above water. These new benchmarks are pushing the envelope on what it means to create truly safe and aligned AI systems.
+
+Last but not least, we're taking a virtual stroll through the city with the [Patterns of Life Simulation](https://papers.miklos.dev/2410.00185). This powerhouse can generate massive amounts of realistic human mobility data, perfect for putting your LLM-based agents through their paces in complex, real-world scenarios. With the ability to simulate up to 100,000 individual agents over years of time, and the flexibility to model any region on Earth using OpenStreetMap data, this tool is a game-changer for anyone looking to test and refine their multi-agent systems in lifelike environments.
+
+That's all for now, folks! Keep your algorithms sharp and your neural networks finely tuned. Until next time, this is your AI research roundup signing off!
+
 # Daily Digest (October 1, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research that's pushing the boundaries of multi-agent systems and decision-making under uncertainty. Let's dive right in!
