@@ -1,3 +1,15 @@
+# Daily Digest (October 3, 2024)
+
+Ladies and gentlemen, buckle up for a thrilling ride through the cutting-edge world of AI research! We've got a jam-packed lineup of groundbreaking papers that will knock your socks off.
+
+First up, we're diving into the realm of [multi-agent reinforcement learning](https://papers.miklos.dev/2410.01706) with Sable, a game-changing algorithm that's turning heads in the AI community. This bad boy is not just another pretty face – it's a powerhouse that can handle over a thousand agents while keeping its cool. Imagine orchestrating a symphony of AI agents with the finesse of a master conductor, all while using less memory than your grandma's flip phone. That's Sable for you, folks!
+
+But wait, there's more! Ever wondered if AI agents could be secret gossipers, spreading stereotypes like wildfire at a high school cafeteria? Well, hold onto your hats because [new research](https://papers.miklos.dev/2410.01763) shows that even without a mean bone in their digital bodies, these agents can perpetuate stereotypes faster than you can say "unconscious bias." It's not about bad intentions, folks – it's all about the pressure to coordinate efficiently. Who knew AI could be so... human?
+
+Last but certainly not least, we've got a solution for all you impatient AI enthusiasts out there. Tired of waiting eons for your multi-agent pathfinding systems to compute? Say hello to [WinC-MAPF](https://papers.miklos.dev/2410.01798), the speedster of the AI world. This framework is like giving your agents a GPS on steroids – they'll find their way around obstacles faster than you can say "recalculating." And the best part? It guarantees they'll reach their goals, no matter how tough the terrain. It's like having a team of AI superheroes at your fingertips!
+
+That's all for today's AI digest, folks. Remember, in the world of artificial intelligence, yesterday's science fiction is today's research paper. Stay curious, stay innovative, and keep pushing those boundaries!
+
 # Daily Digest (October 2, 2024)
 
 Buckle up, AI enthusiasts! We've got a fresh batch of mind-bending research hot off the press, and it's time to dive in!
