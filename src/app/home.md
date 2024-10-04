@@ -1,3 +1,23 @@
+# Daily Digest (October 4, 2024)
+
+Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and large language models. We've got a packed lineup of cutting-edge research that's sure to spark your imagination.
+
+First up, we're diving into the world of [multi-agent decision-making](https://papers.miklos.dev/2410.02664). Researchers have cracked the code on how to make LLMs solve complex multi-agent problems by integrating a language-guided simulator into the reinforcement learning pipeline. This groundbreaking approach is generating consistent interaction sequences and explainable reward functions, paving the way for more robust AI systems.
+
+But wait, there's more! Ever wondered how to train cooperative agents using offline data? Well, wonder no more! A new algorithm called [ComaDICE](https://papers.miklos.dev/2410.01954) is revolutionizing offline multi-agent reinforcement learning. By incorporating stationary distribution regularization, it's achieving superior performance across a range of challenging tasks.
+
+Now, let's talk about storytelling. Imagine a room full of AI agents collaborating to write the next bestseller. That's exactly what [AGENTS' ROOM](https://papers.miklos.dev/2410.02603) is doing. This innovative framework is breaking down the complex task of narrative writing into manageable subtasks, each handled by a specialized agent. The result? Stories that are preferred by expert evaluators over those produced by single LLMs.
+
+But we're not stopping there! For those of you interested in robotics, we've got a treat. [SwarmCVT](https://papers.miklos.dev/2410.02510) is revolutionizing path planning for large-scale robot swarms. Using a clever technique called Gaussian distribution-based centroidal Voronoi tessellation, it's optimizing movement and avoiding collisions like never before.
+
+Concerned about the cost of all this inter-agent communication? Fear not! [AgentPrune](https://papers.miklos.dev/2410.02506) is here to slash those token costs. This ingenious framework identifies and removes redundant messages, making multi-agent systems more economical without sacrificing performance.
+
+But how do we coordinate all these agents effectively? Enter the world of [agent-oriented planning](https://papers.miklos.dev/2410.02189). This new framework is breaking down complex queries into subtasks and assigning them to the most suitable agents. It's like having a super-efficient AI project manager!
+
+And finally, we're witnessing the emergence of collective intelligence in multi-agent reinforcement learning. The [Bottom Up Network](https://papers.miklos.dev/2410.02516) approach is treating swarms of agents as a single entity, dynamically establishing connections only when necessary. The result? Superior performance with dramatically reduced computational costs.
+
+That's all for now, folks! Stay tuned for more groundbreaking developments in the world of AI and multi-agent systems. The future is looking brighter – and smarter – than ever!
+
 # Daily Digest (October 3, 2024)
 
 Ladies and gentlemen, buckle up for a thrilling ride through the cutting-edge world of AI research! We've got a jam-packed lineup of groundbreaking papers that will knock your socks off.
