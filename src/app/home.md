@@ -1,3 +1,15 @@
+# Daily Digest (October 7, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a trio of groundbreaking papers that are pushing the boundaries of machine learning and robotics. Let's dive right in!
+
+First up, get ready to have your mind blown by [AutoML-Agent](https://papers.miklos.dev/2410.02958), a revolutionary multi-agent framework that's taking automated machine learning to the next level. This bad boy can handle everything from data retrieval to model deployment, all with a simple natural language input. It's like having a team of AI experts at your fingertips, working in perfect harmony to deliver deployment-ready models. With its retrieval-augmented planning and multi-stage verification, AutoML-Agent is setting a new standard for efficiency and accuracy in the AutoML game.
+
+But wait, there's more! For all you robotics fanatics out there, we've got a game-changer in the world of [multi-robot path planning](https://papers.miklos.dev/2410.03072). Say hello to MMD, a brilliant fusion of diffusion models and classical search techniques that's solving the complex puzzle of coordinating multiple robots in large-scale environments. This isn't just about avoiding collisions; it's about creating smooth, data-driven motions that could revolutionize everything from warehouse logistics to swarm robotics.
+
+Last but not least, we're taking multi-task learning to new heights with a [distributed approach](https://papers.miklos.dev/2410.03403) that's perfect for our increasingly connected world. This method allows multiple nodes – think of them as individual AI agents – to learn collaboratively across a network, tackling different tasks while sharing knowledge and preserving privacy. It's a two-timescale tango of local and global updates that's set to change the game for everything from environmental modeling to personalized education.
+
+That's all for now, AI aficionados! Keep those algorithms humming and stay tuned for more cutting-edge developments in the world of artificial intelligence!
+
 # Daily Digest (October 4, 2024)
 
 Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and large language models. We've got a packed lineup of cutting-edge research that's sure to spark your imagination.
