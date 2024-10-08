@@ -1,3 +1,29 @@
+# Daily Digest (October 8, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of multi-agent reinforcement learning. 
+
+Are you tired of constantly calling expensive LLMs during training? Well, [YOLO-MARL](https://papers.miklos.dev/2410.03997) is here to save the day! This ingenious framework leverages LLMs for high-level planning, but only calls them once before training begins. The result? Improved coordination without breaking the bank. It's like having a brilliant strategist set the game plan, then letting your agents run with it.
+
+Speaking of coordination, ever wonder how social media communities manage to function without central control? A fascinating new study suggests that [social support acts as a currency](https://papers.miklos.dev/2410.04619) in these digital ecosystems, much like money in traditional markets. This insight could revolutionize how we design multi-agent systems, especially when information is limited.
+
+But what happens when some agents go rogue? A new paper tackles the thorny issue of [detecting malicious agents](https://papers.miklos.dev/2410.04547) in multi-robot networks, even when communication is spotty. This research could be crucial for developing more robust and secure LLM-based multi-agent systems.
+
+On a more harmonious note, researchers have uncovered how [group pressure drives consensus](https://papers.miklos.dev/2410.04301) in opinion dynamics. By introducing a "public opinion" element, we might be able to nudge LLM-based systems towards agreement without overriding individual outputs.
+
+In the world of coding, a simple conversational pipeline based on LLAMA 3.1 70B is showing promise in [automatic program repair](https://papers.miklos.dev/2410.04485). This approach, which involves giving the AI feedback on whether code changes passed tests, is generating valid patches at a rate comparable to state-of-the-art methods.
+
+For those interested in AI education, a new algorithm called [StratL](https://papers.miklos.dev/2410.03781) is helping to steer LLMs towards more effective teaching strategies. By introducing "tutoring intents," researchers are making LLMs better at promoting learning rather than just providing answers.
+
+Ever wished you could put LLMs on trial? A novel framework proposes using LLMs as [advocates, judges, and juries](https://papers.miklos.dev/2410.04663) to evaluate each other's outputs. This courtroom-inspired approach could provide a more dynamic and comprehensive evaluation process.
+
+In a fascinating study on AI social dynamics, researchers found that LLMs can [achieve social balance and form factions](https://papers.miklos.dev/2410.04054) after repeated interactions. The specifics vary by model, but this research offers intriguing insights into how AI agents might navigate complex social landscapes.
+
+For those working on large-scale robotic systems, a new [Kubernetes-based scheduling mechanism](https://papers.miklos.dev/2410.04920) is addressing the scalability challenges of centralized control. This cloud-based approach could have implications for managing resources in LLM-based multi-agent systems.
+
+Finally, if you've ever dreamed of simulating entire societies with AI, [GenSim](https://papers.miklos.dev/2410.04360) might be your new best friend. This platform can simulate up to 100,000 LLM-powered agents simultaneously, with built-in error correction to boot. It's a brave new world for social science research!
+
+That's all for today's AI digest. Remember, the future is multi-agent, and it's looking brighter than ever!
+
 # Daily Digest (October 7, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a trio of groundbreaking papers that are pushing the boundaries of machine learning and robotics. Let's dive right in!
