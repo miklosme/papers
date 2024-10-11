@@ -1,3 +1,23 @@
+# Daily Digest (October 11, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a double dose of multi-agent madness:
+
+First up, we're tackling the age-old question of [how to shorten multi-agent paths on graphs](https://papers.miklos.dev/2410.07954). This paper introduces a clever local search procedure to optimize suboptimal solutions in Multi-Agent Path Finding. It's like giving your AI agents a GPS upgrade, helping them navigate complex environments more efficiently. 
+
+But wait, there's more! Another study asks [how well do LLMs generate complex workflows](https://papers.miklos.dev/2410.07869)? Spoiler alert: not as well as we'd hope. The researchers found that even GPT-4 struggles with graph-based workflows, highlighting a crucial area for improvement in our quest for truly adaptable AI agents.
+
+Now, let's switch gears to the world of disease modeling. A new paper explores whether [AI agents can simulate realistic disease spread](https://papers.miklos.dev/2410.08050). Using sophisticated agent-based models, researchers are providing valuable insights into pandemic control strategies. It's like having a crystal ball for public health officials!
+
+But what about learning on the fly? A groundbreaking study introduces [Composite Learning Units](https://papers.miklos.dev/2410.08037), a revolutionary approach allowing LLMs to learn and adapt without traditional parameter updates. This could be a game-changer for creating AI systems that can truly learn from their mistakes and experiences.
+
+Safety first! Researchers are tackling the challenge of [teaching AI agents safe interaction](https://papers.miklos.dev/2410.07409) by quantifying "responsibility" in multi-agent systems. This data-driven approach could pave the way for more socially-aware AI that plays well with others.
+
+In the world of strategic AI, a new study asks if [LLMs can handle strategic agents with externalities](https://papers.miklos.dev/2410.08032). This research provides a framework for building classifiers that are robust against manipulation from multiple, interacting users. It's like giving your AI a crash course in game theory!
+
+Last but not least, we're exploring [how LLMs can help moderate hate speech ethically](https://papers.miklos.dev/2410.07713). This GDPR-compliant approach combines LLMs, decentralized data storage, and rule-based engines to create a more nuanced and personalized content moderation system. It's a step towards making the internet a safer, more respectful place for everyone.
+
+That's all for today's AI research roundup. Stay curious, stay innovative, and keep pushing the boundaries of what's possible in the world of artificial intelligence!
+
 # Daily Digest (October 10, 2024)
 
 Hold onto your lab coats, AI enthusiasts! We've got a mind-bending lineup of research that's pushing the boundaries of machine intelligence and multi-agent systems. Let's dive right in!
