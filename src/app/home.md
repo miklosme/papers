@@ -1,3 +1,21 @@
+# Daily Digest (October 14, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a double dose of multi-robot madness!
+
+First up, we're exploring the wild world of [distributed AI learning on edge devices](https://papers.miklos.dev/2410.08651). Imagine a swarm of robots working together to map their environment, each one processing data locally and sharing knowledge with its metallic comrades. It's like a high-tech game of telephone, but with way more math! The key takeaway? Decentralized learning is crucial, and uncertainty estimation is the name of the game.
+
+But wait, there's more! We're also tackling the challenge of [explaining multi-robot decisions](https://papers.miklos.dev/2410.08408) to us mere humans. The secret sauce? Contrastive explanations that compare the system's solution to user-provided alternatives. It's like having a robot debate team justify their choices!
+
+Now, let's shift gears to the realm of language and learning. Ever wonder [how language can help AI learn numbers faster](https://papers.miklos.dev/2410.08334)? Turns out, clear, action-oriented instructions are the way to go. It's like giving your AI a linguistic power-up!
+
+Speaking of language, we've got a groundbreaking study on [how LLMs form conventions and influence society](https://papers.miklos.dev/2410.09034). Spoiler alert: AI agents can develop their own social norms without us even telling them to! It's like watching a digital society evolve in fast-forward.
+
+For all you privacy buffs out there, we're exploring [how LLMs can automate privacy threat modeling](https://papers.miklos.dev/2410.08755). Say hello to PILLAR, your new AI-powered privacy guardian! It's like having a team of cybersecurity experts working 24/7, but they never need coffee breaks.
+
+Last but not least, we're venturing into the world of scientific imaging with [LLM-powered ptychography automation](https://papers.miklos.dev/2410.09034). It's a mouthful to say, but this multi-agent system is revolutionizing how we tune parameters in complex imaging techniques. Science just got a whole lot smarter!
+
+That's all for today, folks! Remember, in the world of AI research, the only constant is change. Stay curious, stay informed, and we'll see you next time!
+
 # Daily Digest (October 11, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a double dose of multi-agent madness:
