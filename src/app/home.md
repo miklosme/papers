@@ -1,3 +1,23 @@
+# Daily Digest (October 18, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a breakthrough in fairness:
+
+Ever wondered if we can guarantee envy-free allocations in multi-agent systems? Well, researchers have cracked the code for [EFX allocations](https://papers.miklos.dev/2410.13580) with up to three types of agents. This could revolutionize resource distribution in AI collaborations!
+
+But wait, there's more! Worried about Byzantine attacks in your multi-agent setup? A new [hybrid detection approach](https://papers.miklos.dev/2410.13454) is here to save the day, balancing effective attack identification with reduced communication overhead. Your agents can now collaborate safely, even in hostile environments.
+
+Speaking of collaboration, get ready for MOBA – the mobile phone assistant that's changing the game. This [two-level agent system](https://papers.miklos.dev/2410.13757) powered by multimodal LLMs is tackling complex tasks with unprecedented efficiency. It's like having a tiny AI army in your pocket!
+
+For all you gamers out there, [BERTeam](https://papers.miklos.dev/2410.13769) is revolutionizing team formation in adversarial games. This transformer-based algorithm is outperforming the competition, proving that sometimes, the best offense is a well-chosen defense.
+
+But why stop at games? Scientists are now using [multi-agent AI systems](https://papers.miklos.dev/2410.13768) to accelerate alloy discovery. By combining graph neural networks with LLM-driven agents, they're exploring vast design spaces faster than ever before. Materials science will never be the same!
+
+Fairness isn't just for humans anymore. Researchers are adapting [algorithmic fairness metrics](https://papers.miklos.dev/2410.12889) to multi-agent systems, ensuring that AI agents aren't unfairly disadvantaged based on protected attributes. It's EDI for the digital age!
+
+Finally, for those who've always dreamed of X-ray vision, [ARD²](https://papers.miklos.dev/2410.13139) is making it a reality. This drone-and-AR combo lets you see through walls in real-time. While not directly LLM-based, its innovative approach to multi-agent coordination and data processing offers valuable lessons for AI developers everywhere.
+
+That's all for now, folks! Keep pushing those boundaries and remember: in the world of AI, today's science fiction is tomorrow's reality!
+
 # Daily Digest (October 17, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of model merging.
