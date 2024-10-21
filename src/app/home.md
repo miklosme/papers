@@ -1,3 +1,17 @@
+# Daily Digest (October 21, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research hot off the presses. Let's dive in!
+
+Are you ready to unravel the complexity of [multi-agent decisions](https://papers.miklos.dev/2410.14078)? A new survey is shedding light on the computational challenges of forming optimal agent groups and stable coalitions. It's not just about picking teams anymore – we're talking algorithms that could revolutionize how LLMs collaborate in large-scale systems. Get ready to optimize your multi-agent setups!
+
+But wait, there's more! Ever wondered how robot platoons navigate through crowds? A groundbreaking study reveals that [platooning strategies](https://papers.miklos.dev/2410.14406) outperform greedy approaches in dense, counter-flowing crowds. It's like a high-tech conga line cutting through chaos! This could be a game-changer for coordinating LLM-based agents in complex environments.
+
+Now, let's talk verification. Are you struggling to model human-like decision-making in your multi-agent systems? Say hello to the first [model checker tool for NatATL](https://papers.miklos.dev/2410.14374)! This bad boy can synthesize optimal strategies and handle both memoryless and history-dependent approaches. It's like giving your LLM agents a dose of human-like bounded rationality!
+
+And finally, brace yourselves for a deep dive into the world of fake news. Researchers have unleashed [LLM-powered agents](https://papers.miklos.dev/2410.13909) to simulate the spread of misinformation across social networks. The results? Personality traits and network structure play a huge role in how fake news travels. But don't panic – they've also uncovered some promising countermeasures. It's time to arm your LLMs against the infodemic!
+
+That's all for now, folks. Keep those algorithms humming, and we'll catch you on the next cutting edge of AI research!
+
 # Daily Digest (October 18, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a breakthrough in fairness:
