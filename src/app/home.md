@@ -1,3 +1,17 @@
+# Daily Digest (October 25, 2024)
+
+Buckle up, AI enthusiasts! We're diving into the latest breakthroughs in multi-agent systems that are revolutionizing everything from supply chains to traffic control.
+
+First up, we've got a game-changer for inventory management. Researchers are [leveraging graph neural networks](https://papers.miklos.dev/2410.18631) to supercharge multi-agent reinforcement learning in complex supply chains. By redefining the action space and using clever information aggregation techniques, they're teaching AI agents to collaborate and adapt like never before. Could this be the end of empty shelves and overstocked warehouses?
+
+But wait, there's more! In a twist that would make Adam Smith raise an eyebrow, we're seeing AI pricing algorithms [learning to collude in perishable goods markets](https://papers.miklos.dev/2410.18871). That's right, your airline ticket prices might be the result of AI agents conspiring behind the scenes. This research is a wake-up call for competition authorities and AI ethicists alike.
+
+Shifting gears, let's talk about the future of transportation. A groundbreaking new framework called [OPTIMA is paving the way](https://papers.miklos.dev/2410.18112) for truly autonomous vehicle coordination. By combining distributed reinforcement learning with clever reward functions, we might soon see AI-controlled cars navigating complex intersections without breaking a sweat (or any traffic laws).
+
+Last but not least, traffic signal control is getting a major upgrade with [PyTSC, a new open-source platform](https://papers.miklos.dev/2410.18202) that's accelerating MARL research in urban environments. With its flexible design and support for centralized training and decentralized execution, PyTSC could be the key to finally ending those frustrating rush hour gridlocks.
+
+That's all for now, folks! Stay tuned for more cutting-edge developments in the world of multi-agent AI systems.
+
 # Daily Digest (October 24, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending look at the future of multi-agent systems.
