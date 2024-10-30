@@ -1,3 +1,13 @@
+# Daily Digest (October 30, 2024)
+
+Hold onto your calculators, econ enthusiasts! We've got a game-changer in the world of economic simulations. Imagine running complex multi-agent economic models in minutes instead of days. That's exactly what the brilliant minds behind [EconoJax](https://papers.miklos.dev/2410.22165) have achieved. 
+
+This JAX-powered powerhouse is revolutionizing the way we simulate economic behavior. Gone are the days of waiting around for days to see results. EconoJax is cranking out simulations with populations of 100 agents in just 15 minutes! It's like strapping a rocket to the AI Economist and watching it zoom past traditional methods.
+
+But speed isn't the only trick up EconoJax's sleeve. This open-source marvel is scaling to larger population sizes, opening up a whole new world of experimental possibilities. Whether you're a policy wonk or an AI researcher, EconoJax is your ticket to exploring complex economic dynamics at lightning speed.
+
+So, if you're ready to supercharge your economic simulations and dive deep into the emergent behaviors of large-scale agent populations, it's time to give EconoJax a spin. The future of economic modeling is here, and it's faster than ever!
+
 # Daily Digest (October 29, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a bang!
