@@ -1,3 +1,27 @@
+# Daily Digest (November 5, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of AI and game theory. 
+
+Are you tired of predictable AI opponents? [Preference-CFR](https://papers.miklos.dev/2411.01217) is here to shake things up! This innovative algorithm goes beyond Nash equilibrium, allowing developers to create AI agents with distinct personalities in games like poker. Imagine facing off against an AI that adapts its strategy to match your playstyle – now that's a challenge worth accepting!
+
+But wait, there's more! Ever wondered how to decipher the hidden relationships in a swarm of robots or a flock of birds? [Online Relational Inference (ORI)](https://papers.miklos.dev/2411.01442) is cracking that code in real-time. This groundbreaking approach adapts to changing environments on the fly, perfect for those messy, real-world multi-agent scenarios we all love to tackle.
+
+Speaking of adaptability, [Role Play (RP)](https://papers.miklos.dev/2411.01166) is revolutionizing how AI agents learn to work together. By assigning "roles" to agents, RP creates a single, flexible policy that can generate diverse behaviors. It's like giving your AI a personality transplant on demand!
+
+Now, let's talk about the art of subtlety. [Implicit Channel Protocol (ICP)](https://papers.miklos.dev/2411.01553) is teaching AI agents to communicate without saying a word. Using carefully chosen actions as a secret language, ICP opens up new possibilities for covert coordination in multi-agent systems. It's like watching a silent movie where every gesture speaks volumes!
+
+But with great power comes great responsibility, right? That's where [quantitative measures of responsibility](https://papers.miklos.dev/2411.00887) come in. This research gives us tools to pinpoint which AI agent deserves the credit (or blame) in complex multi-agent scenarios. It's like having a referee for your AI team!
+
+Shifting gears to the physical world, we've got a [new approach to energy-aware robot coverage](https://papers.miklos.dev/2411.02230). This clever algorithm dynamically assigns tasks based on each robot's unique energy profile, ensuring your robot team stays in the game longer. It's like having a coach who knows exactly when to sub in the fresh players!
+
+For those of you working on autonomous vehicles, [GITSR](https://papers.miklos.dev/2411.01608) is bringing a whole new level of scene understanding to the table. By combining transformers, graph neural networks, and reinforcement learning, GITSR helps vehicles make sense of complex traffic scenarios. It's like giving your car a PhD in traffic psychology!
+
+Looking to predict the future? [HiMemFormer](https://papers.miklos.dev/2411.01455) is taking action anticipation to new heights in multi-agent scenarios. By juggling both global context and individual agent histories, this model can predict actions with uncanny accuracy. It's like having a crystal ball for your AI agents!
+
+Last but not least, we're tackling real-world challenges with [DisasTeller](https://papers.miklos.dev/2411.01511), a multi-agent system designed to streamline disaster response. By coordinating specialized AI agents, DisasTeller aims to save lives and resources when every second counts. It's AI with a heart, folks!
+
+That's all for today's AI digest. Remember, the future of AI is multi-agent, adaptive, and more human-like than ever. Stay curious, and keep pushing those boundaries!
+
 # Daily Digest (November 4, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of agent evaluation.
