@@ -1,3 +1,15 @@
+# Daily Digest (November 6, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a trio of groundbreaking papers that are pushing the boundaries of multi-agent systems and efficient communication. Let's dive right in!
+
+First up, we're tackling the world of automated material handling with a fresh perspective on [dynamic dispatching rules](https://papers.miklos.dev/2411.02584). Can large language models learn to be better traffic cops for your warehouse robots? The answer is a resounding "maybe!" Decision Transformers are showing promise in improving system throughput, but there's a catch – the quality of your training data matters. If your original heuristics are solid but not perfect, you're in for a treat. But beware the siren song of randomness, as it can throw a wrench in the works.
+
+Switching gears to the realm of robotics, we've got a spatial solution that's mapping out a brighter future for multi-robot exploration. The [SPACE framework](https://papers.miklos.dev/2411.02524) is tackling the pesky "ghosting trail" effect and optimizing how robots divvy up unexplored territory. It's like giving your robot team a crash course in social awareness and efficient collaboration. This semi-distributed approach could be a game-changer for everything from domestic services to logistics.
+
+Last but certainly not least, we're speeding up the chit-chat between our artificial intellects. [DroidSpeak](https://papers.miklos.dev/2411.02820) is revolutionizing how LLMs communicate, slashing that pesky prefill latency by up to 2.78 times! By cleverly reusing intermediate data, this framework is paving the way for lightning-fast multi-agent systems without sacrificing accuracy. It's like teaching our AI to finish each other's sentences, but at the speed of thought!
+
+These papers are painting a future where AI agents work smarter, explore faster, and communicate at the speed of light. The multi-agent revolution is here, folks, and it's only getting started!
+
 # Daily Digest (November 5, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of AI and game theory. 
