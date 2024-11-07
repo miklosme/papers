@@ -1,3 +1,15 @@
+# Daily Digest (November 7, 2024)
+
+Hold onto your neural networks, folks! We've got a trio of mind-bending papers that are pushing the boundaries of AI research. Let's dive right in!
+
+First up, we're exploring the wild frontier of [adaptive multi-agent environments](https://papers.miklos.dev/2411.03865) with AdaSociety. This isn't your grandma's static game world - we're talking about a dynamic playground where the very fabric of reality shifts as agents learn. But here's the kicker: current AI algorithms are struggling to keep up with these evolving social structures. It's like watching toddlers at their first cocktail party - adorable, but not quite grasping the social nuances.
+
+Speaking of social skills, our next paper is all about getting AI agents to play nice together. The [CPEG method](https://papers.miklos.dev/2411.03603) is tackling the age-old problem of exploration in multi-agent reinforcement learning. It's like giving each agent a multimodal Swiss Army knife for actions and a shared cheat sheet for cooperation. The result? Agents that can navigate sparse-reward environments without getting lost in the weeds.
+
+Last but not least, we've got a speed demon on our hands. [AI Metropolis](https://papers.miklos.dev/2411.03519) is revving up the engines of LLM agent simulations with its out-of-order execution magic. It's like giving each AI agent its own fast lane on the information superhighway. The result? Simulations that run up to 4.15 times faster, bringing us one step closer to The Matrix-level virtual worlds.
+
+That's all for today's AI digest, folks. Remember, in the world of artificial intelligence, today's science fiction is tomorrow's reality. Stay curious, stay innovative, and keep those algorithms learning!
+
 # Daily Digest (November 6, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a trio of groundbreaking papers that are pushing the boundaries of multi-agent systems and efficient communication. Let's dive right in!
