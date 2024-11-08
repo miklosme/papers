@@ -1,3 +1,19 @@
+# Daily Digest (November 8, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and LLM-powered innovation. Let's dive right in!
+
+First up, we're taking flight with [Magentic-One](https://papers.miklos.dev/2411.04468), a high-flying multi-agent system that's redefining how AI tackles complex tasks. Picture this: a lead agent called the Orchestrator, directing a team of specialized AI agents like a maestro conducting a symphony of problem-solving. From web browsing to code execution, this modular marvel is showing us the future of generalist AI systems. But that's not all, folks! The researchers have also gifted us with AutoGenBench, a tool that's set to revolutionize how we evaluate these agentic marvels.
+
+Shifting gears, we're hitting the road with a [semantic-aware approach](https://papers.miklos.dev/2411.04672) to C-V2X platooning that's got the AI world buzzing. This SAMRAMARL system is like a traffic conductor for self-driving car platoons, optimizing communication by focusing on meaning rather than raw data. It's a distributed dance of decision-making that's more adaptable than your average GPS!
+
+But wait, there's more! We're taking cooperation to new heights with [CaPo](https://papers.miklos.dev/2411.04679), a framework that's teaching LLM-based agents to play nice together. It's like giving AI a crash course in teamwork, complete with strategic planning and on-the-fly adaptations. This isn't just cooperation; it's a master class in AI collaboration!
+
+For all you storytellers out there, [StoryAgent](https://papers.miklos.dev/2411.04925) is about to become your new best friend. This multi-agent marvel is turning text prompts into custom video narratives faster than you can say "action!" With specialized agents handling everything from story design to video creation, it's like having a Hollywood production team in your pocket.
+
+Last but not least, we're navigating the complex world of [socially-aware robot movement](https://papers.miklos.dev/2411.04678). This research is teaching robots the delicate dance of human interaction, combining opinion dynamics with vortex fields for smoother, safer navigation. It's not just about avoiding collisions; it's about making robots that can mingle with the best of us!
+
+That's all for now, AI aficionados. Keep those algorithms humming, and we'll catch you on the next neural network!
+
 # Daily Digest (November 7, 2024)
 
 Hold onto your neural networks, folks! We've got a trio of mind-bending papers that are pushing the boundaries of AI research. Let's dive right in!
