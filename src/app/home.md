@@ -1,3 +1,13 @@
+# Daily Digest (November 11, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a double dose of cutting-edge research that's about to supercharge your understanding of multi-agent systems and game theory. Let's dive right in!
+
+First up, we're taking a thrilling journey into the world of [psychological games](https://papers.miklos.dev/2411.05599). Imagine AI agents that don't just play by the rules, but actually have feelings about the game! This groundbreaking research is bridging the gap between cold, hard algorithms and the messy world of human emotions. By incorporating belief-dependent motivations into game theory, we're opening up a whole new dimension of AI behavior. Think self-driving cars that understand road rage, or security systems that can predict human deception. The researchers have even implemented their findings in PRISM-games, giving us a powerful tool to model and analyze these emotionally-charged interactions. It's a game-changer for creating AI that truly understands the human psyche!
+
+But wait, there's more! Shifting gears to the battlefield, we've got a [mind-blowing breakthrough in military AI](https://papers.miklos.dev/2411.05683). Picture this: swarms of autonomous drones creating a real-time map of the battlefield, all while dodging enemy fire and communication blackouts. This isn't science fiction, folks – it's happening now! Using deep reinforcement learning, these AI agents are learning to communicate in code, sharing their observations to build a Common Operational Picture that's resilient to GPS denial and communication disruptions. With less than 5% error in their battlefield assessments, these digital warriors are ready to take on the fog of war. It's not just about military applications – this research is paving the way for robust, adaptive multi-agent systems in everything from disaster response to traffic management.
+
+That's all for now, but stay tuned – the world of AI is moving faster than ever, and we'll be here to keep you on the cutting edge!
+
 # Daily Digest (November 8, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and LLM-powered innovation. Let's dive right in!
