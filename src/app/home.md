@@ -1,3 +1,29 @@
+# Daily Digest (November 12, 2024)
+
+Attention all AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a whiff of innovation – [SniffySquad](https://papers.miklos.dev/2411.06121), a multi-robot system that's sniffing out gas leaks with unprecedented accuracy. These digital bloodhounds are using probabilistic modeling and adaptive role-switching to navigate patchy gas plumes, boosting success rates by over 20%. It's a breath of fresh air for real-world robotic applications!
+
+But wait, there's more! Traffic jams might become a thing of the past thanks to [OffLight](https://papers.miklos.dev/2411.06601), a revolutionary offline multi-agent reinforcement learning system for traffic control. By tackling the thorny issue of heterogeneous data, OffLight is cutting through the noise to deliver up to 11.2% shorter queues in complex urban environments. It's like having a team of AI traffic cops working 24/7!
+
+Now, let's talk strategy. Researchers are [putting LLMs to the test](https://papers.miklos.dev/2411.05990) in game theory scenarios, and the results are eye-opening. While these language models often fumble in complex games, specially designed workflows are helping them make more rational choices. It's a fascinating look at the potential – and limitations – of AI decision-making in strategic contexts.
+
+But hold onto your encryption keys, because we've got a security alert! [Semantic communication](https://papers.miklos.dev/2411.07088) might be efficient, but it's opening up a sneaky side-channel for eavesdroppers. Even if your messages are locked tight, the timing of your transmissions could be spilling secrets. It's a wake-up call for anyone working on secure multi-agent systems.
+
+Speaking of agents, how do you wrangle a massive population of them? Researchers are tackling this challenge by [incorporating bounded rationality](https://papers.miklos.dev/2411.07099) into Mean Field Games. By modeling agents with imperfect understanding and limited planning horizons, we're getting closer to realistic large-scale simulations of everything from traffic flows to economic markets.
+
+In the world of industrial automation, [LLM-based agents are taking control](https://papers.miklos.dev/2411.05904). A new framework using multiple AI agents is showing promise in handling unexpected events in complex industrial environments. With a clever reprompting architecture, these systems are learning to make safer, more effective decisions on the fly.
+
+But sometimes, you need to think small to solve big problems. [TinyML techniques](https://papers.miklos.dev/2411.07168) are revolutionizing predictive maintenance for mining machinery. By dynamically switching between on-device, gateway, and cloud inference, this system is balancing accuracy, latency, and power consumption in harsh, remote environments.
+
+For those dealing with messy data across multiple domains, [NEKO](https://papers.miklos.dev/2411.05945) is here to clean things up. This multi-task error correction model uses a Mixture-of-Experts approach to specialize in different types of data, from speech recognition to machine translation. It's setting new benchmarks and showing the power of task-specific expertise in a single model.
+
+In the realm of robotics, [quadrupedal robots are teaming up](https://papers.miklos.dev/2411.07104) to tackle big challenges. A new hierarchical reinforcement learning system is coordinating multiple robots to push large objects through obstacle courses. It's a masterclass in multi-agent coordination that could revolutionize everything from search and rescue to construction.
+
+Finally, we're seeing breakthroughs in [multi-vehicle navigation](https://papers.miklos.dev/2411.06404) with MA-DV2F. This framework uses dynamically updated velocity vector fields to guide multiple vehicles safely to their targets. It's scalable, efficient, and could be a game-changer for autonomous vehicle fleets.
+
+And to cap it all off, researchers are teaching [AI to predict swarm behavior](https://papers.miklos.dev/2411.07039) using event-based vision. The evMAP system can analyze the collective dynamics of multi-agent systems in real-time, opening up new possibilities for understanding and managing complex group behaviors.
+
+That's all for today's AI digest. Remember, the future is being written in code, and we're bringing you the latest chapters hot off the compiler!
+
 # Daily Digest (November 11, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a double dose of cutting-edge research that's about to supercharge your understanding of multi-agent systems and game theory. Let's dive right in!
