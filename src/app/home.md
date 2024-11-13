@@ -1,3 +1,17 @@
+# Daily Digest (November 13, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer for decentralized systems. Ever wondered [how to select high-performing agents](https://papers.miklos.dev/2411.07302) without sacrificing fairness? A new "merit-based sortition" algorithm is here to save the day, boosting performance while keeping the door open for underdogs. It's like American Idol for AI agents!
+
+Speaking of performance, can we crack the code on complex scheduling problems? Researchers are pitting [Multi-Agent Reinforcement Learning against single-agent approaches](https://papers.miklos.dev/2411.07634) in the Unrelated Parallel Machine Scheduling arena. While single agents shine in simpler scenarios, MARL is flexing its muscles when it comes to scalability. It's a scheduling showdown you won't want to miss!
+
+Now, let's talk inclusivity. Are your LLMs stuck in a binary world? A groundbreaking [multi-agent system is tackling pronoun bias](https://papers.miklos.dev/2411.07656), ensuring AI-generated content respects all identities. With a whopping 32.6 percentage point improvement over GPT-4, it's a giant leap for AI kind.
+
+Attention, budget-conscious AI developers! You might not need that expensive GPT-4 subscription after all. A clever [multi-agent system is combining cheaper LLMs](https://papers.miklos.dev/2411.07464) to automate ML tasks, slashing costs by 94.2% while outperforming single-agent GPT-4. It's like getting a Michelin-star meal at fast-food prices!
+
+Finally, for the game theorists out there, we're diving deep into the strategic minds of AI agents. A new model is [bridging Active Inference and game theory](https://papers.miklos.dev/2411.07362), revealing how agents adapt their beliefs and behaviors in dynamic, multi-player environments. It's like watching AI chess masters evolve their strategies in real-time!
+
+That's all for today's AI digest. Stay curious, stay innovative, and we'll catch you next time with more mind-bending breakthroughs from the world of artificial intelligence!
+
 # Daily Digest (November 12, 2024)
 
 Attention all AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a whiff of innovation – [SniffySquad](https://papers.miklos.dev/2411.06121), a multi-robot system that's sniffing out gas leaks with unprecedented accuracy. These digital bloodhounds are using probabilistic modeling and adaptive role-switching to navigate patchy gas plumes, boosting success rates by over 20%. It's a breath of fresh air for real-world robotic applications!
