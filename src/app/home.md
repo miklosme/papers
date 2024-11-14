@@ -1,3 +1,13 @@
+# Daily Digest (November 14, 2024)
+
+Hold onto your algorithms, AI enthusiasts! We've got a groundbreaking development in the world of path planning that's about to revolutionize search and rescue missions. Researchers have cracked the code on [optimizing weighted coverage path planning](https://papers.miklos.dev/2411.08634) using Model Predictive Control (MPC). 
+
+Picture this: a drone zipping through a search area, collecting rewards like a high-tech treasure hunter. But here's the twist – each reward can only be snagged once, and our flying friend isn't obligated to cover every inch of ground. It's like playing a real-life video game where strategy is key!
+
+The secret sauce? A novel MPC formulation with "Coverage Constraints" that prevents our agent from getting stuck in a reward-collecting loop. And if that wasn't exciting enough, they've supercharged the solver with a TSP-based heuristic, giving it a turbo boost to outperform naive approaches.
+
+This isn't just theoretical mumbo-jumbo, folks. The team put their algorithm through its paces in a simulation study, and the results are nothing short of spectacular. We're talking about a game-changer for everything from disaster response to environmental monitoring. So buckle up, because the future of intelligent path planning is here, and it's taking us to new heights!
+
 # Daily Digest (November 13, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer for decentralized systems. Ever wondered [how to select high-performing agents](https://papers.miklos.dev/2411.07302) without sacrificing fairness? A new "merit-based sortition" algorithm is here to save the day, boosting performance while keeping the door open for underdogs. It's like American Idol for AI agents!
