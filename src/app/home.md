@@ -1,3 +1,21 @@
+# Daily Digest (November 15, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
+
+Are you tired of overly cautious robots? Well, researchers have cracked the code on [making robot collision avoidance less conservative](https://papers.miklos.dev/2411.08999). By teaching robots to consider their shape and orientation, they've achieved a whopping 33.5% reduction in conservatism. This means tighter maneuvers and more efficient navigation without compromising safety. It's like giving robots a spatial awareness upgrade!
+
+But wait, there's more! For those of you grappling with uncertainty in multi-agent systems, we've got a game-changer. A new study shows how to [find robust Nash equilibria efficiently](https://papers.miklos.dev/2411.09636) in data-driven games. This breakthrough allows for modeling agents with different risk appetites and private data, all while keeping things computationally tractable. It's like teaching a group of LLMs to play poker, each with their own secret hand!
+
+Speaking of games, have you ever wondered how to get a group of agents to cooperate without constant prodding? Researchers have unveiled an [ingenious method to implement the largest equilibrium](https://papers.miklos.dev/2411.09191) in dynamic games. The secret sauce? An "informational put" that stays quiet when things are going well but injects carefully crafted signals when agents start to stray. It's like having a wise AI overlord that knows exactly when to step in!
+
+Now, let's blast off into space! A fascinating study proposes a [multi-spacecraft framework for exploring interstellar objects](https://papers.miklos.dev/2411.09110). By optimally positioning multiple spacecraft around an uncertainty ellipsoid, researchers have found a way to maximize data collection during those rare, fleeting encounters with interstellar visitors. It's like coordinating a cosmic paparazzi to get the best shots of a celebrity passing through our solar system!
+
+Back on Earth, we've got robot swarms getting smarter about [self-localization for inspection tasks](https://papers.miklos.dev/2411.09493). Inspired by nature, these robots use a cooperative localization mechanism where a few take on the computational burden, helping their swarm-mates stay on track. It's like having a few GPS-equipped leaders in a group of hikers, keeping everyone from getting lost in the woods!
+
+Last but not least, we're diving deep into the realm of collective intelligence. Two groundbreaking papers explore how [Theory of Mind can improve AI collective intelligence](https://papers.miklos.dev/2411.09168) and how [AI agents can self-organize for complex goals](https://papers.miklos.dev/2411.09169). These studies draw fascinating parallels between human social structures, biological systems, and the future of multi-agent AI. It's like teaching machines the art of office politics and teamwork!
+
+That's all for today, folks! Remember, in the world of AI research, yesterday's science fiction is today's breakthrough paper. Stay curious, stay innovative, and keep pushing those boundaries!
+
 # Daily Digest (November 14, 2024)
 
 Hold onto your algorithms, AI enthusiasts! We've got a groundbreaking development in the world of path planning that's about to revolutionize search and rescue missions. Researchers have cracked the code on [optimizing weighted coverage path planning](https://papers.miklos.dev/2411.08634) using Model Predictive Control (MPC). 
