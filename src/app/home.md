@@ -1,3 +1,21 @@
+# Daily Digest (November 18, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a creative twist on language models.
+
+Ever wonder if your favorite AI could beat you at Balderdash? Researchers are [putting LLMs to the test](https://papers.miklos.dev/2411.10422) in a simulated version of the classic bluffing game. These digital wordsmiths are tasked with crafting convincing fake definitions while sniffing out the real ones. The results? Let's just say our silicon friends might need a few more rounds at the dictionary before they're ready for game night.
+
+Speaking of communication, we're getting to the heart of what makes machine-to-machine chatter meaningful. A groundbreaking study reveals that [reconstruction-based training](https://papers.miklos.dev/2411.10173) leads to more semantically consistent protocols compared to discrimination tasks. In other words, if you want your AI agents to really understand each other, make them play telephone instead of 20 questions!
+
+Now, let's talk money and morals. The [InvestESG benchmark](https://papers.miklos.dev/2411.09856) is simulating how ESG disclosure mandates might influence corporate climate investments. It's like The Sims meets Wall Street, with a dash of Captain Planet thrown in. Early results suggest that without enough eco-conscious investors, companies might keep dragging their feet on climate action. Who knew AI could give us a crystal ball into sustainable finance?
+
+In the realm of search and rescue, UAVs are getting a serious IQ boost. Researchers have developed a [smart agent-based probability model](https://papers.miklos.dev/2411.10148) that helps drones predict where lost hikers might wander. It's like giving each UAV a tiny Sherlock Holmes brain to optimize their search patterns. This could be a game-changer for wilderness rescues, potentially saving lives with silicon-powered deduction.
+
+For those juggling multiple language models, the [Real-time Adaptive Routing (RAR) approach](https://papers.miklos.dev/2411.09837) is here to save your sanity (and your budget). This clever system learns to route requests to the most appropriate model on the fly, while simultaneously leveling up the skills of smaller models. It's like having an AI traffic cop that also runs a language model dojo on the side.
+
+Finally, we're beefing up the resilience of multi-agent systems with some relay action. New research shows how [multi-hop communication](https://papers.miklos.dev/2411.09954) can help leader-follower networks stay on track, even when faced with adversarial agents. It's like giving your AI team a secret code and walkie-talkies to outsmart the bad guys.
+
+That's all for now, folks! Keep your neural networks firing, and we'll catch you next time with more AI breakthroughs!
+
 # Daily Digest (November 15, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
