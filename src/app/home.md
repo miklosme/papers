@@ -1,3 +1,17 @@
+# Daily Digest (November 19, 2024)
+
+Buckle up, AI enthusiasts! We're diving into the cutting edge of multi-agent systems and robot swarms. Let's start with a mind-bending question: [Can robots grow by consuming others?](https://papers.miklos.dev/2411.11192) Researchers have demonstrated a "robot metabolism" where modular bots can literally grow stronger by absorbing parts from their environment or fallen comrades. This isn't just sci-fi – it's a glimpse into a future of adaptable, self-repairing machines.
+
+But why stop at physical growth when we can supercharge their minds? A groundbreaking survey explores [how to build truly versatile AI agents](https://papers.miklos.dev/2411.10943), tracing the evolution from simple assistants to today's large language model-powered behemoths. The key? Environments that closely mirror our complex world, pushing these digital entities to develop more human-like intelligence.
+
+Speaking of intelligence, let's talk strategy. Can we make our AI agents master the art of cooperation? One team is leveraging [evolutionary game theory](https://papers.miklos.dev/2411.10558) to train homogeneous agent teams, outperforming traditional reinforcement learning methods by a whopping 30% in complex path-finding scenarios. It's not just about individual smarts – it's about collective brilliance.
+
+But wait, there's more! Another study dives deep into the [evolution of Q-learning agents](https://papers.miklos.dev/2411.10459) in public goods games, exploring the delicate balance between exploration and exploitation. Can AI overcome the tragedy of the commons? The results might surprise you.
+
+Finally, we're zooming in on the buzzing world of robot swarms. How can these tiny titans [learn better through communication](https://papers.miklos.dev/2411.11616)? From simple bio-inspired signals to complex language models, researchers are unlocking the power of decentralized learning and execution. It's a brave new world of social learning for our silicon friends.
+
+That's all for now, folks! Keep your neural networks firing, and we'll catch you next time on the AI frontier!
+
 # Daily Digest (November 18, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's kick things off with a creative twist on language models.
