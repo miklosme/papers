@@ -1,3 +1,19 @@
+# Daily Digest (November 22, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of multi-agent motion planning.
+
+Hold onto your algorithms, folks! The [Implicit Game-Theoretic MPC](https://papers.miklos.dev/2411.13983) is revolutionizing how agents navigate competitive and cooperative scenarios. Imagine your favorite AI agents playing 4D chess while driving cars – that's the level of strategic thinking we're talking about here. This decentralized approach could be the secret sauce for making LLM-based agents work together (or compete) more effectively in complex environments.
+
+But wait, there's more! For those of you losing sleep over autonomous system safety, the [Hybrid Event-B](https://papers.miklos.dev/2411.14168) formal method might just be your new best friend. It's like giving your multi-agent systems a safety harness and a GPS all rolled into one. This could be a game-changer for verifying that your LLM agents don't go rogue when let loose in the wild.
+
+Speaking of keeping things in check, let's talk about robot welding. Yes, you heard that right! [Model checking](https://papers.miklos.dev/2411.14369) is making waves in industrial settings, ensuring those robotic arms stay in perfect sync. While it might not directly involve LLMs, the lessons learned here could be crucial for keeping your virtual agents dancing to the same beat.
+
+Now, for the pièce de résistance – [GAMMA](https://papers.miklos.dev/2411.13934) is here to shake up the world of human-AI cooperation. This ingenious method is like giving your AI a crash course in "How to Human" by generating a diverse cast of virtual partners. The result? AI agents that can waltz into a cooperative task with real humans and not miss a beat.
+
+Last but not least, we've got a blueprint for [building robust controllers](https://papers.miklos.dev/2411.14371) for robot collectives. It's like herding cats, but the cats are robots, and they're trying to clean a building while juggling battery life and room schedules. This research could be the key to scaling up your LLM-based multi-agent systems without losing your sanity in the process.
+
+That's all for today's AI digest, folks. Remember, in the world of artificial intelligence, today's science fiction is tomorrow's reality. Keep innovating, and we'll see you next time!
+
 # Daily Digest (November 21, 2024)
 
 Hold onto your servers, AI enthusiasts! We've got a groundbreaking vision for the future of [hybrid cloud systems](https://papers.miklos.dev/2411.13239) that's about to revolutionize how we handle complex AI workloads. Imagine a world where your cloud infrastructure is as adaptable and intelligent as the AI it's running. That's exactly what researchers from IBM and the University of Illinois are cooking up!
