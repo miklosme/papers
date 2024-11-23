@@ -1,3 +1,13 @@
+# Daily Digest (November 23, 2024)
+
+Hold onto your circuits, AI enthusiasts! We've got a mind-bending study that's diving deep into the ethical labyrinth of [multi-robot systems powered by LLMs](https://papers.miklos.dev/2411.14009). Buckle up as we explore the fascinating divide between human and artificial moral compasses!
+
+Picture this: a showdown between human experts and GPT agents, duking it out over ethical concerns in the robot realm. The results? Let's just say our silicon friends might need a crash course in human values. While GPT agents played it safe, sticking to the AI ethics playbook we all know and love, human experts went off-script. They raised red flags about deviance, data privacy invasions, and corporate shenanigans that could make even the most advanced AI blush.
+
+But wait, there's more! This groundbreaking research isn't just about pointing fingers. It's sounding the alarm on the wild west of LLM-powered robot interactions. We're talking potential manipulation through sweet-talking AIs, security nightmares, and the looming specter of deepfakes in our mechanical companions. It's a brave new world, folks, and we need all hands on deck – human and artificial – to navigate these treacherous ethical waters.
+
+So, what's the takeaway? Culture matters, transparency is king, and we humans might just need to keep a watchful eye on our AI creations. This isn't just another paper – it's a wake-up call for anyone working in AI ethics. Don't miss out on this crucial conversation shaping the future of human-robot relations!
+
 # Daily Digest (November 22, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of multi-agent motion planning.
