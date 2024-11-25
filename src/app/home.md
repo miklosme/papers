@@ -1,3 +1,17 @@
+# Daily Digest (November 25, 2024)
+
+Buckle up, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of what's possible with multi-agent systems and AI. Let's dive right in!
+
+First up, we're taking a deep dive into the world of carbon capture. Researchers have developed [CCUS-Agent](https://papers.miklos.dev/2411.14438), a groundbreaking multi-agent simulation model that's optimizing Carbon Capture, Utilization, and Storage transportation across the US. This isn't just another simulation – it's a complex dance of supply agents, demand agents, and transportation networks that could revolutionize how we tackle climate change. The model's ability to capture emergent behavior and evaluate policy impacts showcases the true power of multi-agent systems in solving real-world problems.
+
+But wait, there's more! Ever wondered how to keep your wireless sensor networks juiced up and running? A new study is tackling this challenge head-on with a [generalized charging framework](https://papers.miklos.dev/2411.14496) for multiple mobile chargers. Using a decentralized, partially observable semi-Markov decision process (try saying that five times fast!), this research is paving the way for smarter, longer-lasting sensor networks. The proposed AMAPPO algorithm is a game-changer, allowing for efficient coordination among mobile chargers without direct communication.
+
+Shifting gears to the world of autonomous driving, researchers are taking on one of the trickiest maneuvers – [highway merging](https://papers.miklos.dev/2411.14593). Using multi-agent deep reinforcement learning, they've created a system where virtual vehicles learn to merge safely through simulated self-play. The results? Near-optimal performance in complex, multi-vehicle scenarios. This could be the key to unlocking full autonomy on our highways!
+
+Last but certainly not least, we're seeing AI make waves in healthcare. The [MAKA framework](https://papers.miklos.dev/2411.14637) is revolutionizing how we match patients to clinical trials. By using multiple specialized agents to augment trial criteria with external knowledge, MAKA is addressing the gaps in both trial descriptions and large language models. This could be a game-changer for getting the right patients into the right trials, faster and more accurately than ever before.
+
+That's all for now, folks! Stay tuned for more groundbreaking research that's shaping the future of AI and multi-agent systems. The future is here, and it's more exciting than ever!
+
 # Daily Digest (November 23, 2024)
 
 Hold onto your circuits, AI enthusiasts! We've got a mind-bending study that's diving deep into the ethical labyrinth of [multi-robot systems powered by LLMs](https://papers.miklos.dev/2411.14009). Buckle up as we explore the fascinating divide between human and artificial moral compasses!
