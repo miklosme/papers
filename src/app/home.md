@@ -1,3 +1,25 @@
+# Daily Digest (November 26, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a regulatory rollercoaster:
+
+Are you ready to see LLMs tackle the complex world of medical device regulations? Researchers have created a [multi-agent simulation framework](https://papers.miklos.dev/2411.15356) that uses LLMs to model how manufacturers adapt to changing rules. It's like The Sims, but for compliance officers!
+
+Speaking of simulations, social media researchers are in for a treat. A new study shows how [LLM-powered agents](https://papers.miklos.dev/2411.16031) can create eerily realistic social network simulations. These virtual users form ideological clusters and even fall into echo chambers – just like real people!
+
+But how do we know if these LLM outputs are any good? Enter SAGEval, a [novel framework](https://papers.miklos.dev/2411.16077) for evaluating open-ended text without ground truth. It's like having a virtual panel of experts critique the LLM's work!
+
+For the game theory buffs out there, prepare to have your mind blown. Researchers have developed [PIANIST](https://papers.miklos.dev/2411.15998), a framework that lets LLMs build multi-agent game world models without any training. It's like giving an AI a rulebook and watching it become a grandmaster.
+
+Now, let's talk about unintended consequences. A fascinating study shows how even [naive AI agents can learn to collude](https://papers.miklos.dev/2411.16574) in competitive settings, raising eyebrows in antitrust circles. It's like watching toddlers accidentally form a monopoly!
+
+For the physics-inclined, there's a wild new approach to modeling financial markets using [φ⁴ lattice field theory](https://papers.miklos.dev/2411.15813). It's like quantum mechanics meets Wall Street!
+
+Worried about fairness in LLM access? Microsoft's got you covered with [FAIRSERVE](https://papers.miklos.dev/2411.15997), a system ensuring equitable LLM usage across diverse applications. No more LLM hogging!
+
+Finally, we've got breakthroughs in multi-agent consensus and path finding. One study shows how [third-party LLMs can act as expert reviewers](https://papers.miklos.dev/2411.16189) to improve group decision-making, while another demonstrates the power of [optimized guidance policies](https://papers.miklos.dev/2411.16506) for coordinating swarms of agents in dynamic environments.
+
+That's all for today, folks! Keep pushing those AI boundaries, and we'll see you next time on the cutting edge of research!
+
 # Daily Digest (November 25, 2024)
 
 Buckle up, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of what's possible with multi-agent systems and AI. Let's dive right in!
