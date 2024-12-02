@@ -1,3 +1,23 @@
+# Daily Digest (December 2, 2024)
+
+Buckle up, AI enthusiasts! We've got a jam-packed lineup of cutting-edge research to dive into today. Let's kick things off with a fascinating look at how [Large Language Models might revolutionize portfolio management](https://papers.miklos.dev/2411.19515). These AI powerhouses are showing promise in predicting stock and bond movements, especially during inflationary periods. But don't fire your human financial advisor just yet – traditional strategies still have the edge when the market takes a nosedive.
+
+Speaking of teamwork, researchers are tackling a major challenge in multi-agent reinforcement learning: [what happens when agents lose their observational mojo](https://papers.miklos.dev/2411.19639)? Enter RMIO, a clever framework that uses a world model to fill in the blanks and keep the decision-making train on track. It's like giving your AI agents a crystal ball and a really good group chat!
+
+Now, let's hit the streets! [Multi-agent reinforcement learning is taking on traffic signal control](https://papers.miklos.dev/2411.19359), and it's not just about getting you to work faster. This research is looking at how to prioritize buses without turning everyone else's commute into a nightmare. The results? A smoother ride for public transit with only a tiny speed bump for the rest of us.
+
+But wait, there's more! We're diving deep into the [ethical minefield of generative agents](https://papers.miklos.dev/2411.19211). From job displacement fears to the potential for scams and misinformation, this paper lays out the roadmap for responsible AI development. It's a must-read for anyone working on the cutting edge of AI.
+
+Swarm robotics fans, this one's for you! Researchers have cooked up a [new recipe for task allocation in robot swarms](https://papers.miklos.dev/2411.19526). It's all about local information sharing and adaptive strategies, perfect for when your robot army needs to pivot on a dime.
+
+Safety first! A groundbreaking study introduces [new loss functions for autonomous vehicle trajectory prediction](https://papers.miklos.dev/2411.19747). The result? A 47% reduction in off-road errors. That's music to the ears of anyone who's ever been nervous about sharing the road with a self-driving car.
+
+Lights, camera, AI action! Meet [SPAgent, your new AI video editing assistant](https://papers.miklos.dev/2411.18983). This clever system coordinates a whole toolkit of AI models to tackle complex video tasks. It's like having a Hollywood editing suite that runs on machine learning.
+
+Finally, we're getting to the root of [how misinformation spreads through social networks](https://papers.miklos.dev/2411.19866). Spoiler alert: denser networks and tightly-knit minority groups can have a big impact. It's a wake-up call for anyone designing multi-agent systems or social media platforms.
+
+That's all for today's AI research roundup. Stay curious, stay innovative, and we'll catch you next time with more groundbreaking discoveries from the world of artificial intelligence!
+
 # Daily Digest (November 28, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a fascinating look at [how governance systems shape agent behavior](https://papers.miklos.dev/2411.17724) in simulated economies. This study compares different governing systems, from libertarian to utilitarian, and finds that semi-libertarian/utilitarian models (think modern democracies) lead to higher rates of house-building and skill-trading. It's like SimCity meets political science!
