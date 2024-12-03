@@ -1,3 +1,19 @@
+# Daily Digest (December 3, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
+
+Ever wondered how to keep your multi-agent systems running smoothly when bad actors try to derail the conversation? A new study tackles this head-on, proposing a [dynamic trust adjustment strategy](https://papers.miklos.dev/2412.01524) that helps isolate malicious agents, even when they're in the majority. But that's not all – they've also cooked up a clever way to balance opinion evolution costs and convergence speed. It's like teaching your AI agents to spot and ignore spam in real-time!
+
+Speaking of efficiency, the construction industry is getting a major AI upgrade. Researchers have developed an [integrated software ecosystem](https://papers.miklos.dev/2412.00224) that combines Data Mesh and Service Mesh architecture with a whopping 100B+ tokens of training data. This powerhouse system uses Knowledge Graphs and multi-agents to transform raw data into structured knowledge, potentially revolutionizing project planning and market analysis in the infrastructure sector.
+
+But wait, there's more! If you're working with multi-robot systems, you'll want to hear about the latest improvements to the [Action Dependency Graph (ADG) framework](https://papers.miklos.dev/2412.01277). By proving that "wait" actions are often unnecessary and introducing a new algorithm called Sparse Candidate Partitioning, researchers have significantly sped up multi-robot path planning. This could be a game-changer for real-world applications where quick reactions are crucial.
+
+Worried about your MARL agents breaking down on the job? Fear not! A groundbreaking study introduces [AACFT](https://papers.miklos.dev/2412.00534), a fault-tolerant model that uses attention mechanisms to dynamically focus on relevant information and filter out noise from failed agents. Combined with prioritized experience replay, this approach promises to make multi-agent systems more resilient than ever.
+
+For those of you dealing with adversarial environments, get ready for STLGame. This innovative framework uses [game theory and Signal Temporal Logic](https://papers.miklos.dev/2412.01656) to create robust control policies for autonomous agents. By finding Nash Equilibrium strategies, STLGame ensures your agents can handle even the trickiest opponents.
+
+And that's not all, folks! We've got neural networks optimizing satellite control, new ways to predict agent behavior using short-sightedness, and much more. It's an exciting time to be in AI research, so stay tuned and keep pushing those boundaries!
+
 # Daily Digest (December 2, 2024)
 
 Buckle up, AI enthusiasts! We've got a jam-packed lineup of cutting-edge research to dive into today. Let's kick things off with a fascinating look at how [Large Language Models might revolutionize portfolio management](https://papers.miklos.dev/2411.19515). These AI powerhouses are showing promise in predicting stock and bond movements, especially during inflationary periods. But don't fire your human financial advisor just yet – traditional strategies still have the edge when the market takes a nosedive.
