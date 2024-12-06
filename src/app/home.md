@@ -1,3 +1,19 @@
+# Daily Digest (December 6, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a sizzling lineup of cutting-edge research that's about to supercharge your multi-agent systems. Let's dive right in!
+
+First up, we're revolutionizing the way we optimize language-based AI agents. Say goodbye to manual labor and hello to [semantic backpropagation](https://papers.miklos.dev/2412.03624)! This groundbreaking method treats your multi-agent system like a computational graph, allowing for automatic optimization that puts traditional techniques to shame. By considering the interplay between connected agents, it's leaving competitors in the dust on benchmarks like BIG-Bench Hard and GSM8K.
+
+But wait, there's more! Ever wished you could predict a cyber attacker's next move? Well, now you can with [GIGO-ToM](https://papers.miklos.dev/2412.04367), a Graph Neural Network that's bringing Theory of Mind to the world of cybersecurity. This bad boy can accurately forecast both targets and attack trajectories across any network topology. And with the new Network Transport Distance metric, you'll have a standardized way to measure your predictions' accuracy.
+
+Speaking of efficiency, let's talk about [HyperMARL](https://papers.miklos.dev/2412.04233). This ingenious approach uses hypernetworks to strike the perfect balance between shared learning and agent specialization. It's like having your AI cake and eating it too – achieving diverse behaviors without sacrificing computational efficiency. 
+
+Now, for all you pathfinding enthusiasts out there, we've got a game-changer. [Transient Multi-Agent Path Finding](https://papers.miklos.dev/2412.04256) is here to shake up the world of automated navigation. By allowing agents to reach their targets individually rather than simultaneously, it's breaking through the bottlenecks that have plagued traditional methods.
+
+Last but not least, we're bridging the gap between concept and code in Agent-Based Modeling. Researchers are harnessing the power of [LLMs to extract ABM code](https://papers.miklos.dev/2412.04056) from conceptual descriptions, paving the way for faster, more efficient model implementation. The key takeaway? Keep those prompts simple and focused for the best results.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of AI!
+
 # Daily Digest (December 5, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a groundbreaking development in the world of decentralized tracking systems. Ever wondered [how agents can collaboratively track targets](https://papers.miklos.dev/2412.03095) without a central command? Well, buckle up because this new study is about to blow your mind!
