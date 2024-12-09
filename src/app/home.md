@@ -1,3 +1,17 @@
+# Daily Digest (December 9, 2024)
+
+Hold onto your neural networks, folks! We've got a thrilling lineup of cutting-edge AI research that's about to supercharge your multi-agent systems. Let's dive right in!
+
+First up, we're blasting off into the future of operating systems with [HyperGraphOS](https://papers.miklos.dev/2412.04923). This web-based powerhouse is revolutionizing how we build multi-agent systems, using customizable graphs to represent data and applications. Imagine visually modeling agent interactions, then generating executable code with a snap of your fingers. It's like giving your LLM agents a turbo boost!
+
+But wait, there's more! We're taking a detour into the blocky world of Minecraft with [TeamCraft](https://papers.miklos.dev/2412.05255), a benchmark that's pushing the boundaries of multi-modal, multi-agent collaboration. Can your AI agents build, farm, and smelt their way to victory? This platform is exposing the challenges in generalizing to novel goals and scenes, proving that even in a virtual world, teamwork makes the dream work.
+
+Now, let's tackle the rumor mill! The [S2MAD system](https://papers.miklos.dev/2412.04859) is bringing order to the chaos of social media misinformation. By pitting LLM "debaters" against each other, this clever approach is separating fact from fiction faster than you can say "fake news." It's like hosting a high-stakes debate club in your neural networks!
+
+Last but not least, we're navigating the treacherous waters of robot traffic jams with [LIVENET](https://papers.miklos.dev/2412.04659). This decentralized neural network controller is teaching robots to yield and pass like polite humans, all without breaking a sweat (or a circuit). It's bringing safety and efficiency to the robot rush hour, and it might just revolutionize how we think about multi-agent navigation.
+
+That's all for now, AI enthusiasts! Keep your algorithms sharp and your training data fresh. Until next time, this is your AI newsletter editor, signing off!
+
 # Daily Digest (December 6, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a sizzling lineup of cutting-edge research that's about to supercharge your multi-agent systems. Let's dive right in!
