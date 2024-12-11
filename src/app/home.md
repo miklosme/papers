@@ -1,3 +1,15 @@
+# Daily Digest (December 11, 2024)
+
+Hold onto your hats, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's sure to get your neural networks firing. Let's dive right in!
+
+Are you ready to revolutionize human-AI cooperation? Buckle up, because [Web3 is about to change the game](https://papers.miklos.dev/2412.06855). Researchers are proposing an "Incentivized Symbiosis" framework that leverages blockchain technology to create a win-win scenario for humans and AI agents. Imagine a world where smart contracts and tokenized incentives drive collaborative innovation across decentralized finance, governance, and even cultural evolution. It's not science fiction, folks – it's the future of human-AI coexistence!
+
+But wait, there's more! Ever wondered how [mirroring behavior impacts alignment](https://papers.miklos.dev/2412.06834) in multi-agent systems? A groundbreaking study is shedding light on this fascinating phenomenon using simulated LLM interactions. The results are mind-blowing: communication range and mirroring rates can make or break system-wide alignment. We're talking echo chambers, fragmented opinions, and the delicate dance of consensus formation. This isn't just academic navel-gazing – it's a window into the very fabric of our AI-augmented social future!
+
+And for all you crypto-curious code jockeys out there, we've got a treat. [TokenLab](https://papers.miklos.dev/2412.07512) is taking the guesswork out of token economics with its revolutionary agent-based modeling framework. By simulating diverse speculator archetypes, this powerhouse tool is cracking the code on price dynamics and market sentiment. Whether you're a hodler or a day trader, TokenLab is about to become your new best friend in understanding the wild world of speculative token markets.
+
+That's all for now, but stay tuned – the AI revolution waits for no one, and neither do we!
+
 # Daily Digest (December 10, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changing approach to multi-agent cooperation.
