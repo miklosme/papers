@@ -1,3 +1,13 @@
+# Daily Digest (December 13, 2024)
+
+Hold onto your lab coats, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of what's possible in the world of artificial intelligence.
+
+First up, we're diving deep into the mind-bending realm of [complex agent beliefs](https://papers.miklos.dev/2412.09407) about rationality. Gone are the days of simple common knowledge assumptions! This groundbreaking paper introduces RBR graphs, a powerful new tool for modeling the intricate web of higher-order beliefs in multi-agent systems. With doxastic rationalizability and efficient graph compression, we're talking about a whole new level of nuanced agent interactions. LLM developers, take note – this could be a game-changer for creating more realistic and dynamic AI ecosystems!
+
+But wait, there's more! Are you ready to revolutionize biomedical research? Brace yourselves for [BioResearcher](https://papers.miklos.dev/2412.09429), the AI system that's turning the scientific method on its head. This multi-agent marvel is tackling everything from literature reviews to experimental design, all powered by the might of large language models. With a staggering 63.07% success rate across uncharted research objectives, BioResearcher is not just assisting scientists – it's blazing new trails in automated discovery!
+
+Last but not least, we're tackling the thorny issue of [conditional approval voting](https://papers.miklos.dev/2412.09005) in multi-issue elections. It's a computational minefield, but fear not! This paper lays out the roadmap for navigating the complexities of interdependent preferences. By introducing clever restrictions on ballot types and dependency structures, we're opening the door to practical implementations of this powerful voting system. Multi-agent system designers, this one's for you – get ready to level up your preference aggregation game!
+
 # Daily Digest (December 12, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a double dose of cutting-edge research that's about to supercharge your understanding of multi-agent systems and secure communication.
