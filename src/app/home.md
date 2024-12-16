@@ -1,3 +1,15 @@
+# Daily Digest (December 16, 2024)
+
+Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and cooperative AI. Let's dive right in!
+
+First up, we're tackling the challenge of [multi-robot graph coverage](https://papers.miklos.dev/2412.10083) with constraints. Imagine coordinating a team of robots to efficiently explore a building while staying within shouting distance of each other. This paper serves up a formal framework for this problem, complete with exact algorithms and approximation schemes. It's a must-read for anyone looking to optimize their multi-agent coordination game!
+
+But wait, there's more! Ever wondered if AI agents can learn to play nice together? A groundbreaking study explores [cooperation in LLM-based multi-agent systems](https://papers.miklos.dev/2412.10270). Researchers pitted different language models against each other in a digital society, and the results are eye-opening. Claude 3.5 Sonnet emerged as the cooperation champion, while GPT-4 struggled to find its altruistic side. This research could revolutionize how we think about deploying AI agents in the real world.
+
+Last but not least, buckle up for a ride into the future of autonomous driving! The [EI-Drive simulation platform](https://papers.miklos.dev/2412.09782) is bringing cooperative perception to life with realistic communication models. By accounting for those pesky real-world issues like transmission latency and errors, EI-Drive is paving the way for safer, smarter self-driving cars. It's a game-changer for anyone working on multi-agent systems in the automotive space.
+
+That's all for now, folks! Keep those algorithms humming, and we'll catch you next time with more groundbreaking AI research!
+
 # Daily Digest (December 13, 2024)
 
 Hold onto your lab coats, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of what's possible in the world of artificial intelligence.
