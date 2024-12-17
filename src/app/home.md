@@ -1,3 +1,19 @@
+# Daily Digest (December 17, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a deep dive into the world of [norm emergence in multi-agent systems](https://papers.miklos.dev/2412.10609). This comprehensive review explores how social structures, individual behaviors, and propagation mechanisms shape the creation and evolution of norms. It's a fascinating look at how we might build more human-like, adaptable AI systems.
+
+But wait, there's more! Ever wondered how to wrangle a herd of asynchronous agents? The [LSRP algorithm](https://papers.miklos.dev/2412.11678) is here to save the day. This bad boy can handle hundreds of agents moving at different speeds, sacrificing a bit of optimality for a whole lot of scalability. Perfect for those of you building massive multi-agent web applications!
+
+Now, let's talk strategy. A mind-bending paper explores how [coalitions can manipulate knockout tournaments](https://papers.miklos.dev/2412.11799) adaptively. It's like "Game of Thrones" meets the World Cup, with agents plotting and scheming in real-time. This research highlights the incredible complexity of coordinating actions in multi-agent systems.
+
+Speaking of coordination, how about a communication hack for multi-agent planning? Researchers have cooked up a method where agents share [suggested actions instead of full observations](https://papers.miklos.dev/2412.11430). It's like giving your AI teammates a nudge instead of writing them a novel. This approach could be a game-changer for scaling up multi-agent systems with computationally expensive language models.
+
+For those of you with your heads in the clouds (literally), check out the [CMADDPG algorithm](https://papers.miklos.dev/2412.10700). It's tackling the wild world of Space-Air-Ground Integrated Networks, using dynamic UAV clustering and multi-agent reinforcement learning to optimize task scheduling. It's like air traffic control for the future, and it's achieving some seriously impressive results.
+
+Last but not least, we've got a speed boost for multi-agent genetic programming. By [focusing on the most active parts of an agent's decision-making graph](https://papers.miklos.dev/2412.11146), researchers have found a way to supercharge evolution. This could be a game-changer for training more efficient LLM-based agents.
+
+That's all for now, folks! Keep your algorithms sharp and your agents sharper. Until next time, this is your AI newsletter editor, signing off!
+
 # Daily Digest (December 16, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and cooperative AI. Let's dive right in!
