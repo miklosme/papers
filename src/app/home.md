@@ -1,3 +1,19 @@
+# Daily Digest (December 19, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
+
+Ever wondered how to coordinate a robot swarm with limited walkie-talkies? A new paper tackles the [communication-constrained multi-agent path planning problem](https://papers.miklos.dev/2412.13719), proposing a graph-search algorithm that keeps your mechanical minions in constant contact while efficiently completing their tasks. This research isn't just for robot herders – it's got major implications for decentralized AI systems and resource-limited multi-agent coordination.
+
+Speaking of coordination, what if we could teach AI to haggle like a pro? Researchers have developed a [decentralized market model](https://papers.miklos.dev/2412.13972) where agents negotiate bilateral contracts, mimicking real-world markets like used car lots. Their "best response" dynamic shows how equilibrium prices can emerge from one-on-one dealmaking, offering insights into the stability of multi-agent systems and how external shocks ripple through networks.
+
+Now, let's shift gears to a more somber topic. How can AI optimize healthcare during the dual crises of war and pandemic? A groundbreaking study combines [epidemiological and warfare models](https://papers.miklos.dev/2412.14039) to explore this complex scenario. Using deep reinforcement learning, they've trained an AI to make tough decisions about allocating medical resources between civilians and soldiers. It's a stark reminder of AI's potential to tackle humanity's most challenging problems.
+
+For the database aficionados out there, ROMAS is here to revolutionize your monitoring game. This [new role-based multi-agent system](https://papers.miklos.dev/2412.13520) enhances DB-GPT with self-planning, self-monitoring, and collaborative capabilities. By assigning specific roles to AI agents, ROMAS promises more flexible and efficient data analytics across diverse scenarios.
+
+Finally, for those wrestling with robot traffic jams, MASS might be your new best friend. This [three-level planning framework](https://papers.miklos.dev/2412.13359) tackles the challenges of coordinating multiple differential drive robots (think warehouse bots) in complex environments. By considering the unique movement constraints of these robots, MASS achieves impressive throughput improvements in both single-shot and lifelong planning scenarios.
+
+That's all for today's AI research roundup. Keep your neural networks firing, and we'll catch you next time with more groundbreaking discoveries from the frontiers of artificial intelligence!
+
 # Daily Digest (December 18, 2024)
 
 Hold onto your neural networks, AI enthusiasts! We've got a sizzling lineup of cutting-edge research that's about to supercharge your multi-agent systems. Let's dive right in!
