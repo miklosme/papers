@@ -1,3 +1,11 @@
+# Daily Digest (December 21, 2024)
+
+Hold onto your neural networks, folks! We've got a game-changer in the world of multi-agent reinforcement learning. Ever struggled with those pesky sparse rewards in long-horizon tasks? Well, say hello to [Temporal-Agent Reward Redistribution (TAR²)](https://papers.miklos.dev/2412.14779), the new kid on the block that's shaking up how we assign rewards.
+
+This ingenious method is like a Robin Hood for your AI agents, taking that single, lonely reward at the end of an episode and spreading the wealth across both time and agents. It's not just about making everyone feel good - TAR² is mathematically proven to preserve the optimal policy. That means faster, more stable learning without sacrificing the end goal.
+
+But wait, there's more! TAR² isn't just for the multi-agent aficionados. It plays nice with single-agent RL algorithms too, often outperforming traditional multi-agent methods. So whether you're wrangling a team of AI agents or flying solo, TAR² has got your back. Don't let sparse rewards slow you down - it's time to redistribute and conquer!
+
 # Daily Digest (December 20, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in multi-agent coordination. Researchers have introduced a [novel sequential-move approach](https://papers.miklos.dev/2408.13139) that's revolutionizing how we manage complex interactions between multiple AI agents. Say goodbye to computational headaches and hello to improved efficiency in your multi-LLM applications!
