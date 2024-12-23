@@ -1,3 +1,25 @@
+# Daily Digest (December 23, 2024)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a bang in the world of multi-agent reinforcement learning!
+
+Are you tired of your AI agents fumbling around like lost tourists? Well, say hello to [REDA](https://papers.miklos.dev/2412.15573), the new sheriff in town for dynamic task assignments. This bad boy combines independent Q-learning with a distributed optimal assignment mechanism, scaling up to handle hundreds of agents and tasks. It's like herding cats, if the cats were super-intelligent and actually listened to you.
+
+But wait, there's more! If you thought spatial reasoning was just for humans trying to parallel park, think again. [MARC](https://papers.miklos.dev/2412.15388) is here to prove that even AI can benefit from a good sense of direction. This clever critic architecture transforms states into spatial graphs, giving your agents a bird's-eye view of the action without any awkward small talk.
+
+Speaking of traffic, are you sick of sitting at red lights? [MacLight](https://papers.miklos.dev/2412.15703) is revving up to revolutionize traffic signal control. Using convolutional learning and some fancy variational autoencoders, it's promising faster training and more stable performance than those graph-based slowpokes. Green lights all the way, baby!
+
+Now, let's talk exploration. [AIR](https://papers.miklos.dev/2412.15700) is bringing a breath of fresh... well, you know. This adaptive exploration method uses an identity classifier to keep your agents from stepping on each other's toes. It's like giving each agent a unique dance move at the AI disco.
+
+But what if your agents can't chat? [SICA](https://papers.miklos.dev/2412.15639) has got you covered with its framework for tacit learning and information selection. It's teaching agents to read the room and cooperate without saying a word. Silent but deadly (effective, that is).
+
+Ever wonder which of your agents is the real MVP? [EMAI](https://papers.miklos.dev/2412.15619) is here to spill the tea. Using counterfactual reasoning, it identifies the key players in your multi-agent system. It's like "Survivor" for AI, but with less drama and more math.
+
+On a more serious note, researchers are tackling the crucial task of [detecting dangerous AI capabilities](https://papers.miklos.dev/2412.15433). This new model aims to give policymakers an early warning system for AI risks. Because let's face it, nobody wants Skynet sneaking up on us.
+
+Last but not least, size isn't everything in the world of language models. [Dipper](https://papers.miklos.dev/2412.15238) is proving that with the right prompts, even smaller LLMs can punch above their weight class in reasoning tasks. It's not about the size of the model in the fight, but the fight in the model!
+
+That's all for now, folks. Keep your algorithms sharp and your neural networks sharper!
+
 # Daily Digest (December 21, 2024)
 
 Hold onto your neural networks, folks! We've got a game-changer in the world of multi-agent reinforcement learning. Ever struggled with those pesky sparse rewards in long-horizon tasks? Well, say hello to [Temporal-Agent Reward Redistribution (TAR²)](https://papers.miklos.dev/2412.14779), the new kid on the block that's shaking up how we assign rewards.
