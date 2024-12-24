@@ -1,3 +1,21 @@
+# Daily Digest (December 24, 2024)
+
+Hold onto your neural networks, folks! We've got a smorgasbord of AI advancements to dive into today. Let's kick things off with a bang:
+
+Diversity isn't just a buzzword – it's the secret sauce for [collective AI learning](https://papers.miklos.dev/2412.16244)! New research shows that heterogeneous agent behaviors outperform homogeneous strategies in cooperative tasks. We're talking emergent roles, synergies between neural and morphological diversity, and teams that can roll with the punches when disruptions hit. LLM designers, take note: it's time to embrace the chaos of agent individuality!
+
+But wait, there's more! Traffic jams might become a thing of the past thanks to [Bayesian Critique-Tune-Based Reinforcement Learning](https://papers.miklos.dev/2412.16225). This new method for multi-intersection signal control uses a two-layer Bayesian system to refine RL policies and an attention-based approach to represent complex traffic states. It's like giving each intersection its own AI traffic cop that actually learns from experience!
+
+Speaking of multi-agent systems, we've got a fresh survey on the rise of [Multi-Generative Agent Systems](https://papers.miklos.dev/2412.17481) (MGASs) powered by LLMs. From tackling complex tasks to simulating entire societies, these systems are pushing the boundaries of what's possible. But challenges remain – we need better ways to manage resources, combat hallucination, and evaluate these digital ecosystems.
+
+Now, hold onto your hats because we're about to get meta. A new framework proposes [autonomously optimizing multi-agent AI systems](https://papers.miklos.dev/2412.17149) using – you guessed it – more AI! This LLM-driven approach uses specialized agents to refine, execute, evaluate, and document improvements to the system itself. It's like watching AI evolve in real-time!
+
+For the hardware enthusiasts out there, we've got [hierarchical multi-agent deep reinforcement learning](https://papers.miklos.dev/2412.16167) optimizing UAV cluster reconfigurations. This distributed approach achieves centralized-level performance with better scalability. Your drone swarms just got a whole lot smarter!
+
+Last but not least, say hello to [kNoT (Knowledgeable Network of Thoughts)](https://papers.miklos.dev/2412.16533) – a prompting method that lets LLMs design their own reasoning workflows. It's outperforming other methods while using significantly less task-specific prompting. Could this be the key to unlocking even more complex problem-solving abilities in our AI assistants?
+
+That's all for now, AI aficionados! Keep those algorithms humming, and we'll catch you next time with more cutting-edge developments from the world of artificial intelligence!
+
 # Daily Digest (December 23, 2024)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a bang in the world of multi-agent reinforcement learning!
