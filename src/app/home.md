@@ -1,3 +1,17 @@
+# Daily Digest (December 25, 2024)
+
+Buckle up, AI enthusiasts! We've got a thrilling roundup of cutting-edge research that's pushing the boundaries of multi-agent systems and federated learning. Let's dive right in!
+
+First up, we're tackling the world of federated reinforcement learning with the [Single-loop Federated Actor Critic (SFAC)](https://papers.miklos.dev/2412.14555). This groundbreaking approach allows multiple agents to collaborate and learn a shared policy across diverse environments without compromising data privacy. The results are in, and they're impressive – we're seeing linear speed-ups in learning as we add more agents to the mix. This could be a game-changer for training LLMs in diverse, private settings!
+
+Switching gears to the medical field, researchers have developed a [Multi-Agent Norm Perception and Induction Learning Model](https://papers.miklos.dev/2412.18454) that's revolutionizing how AI systems learn and adapt to medical norms. By mimicking the way human doctors learn best practices, this model tackles both descriptive and prescriptive norms in a distributed healthcare setting. The results? AI agents that can effectively learn key clinical protocols without falling for invalid norms. This could be the key to integrating AI seamlessly into our healthcare systems!
+
+Hold onto your controllers, because the world of GameFi is getting a major upgrade! Researchers are proposing a [GameFi Ecosystem powered by LLM-based AI agents](https://papers.miklos.dev/2412.18601). These aren't your average NPCs – we're talking about proactive, adaptive agents that become integral parts of the game's narrative and economy. By combining cutting-edge AI with blockchain technology, this project is set to transform player engagement and create truly immersive, economically robust gaming environments.
+
+Last but not least, we're breaking down barriers in team training with a new [paradigm for cooperative asynchronous training](https://papers.miklos.dev/2412.17954). By using AI teammates as stand-ins for humans, this approach could revolutionize how we prepare for complex, coordinated tasks. While initial results are mixed, the study provides crucial insights for future research in developing more human-like AI training partners.
+
+That's all for now, folks! Stay tuned for more groundbreaking developments in the world of AI and multi-agent systems!
+
 # Daily Digest (December 24, 2024)
 
 Hold onto your neural networks, folks! We've got a smorgasbord of AI advancements to dive into today. Let's kick things off with a bang:
