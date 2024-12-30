@@ -1,3 +1,19 @@
+# Daily Digest (December 30, 2024)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang in the world of robotics!
+
+Ever wondered how to make warehouse robots work smarter, not harder? Researchers have cracked the code with a [multi-stage HRL-based planner](https://papers.miklos.dev/2412.19538) for hyper-scale multi-robot task planning. This bad boy can handle up to 200 robots and 1000 racks, outperforming the competition on both simulated and real-world warehouse setups. The secret sauce? A mix of hierarchical reinforcement learning, temporal attention networks, and some clever curriculum learning. It's like sending your robots to robot Harvard!
+
+But wait, there's more! The legal world is getting an AI makeover too. Enter [AgentsBench](https://papers.miklos.dev/2412.18697), a multi-agent framework that's bringing the courtroom drama to your computer. This system uses LLMs to simulate a full judicial bench, complete with judges and jurors who deliberate, debate, and reach consensus. It's not just about speed – AgentsBench is raising the bar on accuracy, fairness, and even moral considerations in legal AI. Who knew robots could have a conscience?
+
+Speaking of understanding human behavior, hold onto your hats for this next one. Scientists have developed [Diff-DCM](https://papers.miklos.dev/2412.19403), a method that can learn interpretable models of human decision-making straight from the data. No more relying on expert hunches – this system can figure out what makes people tick and even suggest ways to nudge their behavior. It's like having a crystal ball for human choices!
+
+Now, let's talk safety. As AI agents start to infiltrate the real world, we need to make sure they're not just smart, but also safe and explainable. That's where [xSRL](https://papers.miklos.dev/2412.19311) comes in. This framework is like a lie detector test for AI, providing both local and global explanations for reinforcement learning agents' behavior. It can even help developers spot and patch vulnerabilities without a full system overhaul. Trust me, you'll want this in your AI toolkit.
+
+Last but not least, we're taking a deep dive into the ocean – literally. Researchers have cooked up [WAITR](https://papers.miklos.dev/2412.19469), a path-planning framework for underwater vehicles collecting data in the unpredictable Gulf of Mexico. By using a dynamic knowledge graph and clever segmentation, WAITR helps these aquatic robots navigate hazards and collect data like pros. It's outperforming traditional methods by up to 27.1% in event coverage. Now that's what I call making a splash in AI research!
+
+That's all for today's AI digest, folks. Remember, the future is being written in code, and you're getting the inside scoop. Stay curious, stay innovative, and we'll catch you on the next breakthrough!
+
 # Daily Digest (December 25, 2024)
 
 Buckle up, AI enthusiasts! We've got a thrilling roundup of cutting-edge research that's pushing the boundaries of multi-agent systems and federated learning. Let's dive right in!
