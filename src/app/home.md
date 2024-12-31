@@ -1,3 +1,23 @@
+# Daily Digest (December 31, 2024)
+
+Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and collaborative AI. We're diving deep into the world of robot teamwork, shared memories, and the delicate dance of exploration and safety.
+
+First up, we've got a game-changing framework for [robot coalition formation](https://papers.miklos.dev/2412.20397). This decentralized approach uses reinforcement learning to coordinate multiple robots, allowing them to tackle complex tasks in dynamic environments. It's like giving your robot team a collective brain upgrade!
+
+But wait, there's more! Ever wonder if AI agents could benefit from sharing memories? A groundbreaking study reveals that [high-fidelity memory sharing](https://papers.miklos.dev/2412.20271) significantly boosts collaborative performance in foraging tasks. It's like giving your AI team a shared photo album of their greatest hits!
+
+Now, let's talk safety. The innovative [E2C method](https://papers.miklos.dev/2412.20361) is revolutionizing how we balance exploration and constraints in multi-agent reinforcement learning. It's the secret sauce that could make AI teamwork both daring and responsible.
+
+In the world of mobile networks, [multi-agent Q-learning](https://papers.miklos.dev/2412.19835) is taking center stage. This approach optimizes user connections and handovers in dense cellular networks, ensuring smooth sailing even in the busiest digital highways.
+
+For the game theory enthusiasts out there, we've got a deep dive into how [Nash equilibria and evolutionary dynamics](https://papers.miklos.dev/2412.20523) can supercharge multi-agent reinforcement learning. It's like giving your AI agents a crash course in advanced strategy!
+
+But it's not all smooth sailing in the world of networks. A fascinating study reveals the [dangers of homophily](https://papers.miklos.dev/2412.20158) for minority groups in networks. It's a wake-up call for anyone designing multi-agent systems – diversity isn't just nice, it's necessary!
+
+Finally, we're wrapping up with a look at cutting-edge [MARL techniques](https://papers.miklos.dev/2412.21088) that handle agent constraints and improve coordination. From relational networks to mixed Q-functionals, these advancements are paving the way for smarter, more adaptable AI teams.
+
+That's all for now, folks! Stay tuned for more mind-bending developments in the world of collaborative AI!
+
 # Daily Digest (December 30, 2024)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang in the world of robotics!
