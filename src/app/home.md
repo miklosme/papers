@@ -1,3 +1,25 @@
+# Daily Digest (January 3, 2025)
+
+Attention all AI enthusiasts! We've got a jam-packed lineup of cutting-edge research to dive into today. Let's kick things off with a deep dive into the world of multi-agent reinforcement learning.
+
+Are your Q-learning agents playing nice? [A new study](https://papers.miklos.dev/2501.00160) reveals that even the simplest independent Q-learning setups can lead to unexpected dynamics. Those apparent moments of cooperation? They might just be temporary phases, not true equilibrium. And watch out for those high discount factors – they could send your agents into an oscillating frenzy!
+
+But fear not, because we've got solutions on deck. The [M2I2 framework](https://papers.miklos.dev/2501.00312) is here to revolutionize how agents share and process information. With masked state modeling and a clever Dimensional Rational Network, your agents will be communicating like pros in no time.
+
+Speaking of efficiency, who doesn't love a good symmetry? [Researchers have cracked the code](https://papers.miklos.dev/2501.01136) on embedding symmetries into systems that don't naturally have them. This could be a game-changer for scaling up your multi-agent setups.
+
+Now, let's talk exploration. The [PIMAEX reward function](https://papers.miklos.dev/2501.01266) is turning heads by incentivizing agents to influence each other towards novel discoveries. It's like a treasure hunt, but for AI!
+
+In the world of practical applications, [multi-agent LLMs are making waves in engineering education](https://papers.miklos.dev/2501.01205). Imagine a virtual dream team of experts guiding students through complex capstone projects. The future of learning is looking bright, folks.
+
+But wait, there's more! We've got insights on [market equilibrium in networked systems](https://papers.miklos.dev/2501.00191), [controlling spatial behavior of swarms](https://papers.miklos.dev/2501.00110), and even [a new framework for educational AI inspired by von Neumann](https://papers.miklos.dev/2501.00083). 
+
+And for those unexpected moments? The [Unexpected Encoding Scheme](https://papers.miklos.dev/2501.01140) has your agents covered, sharing surprises to adapt on the fly.
+
+We'll wrap things up with a mind-bending connection between [Mean Field Games and Population Games](https://papers.miklos.dev/2501.01389), optimizing how agents update their strategies in large-scale systems.
+
+That's all for now, but stay tuned – the world of multi-agent AI is moving fast, and we'll be here to keep you in the loop!
+
 # Daily Digest (January 1, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a groundbreaking paper that's about to revolutionize the way we think about [multi-agent navigation](https://papers.miklos.dev/2412.20233). Imagine a swarm of robots, each with a mind of its own, effortlessly gliding through space to reach their goals. No central mastermind pulling the strings, just pure decentralized brilliance!
