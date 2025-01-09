@@ -1,3 +1,17 @@
+# Daily Digest (January 9, 2025)
+
+Hold onto your lab coats, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of artificial intelligence and multi-agent systems. Let's dive right in!
+
+First up, we're taking a walk on the wild side of urban crime prediction. Researchers have developed a [digital shadow platform](https://papers.miklos.dev/2501.04435) that's like SimCity meets CSI. This data-driven, agent-based model is calibrated with real crime data from Málaga, Spain, and it's showing promise in predicting crime hotspots. Could this be the future of predictive policing? Only time will tell, but it's certainly a step towards safer cities.
+
+But wait, there's more! Ever wondered how robots can work seamlessly alongside humans in industrial settings? A new [perception framework](https://papers.miklos.dev/2501.04193) is making waves by enabling mobile robots to predict human actions in a decentralized manner. It's like giving robots a sixth sense for human behavior, and it could revolutionize human-robot collaboration in factories and warehouses.
+
+Now, let's get philosophical for a moment. Can agents with vastly different capabilities ever truly understand each other? A fascinating [conceptual model game](https://papers.miklos.dev/2501.04199) explores this very question, pitting an all-knowing but action-less AI against a human who can act but lacks information. Spoiler alert: achieving common knowledge is tougher than you might think!
+
+Last but not least, we're tackling the age-old problem of schema matching with a fresh, agent-based approach. The [Reflex-SMAS system](https://papers.miklos.dev/2501.04136) is turning heads by treating schema elements as individual agents, working together to find the best matches. It's like watching a swarm of digital bees pollinate your databases, and it could be a game-changer for data integration.
+
+That's all for now, folks! Keep your neural networks firing, and we'll catch you next time with more groundbreaking AI research!
+
 # Daily Digest (January 8, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a double dose of cutting-edge research that's pushing the boundaries of language models in education and enterprise modeling.
