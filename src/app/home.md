@@ -1,3 +1,11 @@
+# Daily Digest (January 10, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a double dose of multi-agent madness that's about to revolutionize the way we think about collaborative AI systems.
+
+First up, [city risk mitigation](https://papers.miklos.dev/2501.04746) gets a major upgrade with a groundbreaking hybrid simulation framework. Imagine a virtual city where critical infrastructures dance in perfect harmony, driven by the pulsing rhythm of social interactions. This isn't just another urban planning tool – it's a Complex Adaptive System that breaks down city agents into subagents, allowing for unprecedented modeling of both inter and intra-system dynamics. Decision-makers, rejoice! You'll now have access to a layered structure of indicators that makes data-driven choices not just possible, but explainable. From cyber threats to traffic snarls, this framework lets you simulate it all in accelerated time, giving you the power to foresee and fortify your city's future.
+
+But wait, there's more! Ever wondered how to keep your AI agents in sync when the world throws communication curveballs? The [CoDe framework](https://papers.miklos.dev/2501.05207) is here to save the day. In a world where instant messaging is a pipe dream, this innovative approach tackles the thorny issue of asynchronous communication in multi-agent reinforcement learning. By teaching agents to communicate their future intentions and employing a clever dual alignment mechanism, CoDe ensures your AI team stays on the same page, even when messages arrive fashionably late. It's not just robust – it's downright revolutionary, outperforming baseline algorithms across multiple benchmarks. So whether you're dealing with fixed delays or a constantly shifting communication landscape, CoDe has got you covered.
+
 # Daily Digest (January 9, 2025)
 
 Hold onto your lab coats, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of artificial intelligence and multi-agent systems. Let's dive right in!
