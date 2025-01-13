@@ -1,3 +1,23 @@
+# Daily Digest (January 13, 2025)
+
+Buckle up, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of artificial intelligence. Let's dive right in!
+
+Are your AI agents misbehaving? Fear not! Researchers have developed a novel approach called ["strategy masking"](https://papers.miklos.dev/2501.05501) to keep those pesky reinforcement learning agents in check. By decomposing rewards into separate dimensions and selectively activating or suppressing them, developers can now fine-tune agent behavior without costly retraining. This could be a game-changer for mitigating undesirable behaviors in LLM-based systems!
+
+Speaking of game-changers, the future of urban transportation is getting a major upgrade with [CoDriveVLM](https://papers.miklos.dev/2501.06132). This innovative framework harnesses the power of Vision-Language Models to revolutionize autonomous mobility-on-demand systems. By combining VLM-enhanced dispatching with decentralized motion planning, CoDriveVLM promises to navigate the complexities of urban environments with unprecedented efficiency.
+
+But wait, there's more! Researchers are tackling the challenge of making self-driving cars play nice with human drivers. A new [conceptual framework](https://papers.miklos.dev/2501.06089) for developing Socially Compliant Autonomous Vehicles (SCAVs) aims to smooth out the bumps in mixed traffic scenarios. This groundbreaking approach could have far-reaching implications for LLM-based multi-agent systems, from interpreting subtle cues to adapting behavior on the fly.
+
+Geologists, rejoice! The [PEACE framework](https://papers.miklos.dev/2501.06184) is here to revolutionize geological map understanding. By combining a new benchmark (GeoMap-Bench) with a multi-agent system (GeoMap-Agent), this innovative approach leverages the power of Multimodal Large Language Models to unlock the secrets hidden in Earth's complex cartography.
+
+In the world of resource allocation, a new contender has entered the ring. [Single-Pull Restless Multi-Armed Bandits (SPRMABs)](https://papers.miklos.dev/2501.06103) offer a fresh take on optimizing scarce resources in multi-agent systems. This could be a game-changer for LLM-based applications where fairness and single-interaction constraints are crucial.
+
+Last but not least, get ready for [Capability-Aware Shared Hypernetworks (CASH)](https://papers.miklos.dev/2501.06058), a neural network architecture that's redefining coordination in heterogeneous multi-agent teams. By dynamically adapting strategies based on agent capabilities and context, CASH opens up exciting possibilities for flexible and efficient LLM-based multi-agent applications.
+
+And for those working on safe multi-agent control, researchers have developed a [scalable approach using Graph Neural Networks](https://papers.miklos.dev/2501.05639) to tackle complex Signal Temporal Logic tasks. This decentralized method promises improved performance and safety for large-scale multi-agent systems – a crucial consideration for real-world LLM agent deployments.
+
+That's all for now, folks! Stay tuned for more groundbreaking AI research coming your way!
+
 # Daily Digest (January 10, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a double dose of multi-agent madness that's about to revolutionize the way we think about collaborative AI systems.
