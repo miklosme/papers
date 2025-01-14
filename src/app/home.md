@@ -1,3 +1,21 @@
+# Daily Digest (January 14, 2025)
+
+Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and resource allocation. We're diving deep into the world of intelligent collaboration and optimization. Let's go!
+
+First up, we've got a mind-bending challenge: [fairly allocating resources](https://papers.miklos.dev/2501.06506) with Latin Square constraints. Picture this - you're juggling tasks among a team of AI agents, but each one needs to tackle every job exactly once. Sounds tricky, right? This research dives into the computational complexities and approximation algorithms to make it happen. It's a crucial step towards building harmonious AI teams that can handle diverse tasks efficiently.
+
+But wait, there's more! We're taking agent teamwork to the next level with [hierarchical reinforcement learning](https://papers.miklos.dev/2501.06554). This groundbreaking approach learns how to group agents and optimize their individual policies simultaneously. It's like teaching a symphony orchestra to compose and play in perfect harmony all at once. The implications for scalable, cooperative AI systems are enormous.
+
+Speaking of optimization, hold onto your portfolios! A new [multi-agent hierarchical deep reinforcement learning system](https://papers.miklos.dev/2501.06832) is shaking up the world of investment. By tackling the curse of dimensionality and sparse rewards head-on, this system is outperforming traditional strategies in both profitability and risk management. It's like having a team of AI financial gurus working in perfect sync.
+
+Now, imagine a world where AI agents can freely trade intellectual property. The [Agent Transaction Control Protocol for Intellectual Property](https://papers.miklos.dev/2501.06243) (ATCP/IP) is making this a reality. It's creating a decentralized knowledge economy where agents can autonomously exchange training data, algorithms, and creative content. We're talking about a whole new level of AI collaboration and innovation.
+
+But how do we test these brilliant AI systems in real-world scenarios? Enter [AIOPSLAB](https://papers.miklos.dev/2501.06706), a comprehensive framework for evaluating AI agents in cloud operations. It's like a high-tech obstacle course for AI, complete with realistic microservice environments, fault injections, and dynamic workloads. This is the proving ground for the next generation of self-healing cloud systems.
+
+Last but not least, we're bringing the power of multi-agent systems to the complex world of bioinformatics. [BioAgents](https://papers.miklos.dev/2501.06314) is a system of specialized, fine-tuned language models that work together to tackle genomics tasks with human-expert level performance. It's democratizing access to advanced bioinformatics workflows and paving the way for personalized, locally-operated AI assistance in genomics research.
+
+That's all for now, folks! Stay tuned for more cutting-edge developments in the world of AI and multi-agent systems. The future is collaborative, and it's looking brighter than ever!
+
 # Daily Digest (January 13, 2025)
 
 Buckle up, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of artificial intelligence. Let's dive right in!
