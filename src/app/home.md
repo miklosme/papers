@@ -1,3 +1,25 @@
+# Daily Digest (January 16, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
+
+Are your distributed agents playing nice? A groundbreaking [new algorithm](https://papers.miklos.dev/2501.08512) tackles the thorny issue of untruthful agents in distributed optimization. By injecting Laplace noise, it guarantees η-truthfulness without a central authority. This is a game-changer for decentralized multi-agent systems, offering robustness to noise and a clear trade-off between truthfulness and performance.
+
+But wait, there's more! Physical AI Agents are here to bridge the gap between cognitive reasoning and real-world action. A [proposed modular architecture](https://papers.miklos.dev/2501.08944) combines perception, cognition, and actuation, while the innovative Ph-RAG framework connects physical intelligence to industry-specific LLMs. Get ready for a revolution in autonomous vehicles, warehouse robotics, and more!
+
+For the game theorists out there, we've got a deep dive into [symmetries in multi-agent games](https://papers.miklos.dev/2501.08905). While finding general symmetries is computationally hard, there are promising avenues for leveraging symmetries in specific scenarios. This could be a goldmine for simplifying LLM-based multi-agent systems.
+
+Speaking of cooperation, the [DNA-MARL approach](https://papers.miklos.dev/2501.08778) is breaking new ground in training cooperative agents with limited information. By using local communication and a consensus mechanism, it's paving the way for privacy-preserving, decentralized multi-agent systems. LLM developers, take note!
+
+In the realm of collective decision-making, a [fascinating study](https://papers.miklos.dev/2501.08595) connects margin-based voting rules to axioms of voter equality. This could be crucial for designing fair aggregation mechanisms in LLM-based multi-agent systems.
+
+Warehouse logistics getting you down? A [comprehensive review](https://papers.miklos.dev/2501.08726) of Task Allocation algorithms for mobile robot fleets highlights the potential of AI-driven approaches, especially reinforcement learning. LLMs could take these optimization techniques to the next level!
+
+Ever wonder how different types of information spreaders impact network cascades? A [new study](https://papers.miklos.dev/2501.08498) reveals the critical role of "Simple Spreaders" and "Threshold-based Spreaders" in various network structures. This has major implications for managing information flow in multi-agent systems and combating misinformation.
+
+Finally, urban air mobility gets a boost with a [novel approach](https://papers.miklos.dev/2501.08933) using shared scheduling protocols to prevent collisions. This decentralized method offers valuable insights for resource management and conflict resolution in multi-agent web applications.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of AI research!
+
 # Daily Digest (January 15, 2025)
 
 Hold onto your hats, AI enthusiasts! We've got a whirlwind tour of cutting-edge research that's pushing the boundaries of multi-agent systems and LLMs. Let's dive right in!
