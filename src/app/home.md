@@ -1,3 +1,17 @@
+# Daily Digest (January 17, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a linguistic challenge that's got Hong Kong's legal system in a twist.
+
+Ever wondered if AI could tackle the Herculean task of [translating complex legal documents](https://papers.miklos.dev/2501.09444)? A new study proposes a multi-agent system using Large Language Models to translate Hong Kong's case law from English to Chinese. This TAP (Translator, Annotator, Proofreader) system isn't just outperforming GPT-4, it's doing it at a fraction of the cost of human translators. Talk about a legal eagle with silicon wings!
+
+But wait, there's more! If you thought optimizing complex engineering problems was tough, imagine having a team of AI agents working together to crack the code. A [new multi-agent system](https://papers.miklos.dev/2501.09563) is revolutionizing how we approach these black box scenarios. By using multiple optimization algorithms simultaneously, coordinated by a clever scheduler agent, this system is pushing the boundaries of what's possible in process engineering. It's like having a dream team of problem-solvers working 24/7!
+
+Now, let's step into the future with Augmented Reality. Imagine having an AI assistant that doesn't just respond to your questions, but [proactively helps you](https://papers.miklos.dev/2501.09355) avoid mistakes. The YETI (YET to Intervene) framework is making this a reality, using lightweight signals to trigger interventions in real-time. Whether you're cooking up a storm or tackling a complex task, YETI's got your back, anticipating your needs before you even realize them.
+
+Last but not least, we're diving deep into the world of adaptive agent-based models with ADAGE. This [two-layer framework](https://papers.miklos.dev/2501.09429) is addressing the long-standing Lucas critique by creating models where both agents and their environment can adapt to changes. It's like watching a digital ecosystem evolve in real-time, with applications ranging from economic simulations to policy design.
+
+That's all for today's AI roundup, folks. Remember, in the world of artificial intelligence, today's science fiction is tomorrow's reality. Stay curious, stay innovative, and keep pushing those boundaries!
+
 # Daily Digest (January 16, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
