@@ -1,3 +1,13 @@
+# Daily Digest (January 20, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a game-changer in the world of [multi-agent reinforcement learning](https://papers.miklos.dev/2501.10116). Imagine a team of AI agents working together with the finesse of a well-oiled machine, all thanks to a groundbreaking approach called GAWM. This isn't just another incremental step - it's a leap forward in how our digital minions understand and interact with complex environments.
+
+Picture this: AI agents that don't just stumble around in the dark, but share a crystal-clear vision of their world. GAWM is bringing the power of transformer architecture - yes, the same secret sauce behind those language models you can't stop talking about - to the MARL party. It's like giving each agent a pair of super-specs that let them see the big picture, leading to smarter decisions and smoother teamwork.
+
+But wait, there's more! GAWM isn't just about better performance; it's about getting there faster and more reliably. By focusing on the trends in rewards rather than nitpicking every detail, this method is paving the way for AI that can handle the most challenging multi-agent scenarios without breaking a sweat. It's not just winning the game; it's changing how the game is played.
+
+So, whether you're working on the next generation of AI assistants or dreaming up virtual worlds where agents collaborate like never before, GAWM is your ticket to the future of multi-agent AI. Don't blink, or you might miss the revolution!
+
 # Daily Digest (January 17, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a linguistic challenge that's got Hong Kong's legal system in a twist.
