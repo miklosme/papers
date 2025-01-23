@@ -1,3 +1,15 @@
+# Daily Digest (January 23, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a triple threat of cutting-edge research that's about to supercharge your understanding of multi-agent systems and collective intelligence. Let's dive in!
+
+First up, we're taking the radio waves by storm with a groundbreaking [offline MARL algorithm](https://papers.miklos.dev/2501.12991) for radio resource management. This bad boy is cranking up the efficiency of wireless networks, boosting both overall data rates and fairness among users by a whopping 15%! Say goodbye to safety concerns and expensive data collection – offline training is the name of the game, and it's revolutionizing how we manage our increasingly complex wireless world.
+
+But wait, there's more! Ever dreamed of becoming a Hollywood hotshot? Well, [FILMAGENT](https://papers.miklos.dev/2501.12909) is here to turn that dream into virtual reality. This mind-blowing LLM-based framework is bringing together a dream team of AI agents to automate the entire film production process in 3D virtual spaces. From brainstorming to final cut, these digital directors, screenwriters, and cinematographers are collaborating to create cinematic magic without a single human lifting a finger. The future of filmmaking is here, and it's speaking in code!
+
+Last but certainly not least, we're cracking the code of [collective intelligence](https://papers.miklos.dev/2501.12587) with a fascinating study inspired by thousands of humans controlling a single virtual car. This research is unlocking the secrets of self-organized division of labor, proving that both elite players and the common folk are crucial for fostering group genius. With a new index for measuring collective smarts and a distributed method for role optimization, we're one step closer to creating AI swarms that can tackle complex problems with unprecedented efficiency.
+
+That's all for now, folks! Keep your algorithms sharp and your training data clean – the future of AI is looking brighter than ever!
+
 # Daily Digest (January 22, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of multi-agent pathfinding. Researchers have developed a method to [compute multiple agent prioritizations simultaneously](https://papers.miklos.dev/2501.10781), potentially revolutionizing how we handle complex coordination scenarios. This could be a massive boost for LLM-based multi-agent systems dealing with resource constraints and intricate dependencies.
