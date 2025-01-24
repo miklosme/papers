@@ -1,3 +1,21 @@
+# Daily Digest (January 24, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
+
+Are you tired of your AI agents fumbling around like newborns in a china shop? [XAI-assisted MADRL](https://papers.miklos.dev/2501.13552) is here to save the day! This groundbreaking approach uses explainable AI to simplify deep reinforcement learning models for vehicle-to-everything (V2X) communication. By identifying and removing less important input features, they've achieved a whopping 97% of original performance while slashing training time and model complexity. Talk about a win-win!
+
+But wait, there's more! If you thought ride-pooling was a headache before, [BMG-Q](https://papers.miklos.dev/2501.13448) is about to blow your mind. This graph attention Q-learning algorithm is revolutionizing how we coordinate thousands of vehicles in real-time. It's not just smarter; it's 10% more rewarding and 50% less prone to overestimation bias. Your Uber rides are about to get a whole lot smoother.
+
+Speaking of smooth rides, [I2XTraj](https://papers.miklos.dev/2501.13461) is taking the guesswork out of predicting vehicle trajectories at intersections. By leveraging infrastructure data and a dash of AI magic, this framework is outperforming existing methods by a jaw-dropping 30%. Green lights all the way, baby!
+
+But why stop at roads when we can conquer the skies? [WFCRL](https://papers.miklos.dev/2501.13592) is bringing the power of multi-agent reinforcement learning to wind farm control. It's like conducting an orchestra of turbines, maximizing energy output while keeping those blades spinning safely. Mother Nature, meet your new dance partner.
+
+And for those of you wrestling with the Gordian knot of multi-agent pathfinding, [SRMT](https://papers.miklos.dev/2501.13200) is here to cut through the complexity. This shared recurrent memory transformer is teaching agents to cooperate without explicit communication. It's like giving your AI a collective unconscious – Carl Jung would be proud.
+
+Last but not least, [SS-MARL](https://papers.miklos.dev/2501.13727) is tackling the twin titans of safety and scalability in multi-agent systems. With its graph-based approach and constrained optimization, it's paving the way for AI applications that are both powerful and trustworthy. The future of robotics just got a whole lot brighter.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of what's possible in AI. Until next time, this is your AI newsletter editor, signing off!
+
 # Daily Digest (January 23, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a triple threat of cutting-edge research that's about to supercharge your understanding of multi-agent systems and collective intelligence. Let's dive in!
