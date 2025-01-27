@@ -1,3 +1,13 @@
+# Daily Digest (January 27, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a game-changer in the world of federated learning. Ever wondered [how to improve generalization without sharing data](https://papers.miklos.dev/2501.14653)? Well, the brilliant minds behind FedOMG (Federated Learning via On-server Matching Gradient) have cracked the code!
+
+This groundbreaking approach is tackling the thorny issue of Federated Domain Generalization head-on. Instead of struggling with domain-invariant representations across distributed data, FedOMG leverages local gradients to find that sweet spot of invariance. The best part? It does all this magic on the centralized server without adding any extra communication overhead. Talk about efficiency!
+
+But wait, there's more! FedOMG isn't just a one-trick pony. It's designed to play nice with existing FL and FDG methods, potentially supercharging their performance. And if you're skeptical about its real-world chops, prepare to be amazed. FedOMG has outperformed state-of-the-art baselines across a smorgasbord of datasets, from MNIST to CIFAR-100, and even the challenging PACS, VLCS, and OfficeHome benchmarks.
+
+So, whether you're wrestling with privacy concerns or battling domain generalization issues, FedOMG might just be the ally you've been waiting for. Don't let your models stay stuck in their comfort zones – it's time to federate and dominate!
+
 # Daily Digest (January 24, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
