@@ -1,3 +1,13 @@
+# Daily Digest (January 31, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a double dose of cutting-edge research that's pushing the boundaries of what large language models can do. 
+
+First up, we're diving into the murky waters of tax evasion. Can LLMs actually simulate the emergence of this economic bad boy? A groundbreaking [new study](https://papers.miklos.dev/2501.18177) says yes! Using a clever cocktail of LLMs and Deep Reinforcement Learning, researchers have created a multi-agent simulation that lets tax evasion emerge organically. No assumptions, no pre-programming – just pure, unadulterated economic behavior in action. The results? Personality traits, public narratives, and government policies all play a huge role in whether your virtual citizens decide to pay up or go rogue. It's a game-changer for understanding tax compliance and designing fairer economic systems.
+
+But wait, there's more! Ever wish you could upgrade your AI agents on the fly? The [Reinforcement Learning Free Agent algorithm](https://papers.miklos.dev/2501.17903) is here to make that dream a reality. Taking a page from Major League Baseball's playbook, this innovative approach swaps out underperforming agents for all-star replacements. Combine that with a mixture-of-experts model, and you've got a multi-agent system that's more adaptable than a chameleon in a rainbow factory. The researchers put it to the test in fraud detection, and the results are nothing short of impressive. It's a home run for creating AI systems that can keep up with our ever-changing world.
+
+So there you have it, folks – two mind-bending studies that prove once again that when it comes to AI, the only limit is our imagination. Stay curious, stay innovative, and keep pushing those boundaries!
+
 # Daily Digest (January 30, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a game-changing development in the world of game theory and language models. Researchers have just unveiled [GameInterpreter](https://papers.miklos.dev/2501.17282), a groundbreaking framework that's turning natural language game descriptions into full-fledged game-theoretic representations. 
