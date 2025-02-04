@@ -1,3 +1,23 @@
+# Daily Digest (February 4, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bang:
+
+Are you ready to make some serious gains in the stock market? [MarketSenseAI](https://papers.miklos.dev/2502.00415) is here to revolutionize your portfolio. This powerhouse framework leverages multiple LLM agents to analyze everything from SEC filings to macroeconomic reports. The results? A jaw-dropping 125.9% return on S&P 100 stocks over two years. That's not just beating the market; it's leaving it in the dust!
+
+But wait, there's more! For those of you wrestling with the challenges of multi-agent coordination, [AsynCoMARL](https://papers.miklos.dev/2502.00558) is about to become your new best friend. This clever approach uses graph transformers to tackle scenarios with limited, asynchronous communication. Think Mars rovers collaborating on the Red Planet, folks. The kicker? It achieves similar success rates to leading baselines while using 26% fewer messages. Talk about efficiency!
+
+Now, let's talk accountability. In a world of data breaches and privacy concerns, [JustAct+](https://papers.miklos.dev/2502.00138) is stepping up to the plate. This framework empowers autonomous agents to create, share, and justify their actions based on dynamic policies. It's like giving your AI a built-in legal team, ensuring every move is above board and traceable.
+
+Concerned about the societal impact of generative AI? You're not alone. A [groundbreaking paper](https://papers.miklos.dev/2502.00648) argues that "agency" is the key to understanding both the perils and potential of these powerful tools. By expanding our theories of agency and incorporating them into agent-based models, we might just find a way to harness the benefits while mitigating the risks.
+
+Music lovers, this one's for you! [MACAT and MACataRT](https://papers.miklos.dev/2502.00023) are pushing the boundaries of AI-assisted music improvisation. These systems use small, personalized datasets to create unique, interactive musical experiences. It's like having an AI jam session partner that respects your artistic vision!
+
+But can LLMs be trusted to make fair decisions? A [new study](https://papers.miklos.dev/2502.00313) puts them to the test in resource distribution scenarios. The verdict? There's still work to be done. LLMs struggle with fundamental fairness concepts and often prioritize efficiency over equality. However, they perform better when selecting from predefined options rather than generating solutions from scratch.
+
+Finally, for the MARL aficionados out there, the [Composite Task Challenge (CTC)](https://papers.miklos.dev/2502.00345) is here to push your algorithms to the limit. This new benchmark specifically tests an agent's ability to use division of labor and cooperation, addressing a critical gap in existing testbeds. Spoiler alert: current methods struggle, highlighting the need for more sophisticated approaches.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of AI research!
+
 # Daily Digest (February 3, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of multi-agent systems.
