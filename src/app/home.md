@@ -1,3 +1,21 @@
+# Daily Digest (February 6, 2025)
+
+Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and collaborative AI. We're diving deep into the world of robustness, coordination, and reasoning – so buckle up!
+
+First up, we've got a game-changer for [multi-agent reinforcement learning](https://papers.miklos.dev/2502.02844). Imagine your AI agents as a pack of wolves, working together to fend off coordinated attacks. That's the inspiration behind the new Wolfpack Adversarial Attack framework. But don't worry, they've also cooked up the WALL defense system to keep your agents safe and collaborating like champs.
+
+Speaking of teamwork, are your agents struggling to play nice with limited information? Enter the [Double Distillation Network](https://papers.miklos.dev/2502.03125). This clever system bridges the gap between centralized training and decentralized execution, helping your agents coordinate even when they can't see the whole picture. It's like giving each agent a personalized cheat sheet for better collaboration!
+
+Now, let's talk about reasoning with scene graphs. The new [SG-RwR framework](https://papers.miklos.dev/2502.03450) is revolutionizing how language models tackle spatial planning and question-answering. It's like having two AI agents – one for reasoning and one for retrieving information – working in perfect harmony. The best part? They only need to know the graph's structure, not all the nitty-gritty details, which means faster, more accurate results.
+
+But wait, there's more! If you're tired of choosing between different value decomposition methods for your multi-agent systems, why not use them all? The [Heterogeneous Policy Fusion](https://papers.miklos.dev/2502.02875) approach lets you mix and match, adaptively selecting the best policy for each situation. It's like giving your agents a Swiss Army knife of cooperation strategies!
+
+For all you travel enthusiasts out there, we've got a treat. Researchers have cracked the code on [optimizing group trips](https://papers.miklos.dev/2502.03144) with multiple transportation options. This isn't just about picking the best restaurants – it's about finding the perfect balance of destinations and travel modes to keep everyone happy and on budget.
+
+Last but not least, medical professionals, listen up! [MedRAX](https://papers.miklos.dev/2502.02673) is here to revolutionize chest X-ray analysis. This AI powerhouse combines specialized tools with language models to tackle complex medical queries. It's like having a team of expert radiologists and a medical encyclopedia working together in perfect harmony.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of AI collaboration!
+
 # Daily Digest (February 5, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending exploration of [steering opinions in social networks](https://papers.miklos.dev/2502.01847). This paper models opinion dynamics as a containment control problem, with leaders influencing followers to reach a desired distribution. It's like herding cats, but with thoughts!
