@@ -1,3 +1,27 @@
+# Daily Digest (February 8, 2025)
+
+Attention all AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a game-changer in the world of multi-agent LLMs. 
+
+Are you tired of static, one-size-fits-all agent systems? Well, say hello to [MaAS](https://papers.miklos.dev/2502.04180), the framework that's revolutionizing how we build cost-effective and adaptable multi-agent LLMs. This bad boy dynamically samples task-specific architectures from a probabilistic supernet, delivering top-notch performance while slashing those pesky inference costs. We're talking 6-45% of the costs of existing systems, folks!
+
+But wait, there's more! Ever wondered how to pick the perfect mix of influential and diverse nodes in a network? A new study has cracked the code, proposing methods that balance [node influence with proportional representation](https://papers.miklos.dev/2502.03545). This could be a game-changer for fairness in multi-agent LLM collaborations.
+
+Now, let's talk about harmony without the chit-chat. Researchers have developed [TACO](https://papers.miklos.dev/2502.03616), a decentralized algorithm that helps non-cooperative agents reach consensus without direct communication. Imagine LLMs coordinating actions by trading virtual resources – it's like a silent auction for AI teamwork!
+
+For all you competitive gamers out there, we've got a treat. [Elo-RCC](https://papers.miklos.dev/2502.03998) is here to shake up the world of player ratings. This real-time algorithm handles those tricky rock-paper-scissors scenarios in competitive games, perfect for tracking the ever-changing landscape of AI agent performance.
+
+Exploration is the name of the game in multi-agent reinforcement learning, and a new [optimistic ε-greedy strategy](https://papers.miklos.dev/2502.03506) is taking it to the next level. By preferentially sampling optimal actions, this method is helping agents break free from suboptimal solutions and reach new heights of performance.
+
+Worried about the risks of AI multi-agent systems? Fear not! Researchers are leveraging the [Free Energy Principle](https://papers.miklos.dev/2502.04249) to introduce a Cumulative Risk Exposure metric. This approach allows stakeholders to define their risk preferences and introduces "gatekeepers" to keep those AI agents in check.
+
+In the realm of fairness, we've got two exciting developments. First, [DECAF](https://papers.miklos.dev/2502.04281) is serving up methods to learn fair resource allocation policies in multi-agent systems. Then, we've got [fair-PPO](https://papers.miklos.dev/2502.03953), a modified version of PPO that's tackling unfair reward distribution head-on.
+
+Communication is key in multi-agent systems, and [PAGNet](https://papers.miklos.dev/2502.03845) is here to boost efficiency. This pluggable framework uses generative models to create shared understanding from limited local views, perfect for coordinating those chatty LLM agents.
+
+Last but not least, we're solving the age-old problem of credit assignment in MARL. Researchers are now using [LLMs to generate dense, agent-specific rewards](https://papers.miklos.dev/2502.03723) based on natural language task descriptions. It's like having an AI coach for your AI team!
+
+That's all for today's AI digest. Remember, the future of AI is multi-agent, and it's looking brighter than ever!
+
 # Daily Digest (February 7, 2025)
 
 Hold onto your keyboards, AI enthusiasts! We've got a game-changer in the world of online learning. Imagine having a personal team of digital assistants, each specializing in different corners of the internet, working tirelessly to supercharge your learning experience. That's exactly what researchers are cooking up with their [Multi-Agent Retrieval-Augmented Generation (RAG) System](https://papers.miklos.dev/2502.03948).
