@@ -1,3 +1,19 @@
+# Daily Digest (February 11, 2025)
+
+Attention all AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a fascinating look at how [LLMs can learn social deduction](https://papers.miklos.dev/2502.06060) through multi-agent reinforcement learning. This groundbreaking work shows how language models can develop complex communication strategies without human examples, potentially revolutionizing how AI agents interact in partially observable settings.
+
+But that's just the beginning! We're also exploring how [neural flows can improve multi-agent game learning](https://papers.miklos.dev/2502.05498), offering a novel approach to simplifying complex interactions between AI agents. This could be a game-changer for developing more effective and natural conversational AI systems.
+
+For those of you working on large-scale AI applications, you won't want to miss the research on [efficient specialization of LLMs in multi-agent systems](https://papers.miklos.dev/2502.05573). The proposed LoRASA method offers a scalable way to train specialized language models for different roles while keeping computational costs in check.
+
+We're also diving into the world of distributed learning with a [decentralized Gaussian Process ensemble](https://papers.miklos.dev/2502.05301) that could revolutionize how multi-agent systems collaboratively learn complex functions. This approach is particularly exciting for real-time online learning scenarios.
+
+But it's not all about algorithms and efficiency. We're also exploring the fascinating question of whether [LLMs can have personalities](https://papers.miklos.dev/2502.05248). This research applies psychological assessment tools to language models, revealing distinct personality traits that could inform how we design and interact with AI agents in the future.
+
+Lastly, we're tackling the critical issue of [preventing rogue agents in LLM-based systems](https://papers.miklos.dev/2502.05986). This work introduces a method to monitor agent uncertainty and intervene before errors cascade, potentially saving entire multi-agent systems from failure.
+
+Stay tuned, because we've only scratched the surface of today's AI research roundup. There's plenty more to explore in the world of multi-agent systems, optimization, and resilience. The future of AI is unfolding before our eyes, and it's more exciting than ever!
+
 # Daily Digest (February 10, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of multi-agent madness that's sure to get your algorithms firing. Let's dive into the latest breakthroughs in cooperative AI:
