@@ -1,3 +1,21 @@
+# Daily Digest (February 12, 2025)
+
+Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and collaborative AI. We're diving deep into the world of consensus-building, warehouse optimization, and even fairness in AI. Let's go!
+
+First up, we've got a game-changer for group decision-making. Researchers have developed [Social Bayesian Optimization](https://papers.miklos.dev/2502.07166), a clever algorithm that cuts through the noise of social influence to reach true consensus. By combining public and private voting systems, SBO learns the hidden social dynamics at play and helps groups make decisions that truly reflect individual preferences. This could revolutionize everything from team meetings to large-scale democratic processes!
+
+Speaking of optimization, warehouse robots are getting a major upgrade. A new study tackles the [combined problem of task assignment and pathfinding](https://papers.miklos.dev/2502.07332) for warehouse bots in real-time. The researchers have cooked up a rule-based pathfinding algorithm called "Touring with Early Exit" and paired it with reinforcement learning for task assignment. The result? A system that's 16% faster than current methods and can achieve the same throughput with 40% fewer robots. Warehouse managers, rejoice!
+
+But wait, there's more! We're not just making AI systems more efficient; we're making them better team players too. A groundbreaking study introduces [the concept of "interdependence"](https://papers.miklos.dev/2502.06976) as a key metric for evaluating human-AI cooperation. This goes beyond simple task completion, digging into how agents rely on each other's actions. The findings? Current AI agents might be good at tasks, but they're falling short on true teamwork. Time to step up our game in human-AI collaboration!
+
+Fairness is the name of the game in our next highlight. Researchers have developed [a comprehensive framework](https://papers.miklos.dev/2502.07254) for ensuring fairness in decentralized multi-agent AI systems. This isn't just about individual agents behaving fairly; it's about managing the emergent biases that can arise from complex interactions. With fairness constraints, bias mitigation strategies, and clever incentive mechanisms, we're one step closer to AI systems that align with our societal values.
+
+For those working on decentralized systems, we've got a treat. [Distributed Value Decomposition Networks (DVDN)](https://papers.miklos.dev/2502.07635) are here to shake up cooperative multi-agent reinforcement learning. This clever approach allows agents to learn locally while still working towards a shared goal, all without the need for centralized training. It's a game-changer for real-world scenarios where central control just isn't feasible.
+
+Last but not least, we're evolving the way we build multi-agent systems. [EvoFlow](https://papers.miklos.dev/2502.07373) is an evolutionary algorithm that automatically creates diverse, efficient multi-agent workflows. Instead of relying on a single, complex workflow, EvoFlow evolves a population of varied solutions, optimizing for both performance and cost. The result? Systems that outperform previous methods while using cheaper, open-source models. It's a win-win for innovation and efficiency!
+
+That's all for now, AI aficionados. Keep pushing the boundaries of what's possible in multi-agent systems, and we'll catch you next time with more cutting-edge research!
+
 # Daily Digest (February 11, 2025)
 
 Attention all AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a fascinating look at how [LLMs can learn social deduction](https://papers.miklos.dev/2502.06060) through multi-agent reinforcement learning. This groundbreaking work shows how language models can develop complex communication strategies without human examples, potentially revolutionizing how AI agents interact in partially observable settings.
