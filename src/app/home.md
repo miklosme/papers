@@ -1,3 +1,29 @@
+# Daily Digest (February 13, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of web agents. 
+
+The folks behind [AgentSymbiotic](https://papers.miklos.dev/2502.07942) are revolutionizing how we combine large and small language models for web tasks. Picture this: big LLMs generating high-quality web interaction data, while their smaller counterparts explore the digital wilderness, uncovering those juicy edge cases. It's a continuous improvement loop that's pushing the boundaries of what's possible. Their results on the WEBARENA benchmark? Nothing short of spectacular.
+
+But wait, there's more! Ever wondered how to make AI play nice when multiple stakeholders are involved? A new [framework](https://papers.miklos.dev/2502.08542) is redefining decision-making as a multi-stakeholder optimization problem. It's like getting a room full of opinionated experts to agree, but with math! This could be a game-changer for complex, high-stakes decisions where everyone needs a seat at the table.
+
+Speaking of high stakes, policy evaluation is getting a much-needed upgrade. The [PolicySimEval benchmark](https://papers.miklos.dev/2502.07853) is putting agent-based simulations through their paces, testing how well they can inform real-world policy decisions. Spoiler alert: current systems are struggling, but this benchmark is lighting the way forward.
+
+Now, let's talk resilience. In a world where not every AI agent plays by the rules, how do we ensure consensus? Enter the [QMW-MSR algorithm](https://papers.miklos.dev/2502.08455), a robust solution for multi-hop agent networks that can handle malicious actors and communication delays. It's like building a digital immune system for your AI network.
+
+But what happens when different types of AI learners compete in the same market? A fascinating [study](https://papers.miklos.dev/2502.08597) pits Bayesian learners against no-regret learners in simulated asset markets. The results? Let's just say it's not always the smartest AI that survives, but the one that adapts best to its competition.
+
+We've got breakthroughs in railway scheduling, with a [decentralized approach](https://papers.miklos.dev/2502.08324) that lets trains negotiate their own routes. It's like giving each train its own AI conductor, working together to keep the network running smoothly.
+
+For those wrestling with complex AI workflows, [Cognify](https://papers.miklos.dev/2502.08056) is here to save the day. This framework automates the tuning of gen-AI workflows, potentially saving you time, money, and a few headaches along the way.
+
+GUI automation is getting a boost with [WorldGUI and GUI-Thinker](https://papers.miklos.dev/2502.08047). These tools are tackling the challenge of varying initial states in GUI tasks, making AI assistants more robust and adaptable to real-world scenarios.
+
+In the world of self-driving cars, [Fresh2comm](https://papers.miklos.dev/2502.07852) is optimizing multi-agent data freshness for better perception. It's all about getting the right information at the right time, even when network conditions are less than ideal.
+
+Last but not least, [QA-Expand](https://papers.miklos.dev/2502.08557) is revolutionizing query expansion for information retrieval. By generating relevant questions and answers, it's creating more diverse and effective search queries. It's like having a team of expert researchers working on your search in real-time.
+
+That's all for today's AI digest. Remember, the future of AI is collaborative, adaptive, and more capable than ever. Stay curious, and keep pushing those boundaries!
+
 # Daily Digest (February 12, 2025)
 
 Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and collaborative AI. We're diving deep into the world of consensus-building, warehouse optimization, and even fairness in AI. Let's go!
