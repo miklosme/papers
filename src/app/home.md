@@ -1,3 +1,23 @@
+# Daily Digest (February 14, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a networking breakthrough that'll make your router's heart skip a beat.
+
+Ever wonder if [small buffers can stabilize learning router queues](https://papers.miklos.dev/2502.08898)? Well, wonder no more! Researchers have cracked the code, showing that even with tiny buffers, a small boost in server capacity is all it takes to keep things running smoothly when routers are in learning mode. This could be a game-changer for decentralized, learning-based agents managing shared resources in web applications.
+
+Shifting gears to the roads, we've got a modular system that's bringing [traffic laws into the world of autonomous vehicles](https://papers.miklos.dev/2502.09216). Using a clever combo of Logical English, Prolog, and NetLogo, this system ensures AVs play nice with human drivers at junctions. It's like a Rosetta Stone for robots and road rules!
+
+But wait, there's more! The SD-CQL algorithm is revolutionizing [offline multi-agent reinforcement learning](https://papers.miklos.dev/2502.08985). It's learning skills from a handful of tasks and applying them to new scenarios without breaking a sweat. This could be huge for LLM-based systems looking to generalize their knowledge.
+
+Speaking of power moves, researchers are using [multi-agent RL to tackle power grid control](https://papers.miklos.dev/2502.08681). Their centrally coordinated multi-agent architecture is showing promise for managing the complex dance of renewable energy sources. It's like having a team of AI DJs keeping the electricity flowing smoothly!
+
+In the medical field, [PathFinder is diagnosing diseases](https://papers.miklos.dev/2502.08916) like a team of AI doctors. This multi-agent system is outperforming both traditional AI and human pathologists in melanoma classification. It's not just accurate; it's explaining its diagnoses in plain English. Talk about a bedside manner!
+
+For the robotics enthusiasts, [SkyRover is taking UAV-AGV pathfinding](https://papers.miklos.dev/2502.08969) to new heights (and grounds). This simulator is perfect for testing how flying and rolling robots can work together in 3D spaces. It's like a playground for AI coordination algorithms!
+
+Last but not least, [KIMAS is supercharging knowledge-intensive conversations](https://papers.miklos.dev/2502.09596) with a dream team of AI agents. It's tackling everything from context management to efficient knowledge routing, making RAG-based applications more practical and powerful than ever.
+
+That's all for now, folks! Keep your neural networks firing and your agents collaborating. Until next time, this is AI News, signing off!
+
 # Daily Digest (February 13, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of web agents. 
