@@ -1,3 +1,13 @@
+# Daily Digest (February 15, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a double dose of multi-agent madness that's about to supercharge your research game.
+
+First up, [a groundbreaking framework](https://papers.miklos.dev/2502.08950) that's cracking the code on single-agent planning in multi-agent systems. Imagine being the lone wolf in a pack of AI agents, with no clue about your opponents' next move. This research serves up a unified approach that balances the tightrope between exploiting known info and exploring the unknown. From exact solutions to clever approximations, it's scaling up to handle environments with up to 50 agents! And get this – the dark horse "safe agents" are stealing the show, proving sometimes the simplest strategies pack the biggest punch.
+
+But wait, there's more! Ever wondered how to level up your Visual Language Models without just throwing more parameters at the problem? Say hello to [AIDE](https://papers.miklos.dev/2502.09051), the AI improvement framework that's flipping the script on traditional knowledge distillation. This clever system brings in the big guns – specialized domain experts – to give your VLMs a targeted boost. With a four-step process that's all about identify, engage, synthesize, and integrate, AIDE is showing impressive gains across multiple benchmarks. It's a game-changer for when you can't just phone a bigger model for help.
+
+Both these papers are pushing the boundaries of multi-agent systems and collaborative AI improvement. So, whether you're planning in a crowd or fine-tuning your visual smarts, these insights are your ticket to the cutting edge. Don't blink, or you might miss the next big leap in AI research!
+
 # Daily Digest (February 14, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a networking breakthrough that'll make your router's heart skip a beat.
