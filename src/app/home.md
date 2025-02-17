@@ -1,3 +1,21 @@
+# Daily Digest (February 17, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of multi-agent madness to dive into today. Let's kick things off with a bang!
+
+Are you tired of your AI agents fumbling around like lost tourists? Well, say hello to [COMPASS](https://papers.miklos.dev/2502.10148), the new sheriff in town for cooperative multi-agent systems. This bad boy uses vision-language models to give your agents eyes, brains, and a whole lot of attitude. We're talking closed-loop planning, dynamic skill synthesis, and structured communication that'll make your agents work together like a well-oiled machine. COMPASS is showing off in StarCraft II, leaving traditional algorithms in the dust with up to 30% higher win rates. It's time to level up your multi-agent game!
+
+But wait, there's more! Ever wonder how to make your warehouse pickers move like a synchronized swimming team? [MAHAM](https://papers.miklos.dev/2502.10233) is here to revolutionize your logistics. This hierarchical attention model is all about parallel decoding with a twist of sequential action selection. It's like conducting an orchestra of robots, ensuring they pick items in perfect harmony without bumping into each other. MAHAM is proving that sometimes, you need to think in parallel to act in sequence.
+
+Now, let's talk about finding your AI soulmates. [SALDAE](https://papers.miklos.dev/2502.10226) is the matchmaker you never knew you needed for coalition structure generation. This algorithm is like speed dating for AI agents, quickly pairing them up to maximize their collective awesomeness. Whether you're coordinating disaster response or just trying to get your electric vehicles to play nice, SALDAE's got your back with lightning-fast team formation.
+
+But hey, with great AI power comes great responsibility. How do we make sure our AI isn't just a black box of mystery? Enter the [explainability scoresheet](https://papers.miklos.dev/2502.09861). This isn't your grandma's checklist – it's a comprehensive tool to measure how well your AI can spill the beans about its decision-making process. From veracity to customization, this scoresheet covers all the bases to ensure your AI isn't just smart, but also transparent.
+
+Speaking of communication, let's talk about [CDE-GIB](https://papers.miklos.dev/2502.09846), the smooth operator of multi-agent reinforcement learning. This method is all about making sure your agents aren't just chatty Cathys, but strategic communicators. It's like giving your AI a crash course in effective networking – only sharing the good stuff when it really matters.
+
+Last but not least, we're getting meta with [GNN explanations for multi-agent communication](https://papers.miklos.dev/2502.09889). This research is peeling back the layers of how AI teams talk to each other, using graph neural networks to map out the most influential communication channels. It's like having a backstage pass to the AI collaboration concert.
+
+That's all for today, folks! Remember, in the world of multi-agent AI, it's not just about being smart – it's about being a team player. Stay curious, stay innovative, and keep pushing the boundaries of what's possible in the AI multiverse!
+
 # Daily Digest (February 15, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a double dose of multi-agent madness that's about to supercharge your research game.
