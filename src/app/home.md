@@ -1,3 +1,23 @@
+# Daily Digest (February 18, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of LLM-based agents.
+
+Are you tired of your AI agents relying on pre-built tools? Well, [TOOLMAKER](https://papers.miklos.dev/2502.11705) is here to shake things up. This innovative framework lets LLMs create their own tools by transforming research code into usable components. It's like giving your AI a Swiss Army knife that can build new gadgets on the fly. With an 80% success rate on complex tasks, TOOLMAKER is paving the way for truly autonomous scientific workflows.
+
+But wait, there's more! Security in multi-agent systems is getting a major upgrade with [G-Safeguard](https://papers.miklos.dev/2502.11127). This clever framework uses graph neural networks to spot trouble in agent communication and employs topological intervention to stop malicious information in its tracks. It's like giving your AI team a top-notch security detail.
+
+Speaking of teamwork, [TalkHier](https://papers.miklos.dev/2502.11098) is revolutionizing how LLMs collaborate on complex tasks. With structured communication protocols and hierarchical refinement, it's helping AI agents work together more effectively than ever before. Think of it as the ultimate project management tool for your virtual workforce.
+
+For those diving into the world of personalized education, [TrueReason](https://papers.miklos.dev/2502.10411) is a game-changer. This system combines specialized AI models with an LLM conductor to create tailored learning experiences. It's like having a team of expert tutors working in perfect harmony.
+
+But that's not all, folks! We've got [OctoTools](https://papers.miklos.dev/2502.11271), a framework that supercharges LLMs with external tools for complex reasoning tasks. It's giving AI agents the ability to tackle problems across diverse domains without breaking a sweat.
+
+And for those keeping score, [deviation ratings](https://papers.miklos.dev/2502.11645) are changing the game in LLM evaluation. This new method provides a fairer way to rate AI performance in multi-agent scenarios, ensuring we're truly measuring what matters.
+
+Lastly, don't miss [DPT-Agent](https://papers.miklos.dev/2502.11882), a breakthrough in real-time human-AI collaboration. By combining fast, intuitive decision-making with deep reasoning, it's opening up new possibilities for seamless teamwork between humans and AI.
+
+That's all for now, but stay tuned – the world of AI is moving faster than ever, and we'll be here to keep you in the loop!
+
 # Daily Digest (February 17, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of multi-agent madness to dive into today. Let's kick things off with a bang!
