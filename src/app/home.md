@@ -1,3 +1,19 @@
+# Daily Digest (February 20, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of multi-agent madness to dive into today. Let's kick things off with a bang:
+
+Are you tired of manually dividing complex tasks among your AI agents? Well, say hello to [LOTaD](https://papers.miklos.dev/2502.13376), the new kid on the block that's revolutionizing task decomposition. This clever system not only figures out the optimal way to split up work, but it also teaches your agents how to tackle their assigned sub-tasks. It's like having a hyper-efficient project manager built right into your multi-agent setup!
+
+But wait, there's more! If you've ever struggled with vague user queries, [MASQRAD](https://papers.miklos.dev/2502.13164) is about to become your new best friend. This multi-agent powerhouse transforms fuzzy questions into laser-focused requests, complete with dazzling visualizations and expert analysis. It's like having a team of data wizards at your fingertips, all working in perfect harmony behind the scenes.
+
+Now, let's get philosophical for a moment. Have you ever wondered how agents can strategically cause effects in a multi-agent world? A groundbreaking new [framework](https://papers.miklos.dev/2502.13701) is bridging the gap between causality and strategy, giving your LLMs the tools to reason about their actions and plan for success. It's like chess, but for cause-and-effect!
+
+Calling all financial whizzes! [HedgeAgents](https://papers.miklos.dev/2502.13165) is here to shake up the world of algorithmic trading. This LLM-powered dream team uses hedging strategies to weather market storms, achieving eye-popping returns that'll make your human traders green with envy. Who knew AI could be so savvy with stocks?
+
+Last but not least, we're diving deep into the murky waters of information asymmetry. A fascinating new [study](https://papers.miklos.dev/2502.13160) explores how LLM agents spread information when some know more than others. It's a virtual petri dish of social dynamics, complete with emerging cliques, information gaps, and the rise of AI social butterflies. 
+
+That's all for today, folks! Keep your neural networks firing, and we'll catch you next time for more cutting-edge AI breakthroughs!
+
 # Daily Digest (February 19, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a fascinating look at how language models handle the messy world of real communication.
