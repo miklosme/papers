@@ -1,3 +1,25 @@
+# Daily Digest (February 21, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a treasure trove of cutting-edge research on multi-agent systems and LLMs to dive into. Let's break it down:
+
+First up, a [comprehensive survey](https://papers.miklos.dev/2502.14743) on multi-agent coordination is shaking up the field. It's not just about individual AI prowess anymore – it's how these digital minds work together that's turning heads. From search and rescue to warehouse logistics, this paper lays out the blueprint for AI teamwork across diverse applications.
+
+But wait, there's more! Researchers are tackling the scalability challenge head-on with [Causal Mean Field Q-learning (CMFQ)](https://papers.miklos.dev/2502.14200). This clever algorithm uses causal inference to cut through the noise and focus on the interactions that really matter. It's like giving your AI agents a pair of X-ray glasses to see through the chaos of large-scale environments.
+
+Now, let's talk risks. A new [report](https://papers.miklos.dev/2502.14143) is sounding the alarm on the unique dangers posed by complex LLM multi-agent systems. We're talking miscoordination, conflict, and even AI collusion. It's not all doom and gloom though – the researchers offer promising directions to keep these digital dream teams in check.
+
+But how do we get humans and AIs to play nice together? A [groundbreaking paper](https://papers.miklos.dev/2502.14000) introduces the concept of "communication spaces" to bridge the gap between multi-agent systems and deeply integrated human-AI "Centaurian" systems. It's a whole new way of thinking about human-computer interaction!
+
+For those building compound AI systems, [LLMSELECTOR](https://papers.miklos.dev/2502.14815) is here to save the day. This clever framework takes the guesswork out of choosing the right LLM for each module in your system, boosting performance by up to 70%! It's like having an AI sommelier to pair the perfect model with each task.
+
+Gamers and strategists, listen up! A [new approach](https://papers.miklos.dev/2502.14724) is revolutionizing how we rank stable strategies in dynamic multi-agent games. By combining deep reinforcement learning with evolutionary algorithms, researchers are uncovering the secrets of long-term success in complex environments.
+
+In the world of AI research and development, a [fascinating study](https://papers.miklos.dev/2502.14112) challenges conventional wisdom on protecting discoveries. Surprisingly, open sharing might lead to more innovation than strict protection – a finding that could reshape how we approach AI collaboration.
+
+Finally, a [communication-centric survey](https://papers.miklos.dev/2502.14321) of LLM-based multi-agent systems lays out the blueprint for how these digital entities talk to each other. From architecture design to communication strategies, it's a deep dive into the language of AI cooperation.
+
+That's all for now, but stay tuned – the world of multi-agent AI is evolving faster than ever!
+
 # Daily Digest (February 20, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of multi-agent madness to dive into today. Let's kick things off with a bang:
