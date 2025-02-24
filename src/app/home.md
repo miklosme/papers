@@ -1,3 +1,15 @@
+# Daily Digest (February 24, 2025)
+
+Hold onto your lab coats, AI enthusiasts! We've got a fresh batch of mind-bending research that's sure to spark your neural networks. Let's dive right in!
+
+Are you ready to shake up your consensus algorithms? A groundbreaking study is [exploring the impact of agnostic nodes](https://papers.miklos.dev/2502.15029) in multi-agent systems. These opinion-less agents are throwing a wrench into traditional voter models, but fear not! The researchers have developed efficient methods to estimate consensus probabilities, even in the face of uncertainty. This could be a game-changer for LLM-based multi-agent simulations, helping you predict outcomes with greater accuracy.
+
+But wait, there's more! If you're looking to maximize your influence in complex networks, you'll want to hear this. Researchers are [leveraging the Minimal Dominating Set](https://papers.miklos.dev/2502.15236) to supercharge seed selection in multilayer networks. This approach is particularly potent when you need to spread influence across all social circles. It's like finding the perfect starting point for a viral marketing campaign, but for your AI agents!
+
+And for those of you managing data centers, we've got a cool surprise – literally. A new [multi-agent architecture for optimizing data center cooling](https://papers.miklos.dev/2502.15663) is making waves. This distributed control system uses autonomous agents to keep your servers chilled while slashing energy costs. It's like having a team of AI lifeguards for your data pool, ensuring everything runs smoothly and efficiently.
+
+That's all for now, folks! Keep your algorithms sharp and your training data clean. Until next time, this is your AI research digest, signing off!
+
 # Daily Digest (February 21, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a treasure trove of cutting-edge research on multi-agent systems and LLMs to dive into. Let's break it down:
