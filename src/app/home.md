@@ -1,3 +1,17 @@
+# Daily Digest (February 26, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bombshell: [LLMs might be better at reasoning with charts than raw numbers](https://papers.miklos.dev/2502.17967). A new study using a simulated stock trading arena found that our language model friends excel at geometric reasoning when presented with visual data like scatter plots. This could be a game-changer for how we design AI systems to tackle complex numerical tasks.
+
+But wait, there's more! Ever wished for an AI coach to help your team crush it? Well, [SOCRATIC is here to make that dream a reality](https://papers.miklos.dev/2502.17643). This innovative system monitors team behavior in real-time, detects misalignments, and delivers automated interventions to boost performance. Early results show significant improvements with minimal disruption. Could this be the future of AI-assisted teamwork?
+
+Speaking of teamwork, researchers are tackling the challenge of [aligning multiple LLMs in complex systems](https://papers.miklos.dev/2502.17721). The new System-level Direct Preference Optimization (SysDPO) method models multi-agent systems as directed acyclic graphs, allowing for end-to-end optimization even when components interact in non-differentiable ways. This could be a major breakthrough for creating coherent, human-aligned AI systems.
+
+For the robotics fans out there, we've got exciting news on [multi-robot planning](https://papers.miklos.dev/2502.18072). The MRBTP algorithm is revolutionizing how we coordinate robot teams using Behavior Trees. But here's the kicker: they've added an LLM plugin that can pre-plan "subtrees" of actions, supercharging planning speed and collaboration efficiency. Imagine the possibilities for warehouse management and service robots!
+
+Lastly, let's talk about the future of autonomous vehicles. [ConvoyLLM is using language models to control multi-lane vehicle convoys](https://papers.miklos.dev/2502.17529) on highways. Each vehicle gets its own LLM for real-time decision-making, with a shared memory for collaborative learning. This could be a major leap forward for traffic flow, safety, and fuel efficiency in our increasingly autonomous future.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of what's possible with AI. Until next time!
+
 # Daily Digest (February 25, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research on multi-agent systems and LLMs to dive into. Let's start with a bang:
