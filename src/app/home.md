@@ -1,3 +1,19 @@
+# Daily Digest (February 27, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a look at the wild world of multi-agent systems and the challenges of keeping them in check.
+
+Are you worried about rogue AI agents running amok? The folks behind the [RAT-degree](https://papers.miklos.dev/2502.18805) metric have your back. This clever concept measures how hard it is for agents to safely manipulate a system, giving us a new tool to build more robust multi-agent setups. Speaking of robustness, researchers are tackling the [security-collaboration trade-off](https://papers.miklos.dev/2502.19145) head-on, exploring how to protect agent networks from malicious prompts without crippling their ability to work together.
+
+But it's not all doom and gloom! We're seeing exciting breakthroughs in practical applications. [SimPatient](https://papers.miklos.dev/2502.18673) is revolutionizing counselor training with LLM-powered simulations, while another team is leveraging LLMs to [dramatically improve taxi routing efficiency](https://papers.miklos.dev/2502.18822). And for those of you building the next generation of multi-agent apps, the [Nexus framework](https://papers.miklos.dev/2502.19091) promises to make development a breeze.
+
+On the theoretical front, we're gaining deeper insights into agent behavior. A fascinating study on [Q-learning in congestion games](https://papers.miklos.dev/2502.18984) reveals the emergence of cyclical cooperation, with implications far beyond traffic management. Meanwhile, researchers are cracking the code on [how automated vehicles can safely navigate](https://papers.miklos.dev/2502.18529) the unpredictable world of human drivers.
+
+We're also seeing innovative approaches to decision-making in multi-agent systems. One team is [fine-tuning decision protocols](https://papers.miklos.dev/2502.19130) for different task types, while another is exploring how [planning can boost sample efficiency in MARL](https://papers.miklos.dev/2502.19297).
+
+Last but not least, we've got some mind-bending applications pushing the boundaries of what's possible. Researchers have developed a method for [hiding messages beyond space and time](https://papers.miklos.dev/2502.18547) in audiovisual media, while another team is leveraging LLMs to [automatically fix smart contract vulnerabilities](https://papers.miklos.dev/2502.18515).
+
+The future of multi-agent AI is looking brighter and more complex than ever. Stay tuned, because this field is evolving at breakneck speed!
+
 # Daily Digest (February 26, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bombshell: [LLMs might be better at reasoning with charts than raw numbers](https://papers.miklos.dev/2502.17967). A new study using a simulated stock trading arena found that our language model friends excel at geometric reasoning when presented with visual data like scatter plots. This could be a game-changer for how we design AI systems to tackle complex numerical tasks.
