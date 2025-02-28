@@ -1,3 +1,19 @@
+# Daily Digest (February 28, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a sizzling new benchmark that's got the AI world buzzing.
+
+Are you ready to put your LLMs through their collaborative paces? The [Collab-Overcooked benchmark](https://papers.miklos.dev/2502.20073) is here to spice up your multi-agent systems! This culinary-themed challenge forces LLM agents to communicate and coordinate in a virtual kitchen, revealing the secret ingredients (or lack thereof) in their collaborative recipes. The results? Even our beefiest models are getting a bit overcooked when it comes to initiating teamwork and adapting on the fly. Time to sharpen those collaborative knives!
+
+But wait, there's more! Autonomous vehicles are hitting the streets in [RouteRL](https://papers.miklos.dev/2502.20065), a new framework that's putting the pedal to the metal in multi-agent reinforcement learning. Can your AI navigate rush hour better than a seasoned cabbie? It's time to find out! This open-source playground lets you pit learning algorithms against human driver models, opening up a whole new lane for research in transportation AI.
+
+Now, let's shift gears to some theoretical heavy lifting. Ever wondered how fast gossip spreads in a digital network? A new [algorithm for weighted gossip networks](https://papers.miklos.dev/2502.19821) is here to spill the tea on consensus-building in multi-agent systems. This could be a game-changer for coordinating your LLM dream team, ensuring everyone's on the same page – quite literally!
+
+Speaking of teamwork, how do you spot the bad apple in a barrel of robots? A [clever new method](https://papers.miklos.dev/2502.20125) uses the power of normalizing flows to detect rogue agents in robot swarms. Could this be the key to keeping your LLM agents honest? The implications for secure AI collaborations are huge!
+
+Finally, for those dealing with the challenges of large-scale agent communication, [ExpoComm](https://papers.miklos.dev/2502.19717) is here to save the day. This scalable communication protocol uses some nifty graph theory tricks to keep your agents chatting efficiently, even when there are thousands of them. It's like building a superhighway for AI gossip!
+
+That's all for now, folks! Remember, in the world of multi-agent AI, teamwork makes the dream work – but only if you've got the right tools for the job. Keep experimenting, and who knows? Your LLMs might just become the next collaborative culinary geniuses!
+
 # Daily Digest (February 27, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a look at the wild world of multi-agent systems and the challenges of keeping them in check.
