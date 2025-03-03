@@ -1,3 +1,11 @@
+# Daily Digest (March 3, 2025)
+
+Hold onto your neural networks, folks! We've got a mind-bending study that's about to shake up your perception of AI persuasion. Ever wondered [how well LLMs can sweet-talk their way through a game](https://papers.miklos.dev/2502.20426)? Well, buckle up because this research is serving up some serious food for thought.
+
+Picture this: An Among Us-inspired battleground where AI models duke it out in a test of deception and persuasion. It's like a high-stakes poker game, but instead of cards, these models are playing with words. And boy, do they play dirty! The study found that these digital smooth-talkers can employ a whopping 22 out of 25 persuasion techniques straight out of the social psychology playbook. Talk about silver-tongued algorithms!
+
+But here's the kicker - bigger isn't always better in the world of AI persuasion. That's right, the study busts the myth that larger models are automatically more convincing. In fact, it turns out that being a chatterbox might actually hurt your chances of winning. So remember, AI researchers, sometimes less really is more when it comes to persuasive power!
+
 # Daily Digest (February 28, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a sizzling new benchmark that's got the AI world buzzing.
