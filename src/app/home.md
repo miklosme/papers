@@ -1,3 +1,27 @@
+# Daily Digest (March 5, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending paradox that could shake up your ranking systems. 
+
+Ever wonder what happens when you remove the lowest-ranked player from a tournament? [Researchers have discovered](https://papers.miklos.dev/2503.02429) that it can completely flip the rankings upside down! This "inversion paradox" isn't just a quirky mathematical oddity – it's unavoidable in any ranking system that meets certain reasonable criteria. Think about that next time you're designing multi-agent systems with LLMs making decisions based on rankings.
+
+Speaking of multi-agent systems, traffic engineers are revving up their game. A [new study](https://papers.miklos.dev/2503.02189) shows that multi-agent reinforcement learning can outsmart traditional traffic light control methods. Using a centralized critic and decentralized execution approach, they've achieved impressive reductions in travel times. This research offers valuable insights for anyone working on coordinated decision-making in complex, real-world environments.
+
+But wait, there's more! Developers struggling to debug their AI agent teams now have a powerful new tool in their arsenal. [AGDEBUGGER](https://papers.miklos.dev/2503.02068) lets you step through agent conversations, reset to earlier points, and visualize complex interactions. It's like a time machine for your multi-agent system!
+
+Fairness in resource allocation is a hot topic, and researchers are tackling it from multiple angles. One team has developed [algorithms for fairly dividing items](https://papers.miklos.dev/2503.02088) among agents arriving online, even when their preferences are unknown. Another study presents [improved approximation algorithms](https://papers.miklos.dev/2503.02089) for scenarios with two or three agent types. These approaches could be game-changers for managing resources in dynamic, multi-agent LLM systems.
+
+Ready to supercharge your LLM reasoning capabilities? [ReSo](https://papers.miklos.dev/2503.02390) is a new framework that breaks down complex problems, assigns tasks to the best-suited LLM agents, and uses a "Collaborative Reward Model" to optimize team performance over time. It's achieving impressive results on challenging reasoning tasks – definitely one to watch!
+
+For those of you building mission-critical AI systems, [a new verification framework](https://papers.miklos.dev/2503.02512) can help ensure your neural multi-agent systems meet specific temporal logic specifications. This is crucial for safety and reliability in complex applications.
+
+We're also seeing exciting developments in automated fact-checking. [A novel approach](https://papers.miklos.dev/2503.02116) estimates the reliability of individual fact-checking agents over time, potentially improving overall system accuracy in multi-LLM setups.
+
+Researchers are pushing the boundaries of what's possible with LLMs in other domains too. [BRIDGE](https://papers.miklos.dev/2503.02445) is a framework for generating realistic time series data guided by text descriptions, using a clever multi-agent system to refine those descriptions. And in the realm of reinforcement learning, [M³HF](https://papers.miklos.dev/2503.02077) incorporates mixed-quality human feedback to improve reward functions in multi-agent scenarios.
+
+Last but not least, IBM is making waves with their [Computer Using Generalist Agent (CUGA)](https://papers.miklos.dev/2503.01861). This enterprise-grade multi-agent system is pushing the boundaries of what's possible in complex web applications. Their iterative development process and focus on real-world challenges offer valuable lessons for anyone building robust LLM-based systems.
+
+That's all for now, but stay tuned – the world of AI multi-agent systems is evolving at breakneck speed!
+
 # Daily Digest (March 4, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a real mind-bender: can AI agents be both persuasive and resistant to persuasion? The [Persuade Me If You Can](https://papers.miklos.dev/2503.01829) framework puts LLMs to the test in a battle of wits. Spoiler alert: GPT-4 shows some serious persuasive chops while also being the toughest nut to crack when it comes to misinformation. This could be a game-changer for developing more robust and ethically-aligned AI systems.
