@@ -1,3 +1,17 @@
+# Daily Digest (March 6, 2025)
+
+Hold onto your keyboards, AI enthusiasts! We've got a fresh batch of cutting-edge research that's about to supercharge your multi-agent systems and web automation dreams!
+
+First up, get ready for a game-changer in the world of [multi-agent systems](https://papers.miklos.dev/2503.03686). MAS-GPT is here to revolutionize how we build these complex networks. Forget manual configurations and costly LLM calls – this bad boy generates entire multi-agent systems from a single query, outputting executable Python code. It's like having an AI architect for your AI army!
+
+But wait, there's more! Ever wondered how to coordinate a swarm of robots without causing a traffic jam? Researchers are now using [Graph Neural Network Variational Autoencoders](https://papers.miklos.dev/2503.02954) to solve this puzzle faster than ever before. This method learns from pre-calculated solutions to predict efficient movement patterns, ensuring your robot army moves in perfect harmony.
+
+Speaking of coordination, let's take to the skies! A new [multi-agent reinforcement learning framework](https://papers.miklos.dev/2503.02913) is revolutionizing drone path planning. Using attention mechanisms and robust communication protocols, this system helps UAVs navigate noisy environments with ease. It's like giving your drones superhuman senses and teamwork skills!
+
+Last but not least, web automation enthusiasts, rejoice! [LiteWebAgent](https://papers.miklos.dev/2503.02950) is here to make your life easier. This open-source toolkit simplifies the creation of VLM-based web agents, offering flexible deployment options and advanced features like planning and memory. Whether you're building a Chrome extension or a full-fledged web app, LiteWebAgent has got you covered.
+
+That's all for now, folks! Keep pushing those AI boundaries, and we'll catch you on the next innovation wave!
+
 # Daily Digest (March 5, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending paradox that could shake up your ranking systems. 
