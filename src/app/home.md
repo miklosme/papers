@@ -1,3 +1,27 @@
+# Daily Digest (March 7, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a splash of naval innovation:
+
+Imagine a swarm of AI-controlled boats working together to save lives at sea. That's the vision behind new research on [USV swarm control](https://papers.miklos.dev/2503.03796). By combining Large Language Models with multi-agent reinforcement learning, researchers have cracked the code on getting these robotic vessels to follow human-like decision making. It's not just about avoiding collisions – we're talking nuanced task allocation that would make a seasoned sea captain proud.
+
+But wait, there's more! Ever wondered how we can teach AI to learn from the experts without endless trial and error? Enter [MAMQL](https://papers.miklos.dev/2503.04679), a breakthrough in multi-agent inverse reinforcement learning. This clever algorithm figures out what motivates expert behavior, even in complex scenarios where agents need to both cooperate and compete. It's like giving AI the ability to read between the lines of human expertise.
+
+Now, let's zoom in on the nitty-gritty of robot teamwork. Researchers have unveiled [DVM-SLAM](https://papers.miklos.dev/2503.04126), a decentralized system that lets multiple robots map their environment using nothing but cheap cameras. It's a game-changer for swarms of drones or other resource-constrained bots that need to work together in unknown territory.
+
+But what good is teamwork if everyone's stuck in traffic? Fear not! The [DECBS algorithm](https://papers.miklos.dev/2503.03779) is here to revolutionize multi-agent pathfinding. By employing a clever two-phase search strategy, it cuts through the computational clutter, finding efficient routes for multiple agents up to 23.5% faster in crowded scenarios.
+
+Speaking of cooperation, let's talk commitment. The new [Markov Commitment Games](https://papers.miklos.dev/2503.03866) framework tackles the age-old problem of getting AI agents to stick to their promises. With a learnable commitment protocol, we're one step closer to AI teammates you can truly count on.
+
+Shifting gears to the medical world, [RiskAgent](https://papers.miklos.dev/2503.03802) is making waves in clinical decision support. This multi-agent LLM system collaborates with existing medical tools to predict risks across a staggering 387 scenarios. It's not just accurate – it's blowing commercial LLMs out of the water, especially on rare diseases.
+
+For all you makers out there, how about AI that can [design CAD models](https://papers.miklos.dev/2503.04417) from a simple sketch? This multi-agent system mimics a human engineering team, handling everything from requirements to quality assurance. It's like having a digital design studio at your fingertips.
+
+Nature lovers, rejoice! Researchers are now using LLMs to [power swarm intelligence simulations](https://papers.miklos.dev/2503.03800). By replacing hard-coded rules with language model prompts, they're unlocking new ways to study and model complex behaviors like ant foraging and bird flocking.
+
+Last but not least, we've got a new champion in the world of competitive gaming AI. [PokéChamp](https://papers.miklos.dev/2503.04094) combines the strategic depth of minimax search with the knowledge of large language models to dominate in Pokémon battles. It's not just beating other bots – it's playing at a level that puts it in the top 10-30% of human players online.
+
+That's all for now, folks! Stay curious, stay innovative, and we'll catch you next time on the cutting edge of AI research.
+
 # Daily Digest (March 6, 2025)
 
 Hold onto your keyboards, AI enthusiasts! We've got a fresh batch of cutting-edge research that's about to supercharge your multi-agent systems and web automation dreams!
