@@ -1,3 +1,29 @@
+# Daily Digest (March 10, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a real game-changer in the world of language models.
+
+Ever wondered if LLMs could evolve like living organisms? Well, researchers have introduced [GENOME+](https://papers.miklos.dev/2503.01155), a framework that treats LLM weights as genes and uses evolutionary operations to improve them. We're talking crossover, mutation, and selection – just like nature, but for AI! This isn't just theoretical; GENOME+ outperforms other adaptation methods and can even generalize to new tasks with minimal data. The best part? You can run this on a single GPU, making it accessible to researchers everywhere.
+
+Speaking of evolution, what about applying LLMs to complex game environments? A team has developed [VLM-Attention](https://papers.miklos.dev/2503.05383), a system that allows LLMs to play StarCraft II using vision and language inputs. This brings AI gameplay closer to human perception, potentially leading to more intuitive and collaborative AI partners in gaming and beyond.
+
+But let's not forget the human element in AI development. A fascinating study explores how to make AI [better collaborators by learning human preferences](https://papers.miklos.dev/2503.05455). The key finding? Humans prefer AI partners they can control. This research highlights the importance of designing AI systems that are not just performant, but also align with our desire for agency.
+
+In the world of entertainment, a multi-agent system is tackling the complex task of [analyzing TV show narratives](https://papers.miklos.dev/2503.04817). Using "Grey's Anatomy" as a test case, this LLM-powered system extracts and categorizes storylines, opening up new possibilities for understanding serialized media.
+
+Ever considered the role of emotions in AI decision-making? Researchers are exploring how [integrating emotional diversity into LLMs](https://papers.miklos.dev/2503.04849) might enhance their collective intelligence. This work could pave the way for more nuanced and human-like AI interactions.
+
+In the medical field, a new metric called [GEMA-Score](https://papers.miklos.dev/2503.05347) is revolutionizing how we evaluate AI-generated medical reports. By using a multi-agent LLM system, it provides a more comprehensive assessment that correlates strongly with human expert evaluations.
+
+For those interested in edge computing, a team has developed an [on-device, multi-agent healthcare assistant](https://papers.miklos.dev/2503.05397) that addresses privacy concerns and latency issues in medical AI applications. This could be a game-changer for personalized healthcare technology.
+
+Shifting gears to robotics, experts are proposing a [roadmap for developing better testbeds](https://papers.miklos.dev/2503.05656) for connected and automated vehicles (CAVs) and robot swarms. This work emphasizes the importance of standardization and collaboration in advancing real-world AI applications.
+
+In the realm of federated learning, researchers have introduced [PRINCE](https://papers.miklos.dev/2503.04971), a novel incentive mechanism for training LLMs across multiple devices and tasks. This approach could significantly accelerate LLM fine-tuning while managing complex multi-tenant environments.
+
+Last but not least, a team is tackling the challenge of [preserving cultural nuances in AI translation](https://papers.miklos.dev/2503.04827). Their multi-agent framework outperforms GPT-40 in producing culturally rich translations, especially for underserved languages. This work is crucial for maintaining linguistic diversity in our AI-driven world.
+
+That's all for today's AI research roundup. Remember, the future of AI is collaborative, nuanced, and evolving faster than ever. Stay curious, and keep pushing those boundaries!
+
 # Daily Digest (March 7, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a splash of naval innovation:
