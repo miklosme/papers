@@ -1,3 +1,23 @@
+# Daily Digest (March 11, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer for control theory buffs:
+
+[Can I optimize LQR control](https://papers.miklos.dev/2503.06226) with unknown systems using output feedback? You bet! Researchers have cracked the code on a generalized dynamic output feedback learning control approach. It's like giving your controller X-ray vision, letting it peek inside that mysterious black box system. This could revolutionize everything from robotics to autonomous vehicles.
+
+Speaking of autonomous systems, [vision-based cooperative MAV-capturing-MAV](https://papers.miklos.dev/2503.06412) is taking flight! Imagine a swarm of drones working together to catch a rogue flyer. It's not science fiction anymore, folks. This distributed system combines real-time vision processing with some slick trajectory optimization. The result? A 64.7% success rate in nabbing targets moving at 4m/s. Skynet, eat your heart out!
+
+But wait, there's more! We're pushing the boundaries of multi-agent reinforcement learning with [decentralized MADDPG](https://papers.miklos.dev/2503.06747). This clever twist on a classic algorithm lets agents learn to cooperate (or compete) without a central brain calling the shots. It's scalable, it's efficient, and it's opening doors for applications from swarm robotics to massively multiplayer AI.
+
+Hungry for more? We've got [Cooperative Adaptive Markov Decision Processes](https://papers.miklos.dev/2503.07319) tackling the tricky dance between humans and robots in rehabilitation. It's all about finding that sweet spot where both flesh and steel can learn and adapt together.
+
+For the data hounds out there, [a new framework for observing and optimizing LLM agent collaborations](https://papers.miklos.dev/2503.06745) is here to save your sanity. Forget traditional benchmarks – this approach digs deep into the nitty-gritty of how AI agents actually behave and interact. It's like giving your multi-agent system a full-body MRI.
+
+Theoretical minds, rejoice! We're expanding the frontiers of game theory with [Incomplete Information Multi-Agent Influence Diagrams](https://papers.miklos.dev/2503.06323). This powerful new tool lets us model scenarios where agents have different (and possibly wrong) beliefs about the game they're playing. It's a whole new level of "I know that you know that I know..."
+
+Last but not least, [graph diffusion models are revolutionizing automated bidding](https://papers.miklos.dev/2503.05805). This isn't your grandpa's auction theory – we're talking about harnessing the power of graph neural networks and latent diffusion models to navigate the wild west of large-scale, multi-agent bidding environments.
+
+That's all for now, folks! Remember, the future of AI is multi-agent, and it's looking brighter than ever. Stay curious, stay innovative, and we'll see you next time on the cutting edge!
+
 # Daily Digest (March 10, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a real game-changer in the world of language models.
