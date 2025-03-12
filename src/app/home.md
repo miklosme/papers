@@ -1,3 +1,25 @@
+# Daily Digest (March 12, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a bang:
+
+Imagine a swarm of robots that can [efficiently allocate tasks](https://papers.miklos.dev/2503.07662) without a central boss. That's exactly what HIPPO-MAT brings to the table. This decentralized system uses graph neural networks and reinforcement learning to let robots share info and make decisions on the fly. It's scalable, conflict-aware, and could revolutionize how we think about coordinating robot teams.
+
+But why stop at robots? CoLMDriver is taking the wheel with [LLM-powered autonomous driving](https://papers.miklos.dev/2503.08683). This system lets cars negotiate in natural language, refining their decisions through an actor-critic feedback loop. It's a glimpse into a future where our vehicles don't just drive themselves, they collaborate to keep us all safer on the road.
+
+Speaking of safety, researchers are tackling the tricky problem of [work zone safety with self-driving cars](https://papers.miklos.dev/2503.07634) in the mix. Their simulations show it's a double-edged sword – automated vehicles can improve safety in some ways, but those pesky disengagements (when humans have to take over) throw a wrench in the works. It's a reminder that the road to full autonomy is still under construction.
+
+Now, let's zoom out to the city level. A clever [multi-agent system for counting unique park visitors](https://papers.miklos.dev/2503.07651) is giving urban planners new insights. By using distributed cameras and smart attribute tracking, it can build a picture of park usage without compromising privacy. It's a glimpse of how AI can help us understand and improve our public spaces.
+
+For the math nerds out there, we've got a neural network approach that's [revolutionizing power index calculations](https://papers.miklos.dev/2503.08381) in multi-agent systems. InfluenceNet can quickly estimate the influence of individual agents in large coalitions, opening up new possibilities for analyzing complex agent interactions.
+
+Traffic engineers, rejoice! HAMH-PPO is here to [personalize traffic signal control](https://papers.miklos.dev/2503.07678) across diverse intersections. This clever system balances shared learning with intersection-specific policies, potentially smoothing out traffic flow in our increasingly congested cities.
+
+But wait, there's more! We've got [adaptive routing algorithms](https://papers.miklos.dev/2503.07686) for AI networks, [frameworks for faster LLM-based multi-agent systems](https://papers.miklos.dev/2503.07675), and even [self-organizing IoT networks](https://papers.miklos.dev/2503.07702). It's a treasure trove of innovation in the multi-agent world.
+
+And finally, a sobering look at how [AI agents could transform cancer care in India](https://papers.miklos.dev/2503.07673). From accelerating research to personalizing treatments, it's a powerful reminder of the real-world impact these technologies can have.
+
+That's all for today's whirlwind tour of multi-agent marvels. Keep your algorithms sharp and your agents collaborative, folks!
+
 # Daily Digest (March 11, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer for control theory buffs:
