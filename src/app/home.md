@@ -1,3 +1,19 @@
+# Daily Digest (March 13, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of cutting-edge research that's sure to spark your synapses. Let's dive right in!
+
+First up, we're tackling the age-old question of efficiency in multi-agent systems. How do you optimally assign tasks to agents? Well, researchers have cracked the code using [optimal transport](https://papers.miklos.dev/2503.09369). This mathematical framework could revolutionize how we coordinate LLM-based agents, offering scalability and robustness that'll make your algorithms sing!
+
+But wait, there's more! In the world of VR streaming, privacy and quality have been locked in a fierce tug-of-war. Until now. A groundbreaking approach introduces noise to [prediction errors](https://papers.miklos.dev/2503.09448), not the viewpoints themselves. The result? Zero viewpoint leakage without sacrificing that sweet, sweet QoE. This could be a game-changer for multi-agent LLM systems sharing sensitive information!
+
+Speaking of game-changers, hold onto your desktops! The [COLA framework](https://papers.miklos.dev/2503.09263) is here to supercharge your Windows UI automation. This dynamic, scenario-aware system uses a pool of specialized LLM agents, adapting on the fly to tackle complex tasks. With built-in memory and human-in-the-loop error correction, it's like having a team of AI assistants right at your fingertips!
+
+Traffic jams, meet your match! Researchers have developed [PLight and PRLight](https://papers.miklos.dev/2503.08728), two algorithms that bring the power of transfer learning to traffic signal control. By pre-training agents on various scenarios and reusing them based on similarity, they're paving the way for faster, more adaptable multi-agent systems. LLM developers, take note – this could be your ticket to smoother conversational AI!
+
+Last but not least, we're venturing into the realm of robot pursuit. Using only bearing information, a new [MARL framework](https://papers.miklos.dev/2503.08740) coordinates heterogeneous robots to track down elusive targets. With sim-to-real techniques ensuring smooth transfer to actual robots, this research is bridging the gap between theory and practice. LLM enthusiasts, imagine combining this with high-level reasoning for truly intelligent, embodied AI systems!
+
+That's all for now, folks! Keep those algorithms learning and those agents collaborating. Until next time, this is AI News, signing off!
+
 # Daily Digest (March 12, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a bang:
