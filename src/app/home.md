@@ -1,3 +1,19 @@
+# Daily Digest (March 14, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bombshell: the media might be the secret sauce in [responsible AI development](https://papers.miklos.dev/2503.09858). This groundbreaking study uses game theory and LLMs to show how investigative journalism can act as a "soft regulator," potentially reducing the need for strict formal rules. It's a wake-up call for transparency in AI development!
+
+But wait, there's more! Ever wondered how robots can navigate crowded spaces without bumping into humans? Enter [SAMALM](https://papers.miklos.dev/2503.09758), a decentralized multi-agent framework that's revolutionizing socially-aware robot navigation. Picture this: each robot has its own LLM "actor" and "critic," working together to create smooth, adaptable movement. It's like giving each robot its own personality!
+
+Now, let's talk about building smarter databases. A new [logic-based method](https://papers.miklos.dev/2503.10231) for evaluating similarity between knowledge bases is shaking things up. While it might sound dry, this could be a game-changer for how AI agents compare and share knowledge. Think of it as giving our AI friends a more nuanced way to understand relationships between concepts.
+
+Here's a shocker for the reinforcement learning fans: [sparser networks might be the key](https://papers.miklos.dev/2503.10186) to achieving stable outcomes in multi-agent Q-learning. That's right, less connection could mean more cooperation. This could have huge implications for designing robust multi-agent systems.
+
+Speaking of trust, we've got a comprehensive survey on building [trustworthy LLM agents](https://papers.miklos.dev/2503.09648). It's not just about the individual AI anymore; we're talking agent-to-agent, agent-to-environment, and agent-to-user interactions. This is essential reading for anyone working on AI safety.
+
+Last but not least, get ready for SCOOP – a framework that's teaching AI to [ask questions and reason causally](https://papers.miklos.dev/2503.10241). It's like giving our AI assistants the curiosity of a child combined with the reasoning skills of a scientist. This could be a major leap towards more adaptable and truly intelligent AI systems.
+
+That's all for now, folks! Keep pushing those boundaries and remember: the future of AI is in your hands!
+
 # Daily Digest (March 13, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of cutting-edge research that's sure to spark your synapses. Let's dive right in!
