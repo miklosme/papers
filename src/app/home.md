@@ -1,3 +1,13 @@
+# Daily Digest (March 15, 2025)
+
+Hold onto your lab coats, AI enthusiasts! We've got a double dose of cutting-edge research that's pushing the boundaries of what Large Language Models can do in complex, real-world scenarios.
+
+First up, imagine a virtual society where AI agents debate vaccines and public health policies. That's exactly what researchers are exploring with [VACSIM](https://papers.miklos.dev/2503.09639), a framework that uses LLMs to simulate human behavior in the context of vaccine hesitancy. Can these digital doppelgangers help us craft better public health strategies without relying solely on real-world trials? The results are intriguing, but don't start writing policy based on AI simulations just yet. While models like Llama and Qwen show promise, they're still working out kinks like demographic inconsistencies.
+
+But wait, there's more! If you thought vaccine debates were complex, how about building a sprawling, automated factory from scratch? Enter the [Factorio Learning Environment](https://papers.miklos.dev/2503.09617), a new benchmark that's putting LLMs through their paces in resource management, long-term planning, and even coding. Picture AI agents frantically trying to construct conveyor belts and assembly lines in a digital world. The results? Our silicon-brained friends can handle some basic automation, but when it comes to building the next megafactory, they're still fumbling with the blueprints. It turns out spatial reasoning and handling constrained environments are tough nuts to crack, even for our most advanced models.
+
+Both these studies highlight a crucial point: as LLMs continue to evolve, we need increasingly sophisticated ways to test their limits and understand their potential real-world applications. Whether it's simulating public health decisions or optimizing resource production, these benchmarks are giving us a clearer picture of where AI shines and where it still needs some serious upgrades. So, keep your eyes peeled, because the next breakthrough in AI capabilities might just come from an unexpected place – like a virtual vaccine clinic or a simulated assembly line!
+
 # Daily Digest (March 14, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a bombshell: the media might be the secret sauce in [responsible AI development](https://papers.miklos.dev/2503.09858). This groundbreaking study uses game theory and LLMs to show how investigative journalism can act as a "soft regulator," potentially reducing the need for strict formal rules. It's a wake-up call for transparency in AI development!
