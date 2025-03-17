@@ -1,3 +1,21 @@
+# Daily Digest (March 17, 2025)
+
+Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and robotics. We're diving deep into the cutting edge, so buckle up!
+
+First up, we've got a double dose of defense against those pesky prompt injection attacks. [A new multi-agent framework](https://papers.miklos.dev/2503.11517) is taking the fight to malicious prompts, using specialized agents to detect, sanitize, and enforce policies. But that's not all – the [Cerebrum platform](https://papers.miklos.dev/2503.11444) is revolutionizing how we build and share AI agents. It's like GitHub for autonomous AI, complete with version control and a slick web interface. 
+
+Switching gears to the physical world, [a novel approach to multi-robot navigation](https://papers.miklos.dev/2503.11461) is conquering rough terrain without complex planning. These bots use adjustable joints to adapt on the fly – it's like a high-tech conga line tackling obstacle courses! And when the going gets tough and robots get separated, [a clever distributed algorithm](https://papers.miklos.dev/2503.11520) helps them reconnect and complete their mission. It's like a digital game of Marco Polo, but way more sophisticated.
+
+Now, let's talk about bridging the gap between simulation and reality. The [DARPA TIAMAT program](https://papers.miklos.dev/2503.11007) is flipping the script on sim-to-real transfer, using diverse low-fidelity simulations instead of chasing perfect accuracy. It's like training for a marathon by doing a variety of sports rather than just running endless laps.
+
+In the realm of public health, [a multi-agent reinforcement learning system](https://papers.miklos.dev/2503.10907) is tackling the delicate balance of epidemic control and economic impact. It's like having a team of AI city planners working around the clock to keep us safe and prosperous.
+
+For the efficiency enthusiasts out there, [Graph Neural Networks are stepping up](https://papers.miklos.dev/2503.11301) to predict the performance of complex AI workflows without the computational overhead. It's like having a crystal ball for your AI pipelines!
+
+Lastly, we've got a trio of papers pushing the boundaries of multi-agent coordination. [DIAS](https://papers.miklos.dev/2503.11048) is sniffing out multiple unknown sources with fewer robots than targets – it's like a high-tech game of hide and seek. Meanwhile, [another team](https://papers.miklos.dev/2503.11504) is optimizing how robots gather and relay data, balancing workers and collectors for maximum efficiency. It's bringing assembly line precision to data collection in the wild.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of what's possible in AI and robotics!
+
 # Daily Digest (March 15, 2025)
 
 Hold onto your lab coats, AI enthusiasts! We've got a double dose of cutting-edge research that's pushing the boundaries of what Large Language Models can do in complex, real-world scenarios.
