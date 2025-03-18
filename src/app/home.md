@@ -1,3 +1,17 @@
+# Daily Digest (March 18, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's start with a breakthrough in robot navigation that'll have you saying "excuse me" to your Roomba.
+
+LIVEPOINT is revolutionizing [safe, deadlock-free multi-robot navigation](https://papers.miklos.dev/2503.13098) using point cloud data. No more robot traffic jams in doorways! But why stop at polite robots when we can have chatty ones? GAMECHAT takes it up a notch by enabling [robots to use natural language](https://papers.miklos.dev/2503.12333) to negotiate priority and avoid collisions. It's like a civilized robot cocktail party!
+
+Speaking of parties, ever wonder how to make AI agents play nice together? Researchers are exploring how [personality traits influence LLM cooperation](https://papers.miklos.dev/2503.12722) in game scenarios. Turns out, being agreeable helps... until someone takes advantage of your kindness. It's high school all over again!
+
+For those of you managing robot swarms (and who isn't these days?), we've got a nifty [task allocation framework for multi-mode robots](https://papers.miklos.dev/2503.12787). Whether your bots fly, drive, or moonwalk, this system optimizes energy use and task completion. It's like Tetris, but with drones and efficiency!
+
+Lastly, if you're in the healthcare field, hold onto your stethoscopes. A new [Multi-Agent Inpatient Pathways (MAP) framework](https://papers.miklos.dev/2503.13205) is outperforming human doctors in diagnosis accuracy. It's a team of AI agents working together like a high-tech medical drama, minus the romantic subplots.
+
+That's all for now, folks! Keep your neural networks firing and your agents cooperating. Until next time, this is AI News, signing off!
+
 # Daily Digest (March 17, 2025)
 
 Attention AI enthusiasts! Get ready for a whirlwind tour of the latest breakthroughs in multi-agent systems and robotics. We're diving deep into the cutting edge, so buckle up!
