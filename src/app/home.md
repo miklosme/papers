@@ -1,3 +1,15 @@
+# Daily Digest (March 20, 2025)
+
+Hold onto your lab coats, AI enthusiasts! We've got a trio of mind-bending papers that'll make your neural networks tingle with excitement.
+
+First up, get ready to play some cards with the AI that's breaking all the rules! [R3D2, a new generalist agent](https://papers.miklos.dev/2503.14555) for the cooperative game Hanabi, is rewriting the playbook on multi-agent reinforcement learning. This clever system uses text-based game representations to adapt on the fly, collaborating with unfamiliar partners and tackling different player counts like a pro. It's the Swiss Army knife of Hanabi agents, folks!
+
+Shifting gears, we're hitting the road with some seriously smart cars. Ever wonder [how AI vehicles explain their behavior](https://papers.miklos.dev/2503.14557)? This groundbreaking research dives into the world of causal reasoning, teaching autonomous vehicles to spill the beans on their decision-making process. It's like giving your car a psychology degree – now it can tell you exactly why it decided to slam on the brakes!
+
+Last but not least, we're bringing home the bacon with an AI system that's revolutionizing swine disease diagnosis. This [multi-agent diagnostic powerhouse](https://papers.miklos.dev/2503.15204) is faster than a greased pig, using retrieval-augmented generation to deliver lightning-quick, evidence-based diagnoses. It's like having a team of expert vets in your pocket, ready to keep those porkers in prime condition.
+
+There you have it, folks – from game-playing geniuses to chatty cars and pig-saving AIs. The future of artificial intelligence is looking brighter (and weirder) than ever!
+
 # Daily Digest (March 19, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with some underwater espionage, shall we?
