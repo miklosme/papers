@@ -1,3 +1,15 @@
+# Daily Digest (March 21, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a burning question: [When do specialist agents outperform generalists?](https://papers.miklos.dev/2503.15703) This groundbreaking study introduces the concept of "task parallelizability" as the key to unlocking optimal agent specialization. It's not just about dividing labor – it's about understanding how your environment shapes agent behavior. Speaking of shaping behavior, security-minded folks won't want to miss the latest on [securing LLM agent prompts against privilege escalation](https://papers.miklos.dev/2503.15547). The proposed Prompt Flow Integrity (PFI) framework is a game-changer for building robust, secure multi-agent systems.
+
+For those of you working on coordination challenges, we've got a fascinating look at [how binary communications can achieve consensus tracking](https://papers.miklos.dev/2503.15955) with time-varying targets. This research could revolutionize how we approach agent coordination in bandwidth-limited scenarios. And if you're all about personal data and automation, you'll want to hear about [Computer-Using Personal Agents (CUPAs)](https://papers.miklos.dev/2503.15515). These AI assistants with secure access to your personal knowledge graph could be the future of personalized task automation.
+
+Now, let's get creative! [AI musicians are collaborating with humans live](https://papers.miklos.dev/2503.15498) in a mind-bending audiovisual performance called Revival. This isn't just a tech demo – it's a glimpse into the future of human-AI creative partnerships. Speaking of partnerships, [AI is improving dog-handler teamwork in search and rescue](https://papers.miklos.dev/2503.15524) operations. The KHAIT system combines object detection, AR, and edge computing to bridge the "sensemaking gap" between handlers and their canine partners.
+
+Last but not least, software architects won't want to miss this: [a new programming paradigm called Data Spatial Programming](https://papers.miklos.dev/2503.15812) is extending OOP with powerful spatial constructs. This could be a game-changer for modeling complex, interconnected systems and agent-based simulations.
+
+That's all for now, folks! Keep pushing the boundaries of AI, and we'll catch you next time with more groundbreaking research.
+
 # Daily Digest (March 20, 2025)
 
 Hold onto your lab coats, AI enthusiasts! We've got a trio of mind-bending papers that'll make your neural networks tingle with excitement.
