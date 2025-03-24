@@ -1,3 +1,19 @@
+# Daily Digest (March 24, 2025)
+
+Buckle up, AI enthusiasts! We're diving into the cutting edge of multi-agent systems and LLMs today, with some groundbreaking research that's pushing the boundaries of what these technologies can do.
+
+First up, we've got a thrilling development in autonomous vehicle safety. Researchers are [leveraging LLMs to negotiate traffic flow](https://papers.miklos.dev/2503.16552) at intersections, mimicking human-like decision-making. This multi-layered framework uses vehicle-to-vehicle communication to cluster cars and let them "chat" their way through complex scenarios. It's like giving our robotic drivers a dose of social skills!
+
+But wait, there's more! The medical field is getting a serious AI upgrade. A team has developed [MATEC, a multi-AI agent framework](https://papers.miklos.dev/2503.16433) to tackle sepsis care in under-resourced hospitals. Picture a virtual dream team of AI doctors, nurses, and specialists collaborating to diagnose and treat patients. This could be a game-changer for rural healthcare!
+
+Speaking of healthcare, hold onto your therapy couches! Researchers are using [LLMs to simulate and discover effective psychotherapy techniques](https://papers.miklos.dev/2503.16521) through self-play. One LLM plays therapist, another the patient, and they're uncovering patterns that mirror real-world therapy dynamics. It's like watching AI learn the art of healing minds!
+
+For the gearheads out there, we've got a new toolkit for [simulating autonomous vehicle conflicts in CARLA](https://papers.miklos.dev/2503.16476). While not directly LLM-focused, this research is crucial for studying how AI and human drivers interact in tricky situations. It's paving the way for safer roads and smoother human-AI collaboration.
+
+Last but not least, a breakthrough in medical diagnosis! Researchers have developed an [RL-driven multi-agent framework](https://papers.miklos.dev/2503.16547) that simulates a full clinical consultation. By using a hierarchical action set based on real medical practices, they're teaching LLMs to make more accurate, dynamic diagnoses. It's like giving AI the patience and persistence of a seasoned doctor!
+
+That's all for now, folks! Keep your neural networks firing, and we'll catch you next time with more mind-blowing AI advancements!
+
 # Daily Digest (March 21, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's kick things off with a burning question: [When do specialist agents outperform generalists?](https://papers.miklos.dev/2503.15703) This groundbreaking study introduces the concept of "task parallelizability" as the key to unlocking optimal agent specialization. It's not just about dividing labor – it's about understanding how your environment shapes agent behavior. Speaking of shaping behavior, security-minded folks won't want to miss the latest on [securing LLM agent prompts against privilege escalation](https://papers.miklos.dev/2503.15547). The proposed Prompt Flow Integrity (PFI) framework is a game-changer for building robust, secure multi-agent systems.
