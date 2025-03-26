@@ -1,3 +1,19 @@
+# Daily Digest (March 26, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and AI capabilities. Let's dive right in!
+
+First up, we're venturing into the world of cyber deception with [SANDMAN](https://papers.miklos.dev/2503.19752), a groundbreaking architecture that's turning LLMs into master of disguise. These "Deceptive Agents" are taking honeypot technology to the next level, using personality-driven language models to create convincing digital decoys. It's like having an army of AI actors ready to confuse and misdirect cyber attackers. The implications for security and multi-agent systems are mind-blowing!
+
+But wait, there's more! We're taking to the skies with not one, but two papers on drone delivery systems. The first introduces a [novel methodology](https://papers.miklos.dev/2503.19135) for cooperative control of multiple quadrotors, combining obstacle-aware planning with event-based control. It's like giving drones superhuman reflexes! The second paper pits [Model Predictive Control against Multi-Agent Reinforcement Learning](https://papers.miklos.dev/2503.19699) in a drone delivery showdown. Spoiler alert: MPC comes out on top, solving problems faster and with fewer drones. It's a classic case of brains over brawn in the AI world!
+
+Now, let's talk about keeping our AI agents in sync. The [TraF-Align framework](https://papers.miklos.dev/2503.19391) is tackling the thorny issue of inter-agent latency in cooperative perception. By predicting feature-level trajectories, it's bringing harmony to the chaotic world of asynchronous multi-agent systems. This could be a game-changer for any application where timing is everything!
+
+But can our AI assistants truly match human-level search and reasoning? The [BLUR benchmark](https://papers.miklos.dev/2503.19193) is here to put them to the test with a set of fiendishly difficult "tip-of-the-tongue" queries. Spoiler alert: humans are still crushing it with a 98% success rate, while the best AI system is lagging at 56%. Time to step up our game, AI researchers!
+
+Finally, we're diving deep into the world of game theory with a [study on imperfect agent actions](https://papers.miklos.dev/2503.19200). This research is all about rolling with the punches, developing strategies that can compensate for real-world imperfections in multi-agent systems. It's like teaching our AI to dance in a world full of unexpected obstacles!
+
+That's all for now, AI aficionados. Keep those algorithms humming, and we'll see you next time for more groundbreaking research from the frontiers of artificial intelligence!
+
 # Daily Digest (March 25, 2025)
 
 Buckle up, AI enthusiasts! We've got a thrilling roundup of cutting-edge research that's pushing the boundaries of multi-agent systems and LLMs. Let's dive right in!
