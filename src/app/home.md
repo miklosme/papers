@@ -1,3 +1,21 @@
+# Daily Digest (March 27, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a bang:
+
+Are you tired of your AI agents stumbling around like lost tourists? Well, [waypoint-based navigation](https://papers.miklos.dev/2503.20078) might just be the GPS they need! New research shows this approach can dramatically speed up learning in multi-agent reinforcement learning, especially on those pesky geo-specific terrains. It's not just faster – we're talking human-level performance in Counter-Strike scenarios. Military simulations, take note!
+
+But wait, there's more! If you've ever tried to coordinate a group of robots on a multi-stop delivery route, you'll love this next one. The [CTS-CBS algorithm](https://papers.miklos.dev/2503.20324) tackles the mind-bending problem of collaborative task sequencing and multi-agent pathfinding. It's like solving a Rubik's cube while juggling – but for robots. This hierarchical approach could be a game-changer for managing complex multi-agent interactions.
+
+Calling all autonomous vehicle enthusiasts! Buckle up for [MA-PMBRL](https://papers.miklos.dev/2503.20462), a new algorithm that's taking the wheel in multi-agent decision-making for connected autonomous vehicles. It's pessimistic (in a good way!), efficient, and comes with theoretical guarantees. This could be the secret sauce for making self-driving cars play nice together on our roads.
+
+Now, let's shine a light on nanophotonics! [MetaChat](https://papers.miklos.dev/2503.20479) is revolutionizing the design of metasurfaces using a multi-agent framework. It's like having a team of AI experts collaborating in real-time, translating your wildest photonic dreams into reality. This could accelerate innovation in ways we've only dreamed of!
+
+But wait, there's more! We've got optimal control strategies for [robot rendezvous](https://papers.miklos.dev/2503.20723), balancing efficiency and energy consumption. It's like choreographing a robot flash mob, but with math!
+
+Finally, for the social choice theorists out there, we're diving deep into the [aggregation of agent costs](https://papers.miklos.dev/2503.20772) in multi-agent systems. It's not just about adding things up – the choice of social cost function can make or break your system's fairness and efficiency.
+
+That's all for now, folks! Keep your neural networks firing, and we'll catch you next time with more cutting-edge AI research!
+
 # Daily Digest (March 26, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and AI capabilities. Let's dive right in!
