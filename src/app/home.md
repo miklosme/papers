@@ -1,3 +1,17 @@
+# Daily Digest (March 31, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of cutting-edge research that's sure to spark your synapses. Let's dive right in!
+
+First up, we're taking flight with a groundbreaking approach to [monitoring distributed cyber-physical systems](https://papers.miklos.dev/2503.21906). Imagine a swarm of drones dancing through the sky, their every move scrutinized by an intelligent automaton. This paper introduces a clever way to translate complex spatio-temporal rules into efficient automata, ensuring our robotic friends play nice and stay safe. It's not just about pass/fail checks either – we're talking quantitative analysis that measures how well these systems adhere to the rules. This could be a game-changer for keeping tabs on large-scale, dynamic AI deployments.
+
+But wait, there's more! Ever wonder how to navigate a web app like a pro? Researchers have cooked up a [hybrid pathfinding algorithm](https://papers.miklos.dev/2503.22162) that's turning heads in the multi-agent world. By combining classic D* Lite search with reinforcement learning, they've created a system that's both globally smart and locally adaptable. It's like giving your AI agents a GPS and street smarts rolled into one. The results? Fewer collisions, better efficiency, and the ability to handle curveballs in dynamic environments. Web developers, take note!
+
+Now, let's talk teamwork. Multi-agent reinforcement learning is getting a boost from an unlikely ally – [large language models](https://papers.miklos.dev/2503.21807). The LERO framework is tackling two of MARL's biggest headaches: credit assignment and partial observability. By using LLMs to generate clever reward functions and observation enhancements, then fine-tuning with evolutionary algorithms, LERO is helping agents cooperate like never before. It's like giving your AI team a pep talk and x-ray vision all at once.
+
+Last but not least, we're putting LLMs in the hot seat to [catch phishing emails](https://papers.miklos.dev/2503.22038). Picture this: two AI agents locked in a heated debate, arguing whether an email is legit or trying to steal your passwords. A third AI judge weighs their arguments and makes the final call. This creative approach is outperforming traditional methods, especially when mixing different types of LLMs in the debate. Who knew AI could be so argumentative – and effective?
+
+That's all for now, folks! Keep your algorithms sharp and your training data clean. Until next time, this is your AI newsletter editor, signing off!
+
 # Daily Digest (March 28, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-theoretic approach to optimizing IoT sensor networks. Researchers are tackling the challenge of [minimizing the age of information](https://papers.miklos.dev/2503.21633) in distributed systems, using clever incentive mechanisms to encourage cooperation between sensors. This work could revolutionize how we manage data freshness in large-scale IoT deployments.
