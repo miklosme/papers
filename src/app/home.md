@@ -1,3 +1,17 @@
+# Daily Digest (April 1, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a wake-up call for the recommender system crowd:
+
+Are your LLM-based recommender agents as robust as you think? A new study is [sounding the alarm](https://papers.miklos.dev/2503.23804) on potential vulnerabilities. Researchers have cooked up "DrunkAgent," a sneaky attack that messes with agent memories to manipulate recommendations. It's a sobering reminder that even our smartest AI assistants might need a designated driver when it comes to security.
+
+But fear not, because LLMs are also powering some exciting breakthroughs in e-commerce. A team has developed [PAARS, a framework](https://papers.miklos.dev/2503.24228) for creating eerily realistic simulated shoppers. These AI agents use personas mined from real shopping data to mimic human behavior. It's like having a virtual focus group at your fingertips – perfect for testing new features or running market research without the hassle of real humans.
+
+For the science nerds out there, prepare to have your minds blown. Researchers are [harnessing the power of LLMs](https://papers.miklos.dev/2503.24047) to create specialized scientific agents. These AI assistants aren't just regurgitating facts; they're integrating domain knowledge, wielding scientific tools, and even helping design experiments. It's like having an army of tireless lab assistants, each with a Ph.D. in their pocket.
+
+But wait, there's more! We've got breakthroughs in [multi-agent reinforcement learning](https://papers.miklos.dev/2503.22779) for optimizing long-term performance, a [novel approach to ride-sharing](https://papers.miklos.dev/2503.24183) that balances efficiency with fairness, and even [LLMs tackling traffic signal optimization](https://papers.miklos.dev/2503.23626). 
+
+The future of AI is looking increasingly collaborative, adaptive, and downright ingenious. Stay tuned, because this is just the tip of the iceberg!
+
 # Daily Digest (March 31, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of cutting-edge research that's sure to spark your synapses. Let's dive right in!
