@@ -1,3 +1,23 @@
+# Daily Digest (April 2, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending exploration of [how agent hierarchies can improve LLM opinion consensus](https://papers.miklos.dev/2504.00877). This groundbreaking study reveals that the way agents connect and share information critically shapes how consensus emerges. The key takeaway? A sweet spot of connectivity leads to a more informed consensus through transient diversity. This could revolutionize how we design multi-agent LLM systems for tackling complex problems!
+
+But wait, there's more! Researchers have developed [AgentNet, a decentralized framework](https://papers.miklos.dev/2504.00587) that's turning the world of multi-agent LLMs upside down. By ditching centralized control, AgentNet lets agents evolve their skills, form dynamic networks, and collaborate while preserving privacy. It's like giving your LLM agents superpowers of adaptability and scalability!
+
+Now, brace yourselves for a security wake-up call. A new study shows that [carefully crafted prompts can wreak havoc on multi-agent LLM systems](https://papers.miklos.dev/2504.00218), bypassing safety measures with alarming efficiency. This research is a stark reminder that as we build more complex AI ecosystems, we need to stay vigilant about potential vulnerabilities.
+
+On a lighter note, ever wondered how an LLM agent's personality might affect its work ethic? Researchers have found that [inducing personality traits in LLM agents](https://papers.miklos.dev/2504.00727) significantly influences their task selection and prioritization. It's like giving your AI assistants unique personalities – just be careful not to create an army of procrastinating agents!
+
+For those building robust AI systems, here's a crucial insight: A study on [multi-agent routing with adversarial delays](https://papers.miklos.dev/2504.00863) provides a framework for determining how many "good" agents you need to keep your system stable when faced with malfunctioning or malicious actors. This could be a game-changer for designing fault-tolerant LLM applications.
+
+Diving into the theoretical realm, researchers are exploring [how Petri nets can model asynchronous multi-agent systems](https://papers.miklos.dev/2504.00602). This work offers powerful tools for representing and analyzing complex LLM-based multi-agent interactions, potentially leading to more efficient and verifiable AI systems.
+
+In the world of AI-driven marketing, a new [framework for personalized advertising](https://papers.miklos.dev/2504.00338) is pushing the boundaries of what's possible. By combining LLMs, multimodal reasoning, and simulated consumer personas, this system creates hyper-targeted ads while navigating the complexities of competitive markets.
+
+Lastly, we've got two exciting developments in AI creativity. First, [LayerCraft](https://papers.miklos.dev/2504.00010) is revolutionizing text-to-image generation by using LLM agents to create complex, customizable scenes with precise object placement. And for the coders out there, a new [benchmark and multi-agent system](https://papers.miklos.dev/2504.00255) is testing LLMs' ability to turn research paper algorithms into working code – though even the best models are struggling with this challenging task.
+
+That's all for today's AI research roundup. Remember, the future of AI is multi-agent, decentralized, and endlessly fascinating. Stay curious, and keep pushing those boundaries!
+
 # Daily Digest (April 1, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a wake-up call for the recommender system crowd:
