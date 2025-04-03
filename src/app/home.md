@@ -1,3 +1,17 @@
+# Daily Digest (April 3, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a mind-bending lineup of cutting-edge research that's about to supercharge your synapses.
+
+First up, prepare to be dazzled by the power of [multi-AI-agent systems](https://papers.miklos.dev/2504.01234) in optical networks. Researchers have unleashed AutoLight, a hierarchical AI dream team that's revolutionizing distributed AI training. With a jaw-dropping 98% task completion rate, it's leaving single-agent systems in the digital dust. The secret sauce? A "Chain of Identity" method that keeps agents in perfect harmony. This isn't just progress; it's a quantum leap for complex, multi-domain scenarios.
+
+But wait, there's more! Ever wondered how to predict the future of pension funds? Look no further than [agent-based modeling](https://papers.miklos.dev/2504.01242). This groundbreaking study simulates the impact of aging populations on Iran's pension solvency using a virtual sugar economy. It's like SimCity for economists, but with real-world implications that could reshape social policy as we know it.
+
+Now, let's talk drone drama. The [Sky of Unlearning](https://papers.miklos.dev/2504.01705) (SoUL) is here to save the day in federated drone learning. This ingenious framework lets you selectively prune unwanted data from your models faster than you can say "privacy breach." It's like a digital eraser for your neural networks, maintaining performance while kicking out the bad apples.
+
+Last but not least, we're diving into the ethics of AI with a fresh take on [fairness in resource allocation](https://papers.miklos.dev/2504.01154). Say goodbye to myopic fairness measures and hello to "past-discounted fairness." This clever approach balances efficiency and equity over time, mirroring human perceptions of fairness. It's not just fair; it's computationally tractable too!
+
+That's all for now, AI aficionados. Keep your algorithms sharp and your curiosity sharper!
+
 # Daily Digest (April 2, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending exploration of [how agent hierarchies can improve LLM opinion consensus](https://papers.miklos.dev/2504.00877). This groundbreaking study reveals that the way agents connect and share information critically shapes how consensus emerges. The key takeaway? A sweet spot of connectivity leads to a more informed consensus through transient diversity. This could revolutionize how we design multi-agent LLM systems for tackling complex problems!
