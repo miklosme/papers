@@ -1,3 +1,21 @@
+# Daily Digest (April 4, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a mind-bending exploration of [competitive hypothesis testing](https://papers.miklos.dev/2504.02743) between AI agents. Imagine two AIs trying to outsmart each other while solving a puzzle. The twist? They're better off being unpredictable in their communication, randomly mixing truth and lies. But here's the kicker - they perform best by mostly ignoring what the other says! It's a fascinating dance of deception and self-reliance.
+
+Speaking of AI teamwork, we've got the inside scoop on [how LLMs can be the ultimate project managers](https://papers.miklos.dev/2504.02051). These language powerhouses are proving adept at allocating tasks among multiple agents. The big revelation? A "planner" LLM outshines a centralized "orchestrator" when it comes to juggling concurrent tasks. It's like the difference between a micromanager and a visionary team leader.
+
+Now, let's tackle the elephant in the room - [offensive AI](https://papers.miklos.dev/2504.02701). This research dives into the ethical minefield of developing AI for security testing and (gulp) malware. It's a stark reminder that as our AI agents become more powerful, we need robust frameworks to assess risks and ensure responsible development. The paper highlights the alarming potential of AI to autonomously develop exploits - a wake-up call for cybersecurity experts everywhere.
+
+For those building the future of AI collaboration, we've got a [comprehensive survey on LLM-based multi-agent systems](https://papers.miklos.dev/2504.01963). It's a deep dive into the architecture, memory, and planning strategies that make these systems tick. From the Mixture of Agents approach to the ReAct planning model, this is your roadmap to creating AI dream teams.
+
+In a surprising twist, researchers have applied [reinforcement learning to the age-old problem of herding](https://papers.miklos.dev/2504.02479). This isn't just about corralling sheep - it's a blueprint for decentralized control in multi-agent systems. The implications for coordinating swarms of AI agents are enormous.
+
+Shifting gears to the human side of AI, we've got groundbreaking work on [empowering individuals to challenge AI decisions](https://papers.miklos.dev/2504.02461). This "ascertainable fairness" framework gives users the tools to understand, contest, and verify the fairness of AI judgments. It's a crucial step towards accountable AI in a world increasingly shaped by algorithms.
+
+Finally, hold onto your hats for this one - researchers have developed a [blockchain consensus mechanism using LLMs as deliberating agents](https://papers.miklos.dev/2504.02128). It's like a high-stakes debate club for AIs, working together to reach unanimous decisions. This could revolutionize how we make collective choices in decentralized systems.
+
+That's all for today, folks! Remember, the future of AI is collaborative, contestable, and endlessly fascinating. Keep pushing those boundaries!
+
 # Daily Digest (April 3, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a mind-bending lineup of cutting-edge research that's about to supercharge your synapses.
