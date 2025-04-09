@@ -1,3 +1,19 @@
+# Daily Digest (April 9, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a sizzling lineup of cutting-edge research that's about to supercharge your multi-agent systems. Let's dive right in!
+
+First up, we're revolutionizing the way AI agents share their smarts. [SkillFlow](https://papers.miklos.dev/2504.06188) is here to turn your agents into skill-swapping superstars. This decentralized framework lets agents learn new tricks from each other on the fly, boosting efficiency and adaptability. It's like a neural networking party where everyone leaves with new superpowers!
+
+But wait, there's more! Ever wished your pathfinding algorithms could keep up with the chaos of the real world? Say hello to [Real-Time LaCAM](https://papers.miklos.dev/2504.06091), the first Multi-Agent Path Finding method that's both lightning-fast and guaranteed to get the job done. No more deadlocks or livelocks – just smooth sailing for your robot swarms.
+
+Speaking of swarms, are you ready to take your AI colonies to the next level? Researchers have cooked up a [CNN-based colony of AI agents](https://papers.miklos.dev/2504.05365) that's giving Mother Nature a run for her money. By mimicking biological systems and introducing a dash of genetic algorithms, they've created a diverse, evolving workforce of AI agents that can tackle complex tasks with impressive accuracy.
+
+But what good is all that collective intelligence without a stellar memory system? Enter [SHIMI](https://papers.miklos.dev/2504.06135), the semantic hierarchical memory index that's about to make your decentralized AI dreams come true. It's like giving your agents a shared, ever-expanding mind map that grows smarter with every interaction.
+
+Last but not least, we're bringing the courtroom drama to your AI systems. The [Debate-Feedback architecture](https://papers.miklos.dev/2504.05358) pits LLM agents against each other in a battle of wits, with a judge AI synthesizing their arguments for razor-sharp legal predictions. Who knew AI could make such a compelling case?
+
+That's all for now, folks! Stay tuned for more mind-bending breakthroughs in the world of AI. Until next time, keep those algorithms learning and those agents collaborating!
+
 # Daily Digest (April 8, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of multi-agent systems.
