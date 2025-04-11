@@ -1,3 +1,19 @@
+# Daily Digest (April 11, 2025)
+
+Hold onto your hats, AI enthusiasts! We've got a whirlwind tour of the latest breakthroughs in multi-agent systems and LLMs. Let's dive right in!
+
+First up, we're tackling the age-old problem of sharing limited resources. A groundbreaking study proposes a [simple yet effective strategy](https://papers.miklos.dev/2504.07175) for agents to self-organize when using common goods. The "Win-Stay, Lose-Shift" approach leads to surprisingly efficient resource distribution, with applications ranging from mobile networks to grazing animals. This could be a game-changer for managing computational resources in LLM-based multi-agent systems!
+
+Speaking of multi-agent systems, researchers are pushing the boundaries of collision avoidance in vehicular scenarios. Using [distributed intelligent agents](https://papers.miklos.dev/2504.07163) with cameras and Open RAN connectivity, they're predicting object trajectories and assessing collision risks in real-time. This architecture could pave the way for more sophisticated reasoning in safety-critical domains.
+
+But wait, there's more! A new paper introduces the [Dual Engines of Thoughts (DEoT)](https://papers.miklos.dev/2504.07872) framework, designed to tackle complex, open-ended questions with both breadth and depth. By combining breadth-first and depth-first analysis, DEoT outperforms existing reasoning models, achieving an impressive 77-86% win rate. This could revolutionize how LLM-based multi-agent systems approach multifaceted problems.
+
+On the social front, researchers are using agent-based models to [simulate the spread of political polarization](https://papers.miklos.dev/2504.07610) in online environments. Their findings highlight the crucial roles of affective asymmetry, network structure, and confirmation bias in shaping polarization dynamics. These insights could be invaluable for designing more nuanced LLM-based simulations of social phenomena.
+
+But with great power comes great responsibility. A critical study exposes the [vulnerabilities of distributed multi-agent systems](https://papers.miklos.dev/2504.07461) using third-party LLM agents. From free riding to malicious attacks, the researchers identify significant security risks that could lead to performance drops of up to 80%. This serves as a wake-up call for the need to prioritize trustworthiness in our AI systems.
+
+That's all for now, folks! Stay tuned for more cutting-edge developments in the world of AI and multi-agent systems!
+
 # Daily Digest (April 10, 2025)
 
 Attention AI enthusiasts! We've got a fresh batch of cutting-edge research that's reshaping the landscape of multi-agent systems and robot coordination. Buckle up for a thrilling ride through the latest breakthroughs!
