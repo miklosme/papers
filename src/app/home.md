@@ -1,3 +1,17 @@
+# Daily Digest (April 14, 2025)
+
+Buckle up, AI enthusiasts! We're diving into the cutting edge of swarm intelligence and multi-agent systems. Let's start with a game-changer in drone delivery.
+
+Ever wondered [how to optimize drone delivery using decentralized AI](https://papers.miklos.dev/2504.08585)? Researchers have cracked the code with a system that's smarter than your average swarm. Drones with varied battery health bid on deliveries, learning their limits over time. The kicker? Prioritizing the underdogs – those drones closest to their capability limits – actually improves overall efficiency. It's like the Little Engine That Could, but with rotors!
+
+But wait, there's more! We're not just revolutionizing the skies; we're transforming how we model disease spread on the ground. A new [hybrid ABM-PDE model](https://papers.miklos.dev/2504.08430) is speeding up epidemic simulations while maintaining accuracy. By combining agent-based modeling for rural areas with partial differential equations for urban centers, researchers have created a computational powerhouse that could change how we predict and respond to outbreaks.
+
+Now, let's talk hardware. The [Pogobot](https://papers.miklos.dev/2504.08686) is here to democratize swarm robotics research. These vibrating, communicating, sensor-packed little marvels come in at just 250 euros a pop. With over 200 already buzzing around Sorbonne Université and PSL, they're proving that you don't need a Silicon Valley budget to push the boundaries of swarm intelligence.
+
+Finally, hold onto your propellers because drone coordination is getting a transformer-powered upgrade. A new framework is [using GNNs and transformers to supercharge multi-agent drone systems](https://papers.miklos.dev/2504.08195). We're talking 90% service provisioning and 100% grid coverage in scenarios where traditional algorithms fall flat. It's like giving each drone a tiny AI brain that works in perfect harmony with its swarm-mates.
+
+That's all for now, folks! Keep your neural networks tuned for more breakthrough research in the world of AI and robotics.
+
 # Daily Digest (April 11, 2025)
 
 Hold onto your hats, AI enthusiasts! We've got a whirlwind tour of the latest breakthroughs in multi-agent systems and LLMs. Let's dive right in!
