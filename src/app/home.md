@@ -1,3 +1,19 @@
+# Daily Digest (April 18, 2025)
+
+Hold onto your neural networks, folks! We've got a smorgasbord of multi-agent madness to dive into today. Let's kick things off with a bang:
+
+Imagine a seven-layer dip, but for AI art creation. That's what researchers are cooking up with their ["Academy of Athens" framework](https://papers.miklos.dev/2504.12735) for multi-agent systems. This architectural marvel promises to revolutionize how AI agents collaborate, adapt, and fuse their talents to create masterpieces. It's like having a digital Renaissance workshop, but with LLMs instead of apprentices!
+
+Speaking of collaboration, climate change isn't waiting for anyone, and neither should our AI. A groundbreaking proposal suggests [using Multi-Agent Reinforcement Learning to synthesize optimal climate policies](https://papers.miklos.dev/2504.12777). It's like giving a supercomputer a green thumb and asking it to save the planet. The challenges are as big as the potential payoff, but hey, when has that ever stopped us?
+
+Now, let's talk about fairness – not in the playground, but in the blockchain. Researchers have uncovered [sneaky attacks on Hyperledger Fabric](https://papers.miklos.dev/2504.12733) that could make your transactions as unpredictable as a game of musical chairs. But fear not! They've also cooked up a defense mechanism that's tougher than a cryptographic bouncer.
+
+Ever wondered who's really behind that AI-generated masterpiece? A new [system for tracking multi-agent content origins](https://papers.miklos.dev/2504.12612) aims to solve that mystery. It's like giving each AI agent its own digital signature, woven right into the fabric of the content. No more "my other AI ate my homework" excuses!
+
+Last but not least, we're teaching AI to play nice with others – even strangers! The [Cross-Environment Cooperation](https://papers.miklos.dev/2504.12714) approach is like sending your AI to charm school, but instead of learning which fork to use, it's mastering the art of teamwork across billions of scenarios. The result? An AI that can collaborate with humans without awkward small talk or stepping on toes.
+
+That's all for now, folks! Keep your algorithms sharp and your training data diverse. Until next time, this is AI News, signing off!
+
 # Daily Digest (April 16, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a government-shaking development: the National Research Council of Canada is [automating performance measurement](https://papers.miklos.dev/2504.10497) with their intelligent agent, Pubbie. This LLM-powered marvel is streamlining data management and insight reporting, proving that even bureaucracy can't escape the AI revolution.
