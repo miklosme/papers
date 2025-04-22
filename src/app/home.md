@@ -1,3 +1,21 @@
+# Daily Digest (April 22, 2025)
+
+Hold onto your lab coats, AI enthusiasts! We've got a whirlwind tour of cutting-edge research that's pushing the boundaries of artificial intelligence. Let's dive right in!
+
+First up, we're venturing into the world of [pay-as-bid auction games](https://papers.miklos.dev/2504.13920). These aren't your grandma's auctions, folks! We're talking about complex supply function models with discriminatory pricing that could revolutionize how we think about market dynamics. The researchers have cracked the code on ensuring Nash equilibria exist, potentially paving the way for more stable and efficient AI-driven marketplaces.
+
+But wait, there's more! Brace yourselves for MOFGen, a groundbreaking [multi-agent AI system](https://papers.miklos.dev/2504.14110) that's automating material discovery. This isn't just theoretical mumbo-jumbo – MOFGen has already led to the synthesis of five brand-new MOFs (that's Metal-Organic Frameworks for you non-chemists). It's like having a team of AI scientists working around the clock to revolutionize fields like carbon capture and water harvesting.
+
+Now, let's talk about the ultimate dream team. No, not the Avengers – we're talking about [Animal-Human-Machine (AHM) teams](https://papers.miklos.dev/2504.13973)! This research is exploring how we can combine the unique strengths of animals, humans, and AI to tackle complex challenges. From security screening to search-and-rescue missions, AHM teams could be the key to unlocking superhuman capabilities.
+
+Speaking of teamwork, how about using AI to improve your next doctor's appointment? Researchers have developed [3MDBench](https://papers.miklos.dev/2504.13861), a framework for testing AI-powered medical consultations. It's like a virtual hospital where AI doctors face patients with different personalities and medical conditions. The results? Dialogue and visual information significantly boost diagnostic accuracy. Your next checkup might just involve a very intelligent chatbot!
+
+For all you AI planners out there, we've got a treat. Researchers have conducted a comprehensive survey of [planning benchmarks](https://papers.miklos.dev/2504.14773), creating a roadmap for testing and improving AI planning capabilities. Whether you're working on embodied agents, web navigation, or game-playing AIs, this study has got you covered.
+
+Last but not least, we're tackling one of the biggest challenges in AI: hallucinations and adversarial attacks. Enter [Hydra](https://papers.miklos.dev/2504.14395), a clever framework that uses multiple AI agents to cross-check and refine visual information. It's like having a team of skeptical fact-checkers working inside your AI, making it more robust and trustworthy.
+
+That's all for now, folks! Stay curious, stay innovative, and keep pushing the boundaries of what's possible with AI!
+
 # Daily Digest (April 21, 2025)
 
 Hold onto your neural networks, AI enthusiasts! We've got a fresh batch of mind-bending research hot off the presses. Let's dive right in!
