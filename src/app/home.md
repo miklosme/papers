@@ -1,3 +1,15 @@
+# Daily Digest (April 23, 2025)
+
+Hold onto your neural networks, AI enthusiasts! We've got a trio of mind-bending papers that are pushing the boundaries of intelligent systems. Let's dive right in!
+
+First up, we're tackling the urban jungle with a breakthrough in [multi-agent routing](https://papers.miklos.dev/2504.16028). Imagine a city where cars, trucks, and eco-friendly vehicles all navigate efficiently, each with their own priorities. This paper cracks the code on finding that perfect traffic equilibrium, introducing the Hessian Riemannian Flow method. It's not just about beating rush hour – this could revolutionize how we optimize complex multi-agent systems in AI. Get ready for smoother digital highways!
+
+Next, strap on your virtual headsets because we're exploring the [future of XR spatial intelligence](https://papers.miklos.dev/2504.15970). This comprehensive review dives deep into the hardware and software powering Extended Reality, from cutting-edge devices to the AI that makes them tick. But the real showstopper? The vision of AI-powered spatial awareness that could transform how we interact with digital worlds. Imagine LLMs that understand and manipulate 3D space as naturally as you do. The metaverse just got a whole lot smarter!
+
+Last but not least, we're venturing into the wild west of [decentralized AI agents](https://papers.miklos.dev/2504.15676). Say hello to Decentralized Autonomous Machines (DAMs) – AI-powered entities that can own assets, make decisions, and operate in both the physical and digital realms. This isn't just sci-fi; it's a potential economic revolution. Picture self-owning robots or smart factories running on blockchain. DAMs could reshape how we think about automation, ownership, and even labor itself. Buckle up, because the future of AI just got a lot more autonomous!
+
+That's all for today's AI digest. Keep those algorithms humming, and we'll catch you next time on the cutting edge of artificial intelligence!
+
 # Daily Digest (April 22, 2025)
 
 Hold onto your lab coats, AI enthusiasts! We've got a whirlwind tour of cutting-edge research that's pushing the boundaries of artificial intelligence. Let's dive right in!
