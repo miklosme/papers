@@ -1,3 +1,11 @@
+# Daily Digest (April 28, 2025)
+
+Hold onto your pickaxes, AI enthusiasts! We're diving deep into the blocky world of Minecraft, but this time with a twist that'll make your neural networks tingle. Researchers have just unveiled [MINDcraft](https://papers.miklos.dev/2504.17950), a groundbreaking platform that's pushing the boundaries of how Large Language Models (LLMs) can team up in virtual environments. 
+
+But here's the kicker - it turns out our AI friends are struggling with the most human of skills: communication. When tasked with detailed planning, these digital miners saw their performance plummet by a whopping 15%! It's like watching a team of expert crafters trying to build a castle while speaking different languages. The researchers behind this pixelated experiment have thrown down the gauntlet, challenging us to rethink how we approach [multi-agent collaboration](https://papers.miklos.dev/2504.17950) in embodied scenarios.
+
+So, what's the solution? Well, folks, it looks like our current bag of tricks - prompting, in-context learning, imitation learning - just isn't cutting it. We need to level up our game if we want to see LLMs truly shine in collaborative, real-world (or real-virtual-world) tasks. This isn't just about building better block houses; it's about laying the foundation for AI systems that can work together seamlessly in complex environments. Are you ready to craft the future of AI collaboration?
+
 # Daily Digest (April 27, 2025)
 
 Hold onto your charging cables, folks! We've got a electrifying solution to the EV charging conundrum that's been keeping grid operators up at night. 
