@@ -1,3 +1,23 @@
+# Daily Digest (April 30, 2025)
+
+Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer for swarm robotics: [GenGrid](https://papers.miklos.dev/2504.20071), an open-source platform that's revolutionizing how we conduct swarm experiments. This modular marvel uses light-based communication to mimic ant pheromones, opening up a world of possibilities for collective behavior studies. 
+
+But wait, there's more! Ever felt like your LLM was losing the plot in long documents? Enter [Refiner](https://papers.miklos.dev/2406.11357), the superhero of content restructuring. This clever system extracts and reorganizes key information, helping LLMs stay focused and deliver more accurate answers. It's like giving your AI a pair of reading glasses and a highlighter!
+
+Speaking of AI assistance, prepare to have your mind blown by [ResearchCodeAgent](https://papers.miklos.dev/2504.20117). This multi-agent system is turning research papers into working code faster than you can say "implementation." It's not just a time-saver; it's a potential revolution in how we translate academic ideas into practical applications.
+
+For the visual learners out there, [VideoMultiAgents](https://papers.miklos.dev/2504.20091) is pushing the boundaries of video question answering. By combining specialized agents for vision, scene analysis, and text processing, this framework is achieving state-of-the-art results in understanding video content. It's like having a team of experts watching and analyzing every frame!
+
+Efficiency is the name of the game in multi-agent reinforcement learning, and [a new approach to inter-agent coupling](https://papers.miklos.dev/2504.20927) is making waves. By cleverly decomposing complex problems, this method is reducing sample complexity and computational demands. It's the secret sauce for scaling up multi-agent systems without breaking the bank.
+
+Ever wondered how AI and humans can best work together? A [fascinating simulation study](https://papers.miklos.dev/2504.20903) reveals that task structure, not industry context, is the key to effective collaboration. It turns out that sometimes even a "hallucinatory" AI can be helpful – who knew?
+
+For those navigating tight spaces, a [novel opinion-driven framework](https://papers.miklos.dev/2504.20947) is helping robots coordinate without explicit communication. It's like a high-tech game of "you go first, no you go first" that actually works!
+
+Last but not least, [STRUC-MAS](https://papers.miklos.dev/2504.20368) is showing how shared knowledge can supercharge LLM agent accuracy in medical diagnostics. By learning and leveraging global structures, these agents are achieving better performance in predicting acute kidney injuries. It's a powerful reminder that sometimes, the whole really is greater than the sum of its parts.
+
+That's all for today, folks! Keep pushing those boundaries and remember: in the world of AI research, today's wild idea could be tomorrow's breakthrough. Stay curious!
+
 # Daily Digest (April 29, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer in the world of fact-checking.
