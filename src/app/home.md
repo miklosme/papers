@@ -1,3 +1,19 @@
+# Daily Digest (May 1, 2025)
+
+Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of collective decision-making simulations. The [Mean-Field LLM framework](https://papers.miklos.dev/2504.21582) is revolutionizing how we model group behaviors, reducing the divergence from real-world data by a whopping 47%! This isn't just theoretical – it's opening doors for accurate trend forecasting and intervention planning across multiple domains.
+
+But wait, there's more! If you're grappling with scaling challenges in multi-agent reinforcement learning, you'll want to hear about [MF-MAPPO](https://papers.miklos.dev/2504.21164). This innovative algorithm is taking on large-scale competitive scenarios, handling hundreds or even thousands of agents with ease. It's a game-changer for simulating complex battlefield scenarios and beyond.
+
+Now, let's talk about breaking down barriers in multi-agent systems. The [Model Context Protocol](https://papers.miklos.dev/2504.21030) is addressing the age-old problem of context management and coordination efficiency. With standardized context sharing and advanced coordination patterns, MCP is paving the way for more capable, collaborative AI systems that can tackle real-world challenges head-on.
+
+For those of you knee-deep in resource allocation optimization, we've got a comprehensive survey that's a must-read. It's [mapping out the landscape of MARL algorithms](https://papers.miklos.dev/2504.21048) for RAO, giving you the tools to navigate this complex field and push the boundaries of what's possible in Industry 4.0 applications.
+
+But that's not all, folks! We're also seeing groundbreaking work in multi-agent deployment for complex environments. The [NavEX framework](https://papers.miklos.dev/2504.21113) is tackling non-convex and uneven terrains, offering near-optimal solutions for fair-access and hotspot deployment. This could be a game-changer for everything from urban planning to disaster response.
+
+Lastly, we're diving deep into the paradox of institutional emergence. A fascinating study suggests that [cognitive biases and perceptual noise](https://papers.miklos.dev/2504.21579) might actually be the key to solving the institution bootstrapping problem. It's a counterintuitive finding that's challenging our assumptions about rationality in institutional design.
+
+That's all for now, but stay tuned – the world of AI research never sleeps, and neither do we!
+
 # Daily Digest (April 30, 2025)
 
 Buckle up, AI enthusiasts! We've got a smorgasbord of cutting-edge research to dive into today. Let's start with a game-changer for swarm robotics: [GenGrid](https://papers.miklos.dev/2504.20071), an open-source platform that's revolutionizing how we conduct swarm experiments. This modular marvel uses light-based communication to mimic ant pheromones, opening up a world of possibilities for collective behavior studies. 
