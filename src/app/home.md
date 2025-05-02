@@ -1,3 +1,23 @@
+# Daily Digest (May 2, 2025)
+
+Buckle up, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and AI-powered applications. Let's dive right in!
+
+First up, we're taking autonomous driving to the next level with a [guided Latent Diffusion Model](https://papers.miklos.dev/2505.00515) that generates realistic, adversarial traffic scenarios. This breakthrough could revolutionize how we stress-test self-driving cars, ensuring they're ready for anything the road throws at them.
+
+But what happens when those AI agents need to move between vehicles? A new framework tackles the challenge of [efficiently migrating AI twins](https://papers.miklos.dev/2505.00055) in resource-constrained vehicular networks. Using game theory and lightweight reinforcement learning, this approach keeps your AI assistants running smoothly, even when computational power is at a premium.
+
+Speaking of AI assistants, the future of smart homes is looking brighter than ever. The [UserCentrix framework](https://papers.miklos.dev/2505.00472) introduces personalized LLM agents that learn your preferences and work together to create a truly adaptive living space. Imagine your home anticipating your needs before you even realize them!
+
+Of course, with great power comes great responsibility. As multi-agent systems become more complex, pinpointing failures becomes crucial. Enter the [Who&When dataset](https://papers.miklos.dev/2505.00212), a treasure trove of annotated failure logs that's kickstarting research into automated failure attribution. This could be a game-changer for debugging and improving LLM-based multi-agent systems.
+
+But AI isn't just about machines talking to machines. A comprehensive [survey of human-AI collaboration](https://papers.miklos.dev/2505.00018) proposes a new framework for integrating human expertise with AI capabilities. This could pave the way for more effective teamwork between humans and AI agents across various domains.
+
+Looking to the skies, an [intelligent holonic architecture](https://papers.miklos.dev/2505.00368) powered by LLMs is set to revolutionize Urban Air Mobility. This decentralized approach could make flying taxis a seamless part of our transportation networks, adapting on the fly to changing conditions.
+
+Finally, for those working with resource-constrained robot teams, a novel [reinforcement learning strategy](https://papers.miklos.dev/2505.00540) shows how shared models and implicit role development can create effective teamwork without constant communication. This could be a game-changer for swarm robotics and other multi-agent applications where every bit of computing power counts.
+
+That's all for now, but stay tuned – the world of AI is moving fast, and we'll be here to keep you on the cutting edge!
+
 # Daily Digest (May 1, 2025)
 
 Buckle up, AI enthusiasts! We've got a treasure trove of cutting-edge research to dive into today. Let's start with a game-changer in the world of collective decision-making simulations. The [Mean-Field LLM framework](https://papers.miklos.dev/2504.21582) is revolutionizing how we model group behaviors, reducing the divergence from real-world data by a whopping 47%! This isn't just theoretical – it's opening doors for accurate trend forecasting and intervention planning across multiple domains.
