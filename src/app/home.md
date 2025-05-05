@@ -1,3 +1,17 @@
+# Daily Digest (May 5, 2025)
+
+Buckle up, AI enthusiasts! We're diving into the cutting edge of multi-agent systems and collaborative AI. Get ready for a whirlwind tour of the latest breakthroughs that are reshaping how machines work together.
+
+First up, we've got a game-changer for routing modular agents. Imagine delivery drones that can combine mid-flight for efficiency, then split up to tackle individual tasks. This new [heuristic algorithm](https://papers.miklos.dev/2505.00928) uses a clever "virtual force" approach, balancing optimal routes with the benefits of teaming up. It's not just faster than existing methods – it's paving the way for truly scalable, dynamic multi-agent systems.
+
+But what good are smart routes if our agents can't see clearly? Enter the world of [cooperative perception](https://papers.miklos.dev/2505.00747), where vehicles share sensor data to extend their "vision." This comprehensive survey dives deep into the challenges of treating V2X communication as an information sensor. From data compression to fusion techniques that handle real-world imperfections, it's a roadmap for building robust, large-scale autonomous vehicle networks.
+
+Speaking of collaboration, the [Coral Protocol](https://papers.miklos.dev/2505.00749) is aiming to be the universal translator for AI agents. This open, decentralized framework could be the key to unlocking true cross-platform agent teamwork. With standardized messaging, modular coordination, and even built-in payment systems, Coral is laying the groundwork for an "Internet of Agents" that spans vendors and domains.
+
+Last but not least, we've got a bandwidth-busting solution for multi-agent perception. The [Fast2comm framework](https://papers.miklos.dev/2505.00740) tackles the age-old problem of sharing crucial information when every bit counts. By using clever prior knowledge and confidence-based feature selection, it ensures only the most vital data gets transmitted. It's a masterclass in efficient communication that could revolutionize everything from self-driving car swarms to distributed robotics.
+
+That's all for now, but stay tuned – the world of collaborative AI is moving at lightning speed, and we'll be here to keep you in the loop!
+
 # Daily Digest (May 2, 2025)
 
 Buckle up, AI enthusiasts! We've got a thrilling lineup of cutting-edge research that's pushing the boundaries of multi-agent systems and AI-powered applications. Let's dive right in!
